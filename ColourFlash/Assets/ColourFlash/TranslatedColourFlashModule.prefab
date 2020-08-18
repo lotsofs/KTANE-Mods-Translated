@@ -1,0 +1,3149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103196
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 469360}
+  - component: {fileID: 3335794}
+  - component: {fileID: 2334398}
+  - component: {fileID: 11422844}
+  - component: {fileID: 9514654}
+  - component: {fileID: 114000012754895030}
+  m_Layer: 0
+  m_Name: NoMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &106742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 424896}
+  - component: {fileID: 11410048}
+  - component: {fileID: 11428988}
+  - component: {fileID: 11427014}
+  - component: {fileID: 11438982}
+  - component: {fileID: 114748672440495928}
+  m_Layer: 0
+  m_Name: TranslatedColourFlashModule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &110452
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 404510}
+  - component: {fileID: 2326416}
+  - component: {fileID: 10220766}
+  - component: {fileID: 114000010344414982}
+  m_Layer: 0
+  m_Name: NoLabel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &112880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 439638}
+  - component: {fileID: 3360428}
+  - component: {fileID: 11455330}
+  m_Layer: 0
+  m_Name: ModuleHighlight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &118470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 499084}
+  - component: {fileID: 11458574}
+  m_Layer: 0
+  m_Name: StatusLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &118716
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 483984}
+  - component: {fileID: 11430670}
+  - component: {fileID: 11457006}
+  m_Layer: 0
+  m_Name: ButtonYes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145294
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 425478}
+  - component: {fileID: 3350048}
+  - component: {fileID: 2352396}
+  - component: {fileID: 114000012788175228}
+  m_Layer: 0
+  m_Name: Indicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &150930
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 497508}
+  - component: {fileID: 3367538}
+  - component: {fileID: 2374138}
+  - component: {fileID: 11429024}
+  - component: {fileID: 9593418}
+  - component: {fileID: 114000010119304590}
+  m_Layer: 0
+  m_Name: YesMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &155084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 453312}
+  - component: {fileID: 3394274}
+  - component: {fileID: 2304282}
+  - component: {fileID: 9542428}
+  - component: {fileID: 114000012221088154}
+  m_Layer: 0
+  m_Name: ModuleBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &161650
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 495172}
+  - component: {fileID: 2364482}
+  - component: {fileID: 10273180}
+  - component: {fileID: 114000013265994416}
+  m_Layer: 0
+  m_Name: YesLabel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &178614
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 403162}
+  - component: {fileID: 3335592}
+  - component: {fileID: 11426552}
+  m_Layer: 0
+  m_Name: NoHighlight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &184816
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 466772}
+  - component: {fileID: 2340662}
+  - component: {fileID: 10274702}
+  - component: {fileID: 114000010855947482}
+  m_Layer: 0
+  m_Name: IndicatorText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &191218
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 476470}
+  - component: {fileID: 11443298}
+  - component: {fileID: 11400724}
+  m_Layer: 0
+  m_Name: ButtonNo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &193696
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 422548}
+  - component: {fileID: 3365326}
+  - component: {fileID: 11491698}
+  m_Layer: 0
+  m_Name: YesHighlight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403162
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.005, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.002, z: 0.07}
+  m_Children: []
+  m_Father: {fileID: 469360}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &404510
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110452}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0.013, z: 0}
+  m_LocalScale: {x: 0.005, y: 0.005, z: 1}
+  m_Children: []
+  m_Father: {fileID: 469360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &422548
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.005, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.002, z: 0.07}
+  m_Children: []
+  m_Father: {fileID: 497508}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &424896
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 499084}
+  - {fileID: 439638}
+  - {fileID: 453312}
+  - {fileID: 4258243561336344}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &425478
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145294}
+  m_LocalRotation: {x: 0, y: 1, z: -0, w: -0.00000016292068}
+  m_LocalPosition: {x: 0.015999988, y: 0.0146, z: -0.036000002}
+  m_LocalScale: {x: 0.1, y: 0.02, z: 0.05}
+  m_Children:
+  - {fileID: 466772}
+  m_Father: {fileID: 453312}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &439638
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424896}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &453312
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155084}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -0.004, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 425478}
+  - {fileID: 483984}
+  - {fileID: 476470}
+  m_Father: {fileID: 424896}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &466772
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184816}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0.63, z: 0}
+  m_LocalScale: {x: 0.05, y: 0.10000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425478}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &469360
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 404510}
+  - {fileID: 403162}
+  m_Father: {fileID: 476470}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &476470
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191218}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -0.04000001, y: 0.0146, z: 0.03569999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 469360}
+  m_Father: {fileID: 453312}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &483984
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118716}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 0.04000001, y: 0.0146, z: 0.03569999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 497508}
+  m_Father: {fileID: 453312}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &495172
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161650}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0.013, z: 0}
+  m_LocalScale: {x: 0.005, y: 0.005, z: 1}
+  m_Children: []
+  m_Father: {fileID: 497508}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &497508
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 495172}
+  - {fileID: 422548}
+  m_Father: {fileID: 483984}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &499084
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.071, y: 0.01986, z: 0.076057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 424896}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2304282
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155084}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 26cdee844cb231740941635a5e5962c7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &2326416
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110452}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ea7383a11cc28a24cbea15073b68bf56, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &2334398
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103196}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8b56184d0811fd74fb3b8bb045e49f01, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &2340662
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184816}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ea7383a11cc28a24cbea15073b68bf56, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &2352396
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145294}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: bcfa8f242860bdd4883f1ae5b881dcbe, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &2364482
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161650}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ea7383a11cc28a24cbea15073b68bf56, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &2374138
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150930}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8b56184d0811fd74fb3b8bb045e49f01, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &3335592
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178614}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3335794
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103196}
+  m_Mesh: {fileID: 4300012, guid: 4109be4c1d23f41498bd9dcc52605aa4, type: 3}
+--- !u!33 &3350048
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145294}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3360428
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112880}
+  m_Mesh: {fileID: 4300000, guid: 5ab6c3be308beaa47b558e81d501cf7c, type: 3}
+--- !u!33 &3365326
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193696}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &3367538
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150930}
+  m_Mesh: {fileID: 4300012, guid: 4109be4c1d23f41498bd9dcc52605aa4, type: 3}
+--- !u!33 &3394274
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155084}
+  m_Mesh: {fileID: 4300000, guid: 1c46642b7f907d844bcdfcca8625afdd, type: 3}
+--- !u!95 &9514654
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103196}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &9542428
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155084}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 1c46642b7f907d844bcdfcca8625afdd, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &9593418
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150930}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!102 &10220766
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110452}
+  m_Text: No
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 40
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 1ebe1d96973a920409b439b3a0e2bb63, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190080
+--- !u!102 &10273180
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161650}
+  m_Text: Yes
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 40
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 1ebe1d96973a920409b439b3a0e2bb63, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190080
+--- !u!102 &10274702
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184816}
+  m_Text: 
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 0
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 60
+  m_FontStyle: 0
+  m_RichText: 0
+  m_Font: {fileID: 12800000, guid: 1ebe1d96973a920409b439b3a0e2bb63, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278224127
+--- !u!114 &11400724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1675560866, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11410048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -119419473, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ModuleType: ColourFlash
+  ModuleDisplayName: Colour Flash
+  RequiresTimerVisibility: 0
+--- !u!114 &11422844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Parent: {fileID: 11428988}
+  Children: []
+  IsPassThrough: 0
+  ChildRowLength: 0
+  Highlight: {fileID: 11426552}
+  SelectableColliders: []
+  DefaultSelectableIndex: 0
+  AllowSelectionWrapX: 0
+  AllowSelectionWrapY: 0
+  ForceSelectionHighlight: 0
+  ForceInteractionHighlight: 0
+--- !u!114 &11426552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706292897, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HighlightScale: {x: 1, y: 1, z: 1}
+  OutlineAmount: 0
+--- !u!114 &11427014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2144496390, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11428988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Parent: {fileID: 0}
+  Children:
+  - {fileID: 11429024}
+  - {fileID: 11422844}
+  IsPassThrough: 0
+  ChildRowLength: 2
+  Highlight: {fileID: 11455330}
+  SelectableColliders: []
+  DefaultSelectableIndex: 0
+  AllowSelectionWrapX: 0
+  AllowSelectionWrapY: 0
+  ForceSelectionHighlight: 0
+  ForceInteractionHighlight: 0
+--- !u!114 &11429024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Parent: {fileID: 11428988}
+  Children: []
+  IsPassThrough: 0
+  ChildRowLength: 0
+  Highlight: {fileID: 11491698}
+  SelectableColliders: []
+  DefaultSelectableIndex: 0
+  AllowSelectionWrapX: 0
+  AllowSelectionWrapY: 0
+  ForceSelectionHighlight: 0
+  ForceInteractionHighlight: 0
+--- !u!114 &11430670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e202b580ad8d91947b09b51e706efd2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonDepressAnimator: {fileID: 9593418}
+  KMSelectable: {fileID: 11429024}
+--- !u!114 &11438982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d93d9fddaafe1ad4a9a4e24ab672ffe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BombInfo: {fileID: 11427014}
+  BombModule: {fileID: 11410048}
+  ButtonYes: {fileID: 11430670}
+  ButtonNo: {fileID: 11443298}
+  Indicator: {fileID: 10274702}
+  Translation: {fileID: 114748672440495928}
+  TimePerCycleTick: 0.75
+  TimePerCycleEnd: 2
+--- !u!114 &11443298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e202b580ad8d91947b09b51e706efd2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonDepressAnimator: {fileID: 9514654}
+  KMSelectable: {fileID: 11422844}
+--- !u!114 &11455330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706292897, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HighlightScale: {x: 1, y: 1, z: 1}
+  OutlineAmount: 0
+--- !u!114 &11457006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1675560866, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11458574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -381104716, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11491698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706292897, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HighlightScale: {x: 1, y: 1, z: 1}
+  OutlineAmount: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 106742}
+  m_IsPrefabParent: 1
+--- !u!1 &1024225805641200
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4832483659491992}
+  - component: {fileID: 114018955183032556}
+  m_Layer: 0
+  m_Name: Afrikaans
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1165753060113102
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4449991608725400}
+  - component: {fileID: 114414119619066834}
+  m_Layer: 0
+  m_Name: Bulgarian
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1239802091345592
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4252184896224776}
+  - component: {fileID: 114655747039821576}
+  m_Layer: 0
+  m_Name: French
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1265224537293968
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4702684201944682}
+  - component: {fileID: 114199132360982174}
+  m_Layer: 0
+  m_Name: Dutch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1348612229707556
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4623979120867704}
+  - component: {fileID: 114950095178309388}
+  m_Layer: 0
+  m_Name: Swedish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1449387892301782
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4284904038003426}
+  - component: {fileID: 114768831555795896}
+  m_Layer: 0
+  m_Name: English
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1459424237948564
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4551798593993254}
+  - component: {fileID: 114231945687252854}
+  m_Layer: 0
+  m_Name: Greek
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1481310823048722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4258243561336344}
+  m_Layer: 0
+  m_Name: Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1581527870735434
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4057998561998148}
+  - component: {fileID: 114787841865584582}
+  m_Layer: 0
+  m_Name: Russian
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1587323090779476
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4518182096230230}
+  - component: {fileID: 114989427919353862}
+  m_Layer: 0
+  m_Name: Irish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1612651854704178
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4579553898695164}
+  - component: {fileID: 114149030824580830}
+  m_Layer: 0
+  m_Name: WestFrisian
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1712060797087152
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4303766958945482}
+  - component: {fileID: 114004313868710520}
+  m_Layer: 0
+  m_Name: Korean
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1754847257793338
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4712433480733924}
+  - component: {fileID: 114955724491809552}
+  m_Layer: 0
+  m_Name: German
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1772678301363898
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4160387021772134}
+  - component: {fileID: 114254390253031220}
+  m_Layer: 0
+  m_Name: Portuguese
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1800214734246722
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4884055311036794}
+  - component: {fileID: 114391868074430150}
+  m_Layer: 0
+  m_Name: Tagalog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1803900263082050
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4837832750413908}
+  - component: {fileID: 114372236535261866}
+  m_Layer: 0
+  m_Name: Czech
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1806023434957730
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4953955889512780}
+  - component: {fileID: 114570737862722396}
+  m_Layer: 0
+  m_Name: Esperanto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1849597370925436
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4405293455158856}
+  - component: {fileID: 114184104030066812}
+  m_Layer: 0
+  m_Name: Hindi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1995464965331036
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4415339094253184}
+  - component: {fileID: 114455456844598478}
+  m_Layer: 0
+  m_Name: Turkish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4057998561998148
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581527870735434}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4160387021772134
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1772678301363898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4252184896224776
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239802091345592}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4258243561336344
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481310823048722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4832483659491992}
+  - {fileID: 4449991608725400}
+  - {fileID: 4837832750413908}
+  - {fileID: 4712433480733924}
+  - {fileID: 4551798593993254}
+  - {fileID: 4284904038003426}
+  - {fileID: 4953955889512780}
+  - {fileID: 4579553898695164}
+  - {fileID: 4252184896224776}
+  - {fileID: 4405293455158856}
+  - {fileID: 4518182096230230}
+  - {fileID: 4303766958945482}
+  - {fileID: 4702684201944682}
+  - {fileID: 4160387021772134}
+  - {fileID: 4623979120867704}
+  - {fileID: 4057998561998148}
+  - {fileID: 4884055311036794}
+  - {fileID: 4415339094253184}
+  m_Father: {fileID: 424896}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4284904038003426
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1449387892301782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4303766958945482
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712060797087152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4405293455158856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849597370925436}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4415339094253184
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995464965331036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4449991608725400
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165753060113102}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4518182096230230
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587323090779476}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4551798593993254
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1459424237948564}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4579553898695164
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612651854704178}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4623979120867704
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1348612229707556}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4702684201944682
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1265224537293968}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4712433480733924
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754847257793338}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4832483659491992
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1024225805641200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4837832750413908
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1803900263082050}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4884055311036794
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800214734246722}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4953955889512780
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806023434957730}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010119304590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Mobile/Diffuse
+--- !u!114 &114000010344414982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - GUI/KT 3D Text
+--- !u!114 &114000010855947482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - GUI/KT 3D Text
+--- !u!114 &114000012221088154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Mobile/Diffuse
+--- !u!114 &114000012754895030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Mobile/Diffuse
+--- !u!114 &114000012788175228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Mobile/Diffuse
+--- !u!114 &114000013265994416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - GUI/KT 3D Text
+--- !u!114 &114004313868710520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712060797087152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Korean
+  NativeName: "\uD55C\uAD6D\uC5B4"
+  Iso639: ko
+  Red: "\uBE68\uAC15"
+  Yellow: "\uB178\uB791"
+  Green: "\uB179\uC0C9"
+  Blue: "\uD30C\uB791"
+  Magenta: "\uB9C8\uC820\uD0C0"
+  White: "\uD558\uC591"
+  Yes: "\uC608"
+  No: "\uC544\uB2C8"
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114018955183032556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1024225805641200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Afrikaans
+  NativeName: Afrikaans
+  Iso639: af
+  Red: Rooi
+  Yellow: Geel
+  Green: Groen
+  Blue: Blou
+  Magenta: Magenta
+  White: Wit
+  Yes: Ja
+  No: Nee
+  LogFileSequenceHeader: 'Module gegenereerd met de volgende woord-kleur reeks:'
+  LogFileSequenceLabels: '# | Woord   | Kleur   | Geldige Reactie'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'De reeks komt overeen met de volgende bloktitel en -voorwaarde
+    stelling:'
+  LogFileLastColor: De kleur van het laatste woord in de reeks is {0}.
+  LogFileUnknownTime: '[{0}] knop was op een onbekende tijd ingedrukt!'
+  LogFileButtonPressed: '[{0}] knop was ingedrukt op vermelding #{1} (''woord {2}''
+    in kleur ''{3}'')'
+  LogFileCorrect: Geldig antwoord! Module onschadelijk gemaakt!
+  LogFileWrong: Ongeldig antwoord! Module heeft een fout geregistreerd!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114149030824580830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612651854704178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: West Frisian
+  NativeName: Frysk
+  Iso639: fy
+  Red: Read
+  Yellow: Giel
+  Green: Grien
+  Blue: Blau
+  Magenta: Maginta
+  White: Wyt
+  Yes: Ja
+  No: Nee
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114184104030066812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849597370925436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Hindi
+  NativeName: "\u0939\u093F\u0928\u094D\u0926\u0940"
+  Iso639: hi
+  Red: "\u0932\u093E\u0932"
+  Yellow: "\u092A\u0940\u0932\u093E"
+  Green: "\u0939\u0930\u093E"
+  Blue: "\u0928\u0940\u0932\u093E"
+  Magenta: "\u0930\u093E\u0928\u0940"
+  White: "\u0936\u094D\u0935\u0947\u0924"
+  Yes: "\u0939\u093E\u0901"
+  No: "\u0928\u0939\u0940\u0902"
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114199132360982174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1265224537293968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Dutch
+  NativeName: Nederlands
+  Iso639: nl
+  Red: Rood
+  Yellow: Geel
+  Green: Groen
+  Blue: Blauw
+  Magenta: Magenta
+  White: Wit
+  Yes: Ja
+  No: Nee
+  LogFileSequenceHeader: 'Module gegenereerd met de volgende woord-kleur reeks:'
+  LogFileSequenceLabels: '# | Woord   | Kleur   | Geldige Reactie'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'De reeks komt overeen met de volgende bloktitel en -voorwaarde
+    stelling:'
+  LogFileLastColor: De kleur van het laatste woord in de reeks is {0}.
+  LogFileUnknownTime: '[{0}] knop was op een onbekende tijd ingedrukt!'
+  LogFileButtonPressed: '[{0}] knop was ingedrukt op vermelding #{1} (''woord {2}''
+    in kleur ''{3}'')'
+  LogFileCorrect: Geldig antwoord! Module onschadelijk gemaakt!
+  LogFileWrong: Ongeldig antwoord! Module heeft een fout geregistreerd!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114231945687252854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1459424237948564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Greek
+  NativeName: "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC"
+  Iso639: el
+  Red: "\u039A\u039F\u039A\u039A\u0399\u039D\u039F"
+  Yellow: "\u039A\u0399\u03A4\u03A1\u0399\u039D\u039F"
+  Green: "\u03A0\u03A1\u0391\u03A3\u0399\u039D\u039F"
+  Blue: "\u039C\u03A0\u039B\u0395"
+  Magenta: "\u039C\u0391\u03A4\u0396\u0395\u039D\u03A4\u0391"
+  White: "\u039B\u0395\u03A5\u039A\u039F"
+  Yes: "\u039D\u0391\u0399"
+  No: "\u039F\u03A7\u0399"
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114254390253031220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1772678301363898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Portugese
+  NativeName: "Portugu\xEAs"
+  Iso639: pt
+  Red: Vermelho
+  Yellow: Amarelo
+  Green: Verde
+  Blue: Azul
+  Magenta: Magenta
+  White: Branco
+  Yes: Sim
+  No: "N\xE3o"
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114372236535261866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1803900263082050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Czech
+  NativeName: "\u010Ce\u0161tina"
+  Iso639: cz
+  Red: "\u010Cerven\xE1"
+  Yellow: "\u017Dlut\xE1"
+  Green: "Zelen\xE1"
+  Blue: "Modr\xE1"
+  Magenta: Magenta
+  White: "B\xEDl\xE1"
+  Yes: Ano
+  No: Ne
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114391868074430150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800214734246722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Tagalog
+  NativeName: Tagalog
+  Iso639: tl
+  Red: Pula
+  Yellow: Dilaw
+  Green: Lunti
+  Blue: Bughaw
+  Magenta: Mahenta
+  White: Puti
+  Yes: Oo
+  No: Hindi
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114414119619066834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165753060113102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Bulgarian
+  NativeName: "\u0411\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438"
+  Iso639: bg
+  Red: "\u0427\u0435\u0440\u0432\u0435\u043D"
+  Yellow: "\u0416\u044A\u043B\u0442"
+  Green: "\u0417\u0435\u043B\u0435\u043D"
+  Blue: "\u0421\u0438\u043D"
+  Magenta: "\u041C\u0430\u0434\u0436\u0435\u043D\u0442\u0430"
+  White: "\u0411\u044F\u043B"
+  Yes: "\u0414\u0430"
+  No: "\u041D\u0435"
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114455456844598478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995464965331036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Turkish
+  NativeName: "T\xFCrk\xE7e"
+  Iso639: tr
+  Red: KIRMIZI
+  Yellow: SARI
+  Green: "YE\u015E\u0130L"
+  Blue: "MAV\u0130"
+  Magenta: "GAL\u0130BARDA"
+  White: BEYAZ
+  Yes: EVET
+  No: HAYIR
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114570737862722396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806023434957730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Esperanto
+  NativeName: Esperanto
+  Iso639: eo
+  Red: "Ru\u011Da"
+  Yellow: Flava
+  Green: Verdo
+  Blue: Blua
+  Magenta: "Ma\u011Denta"
+  White: Blanko
+  Yes: Jes
+  No: Ne
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114655747039821576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239802091345592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: French
+  NativeName: "Fran\xE7ais"
+  Iso639: fr
+  Red: Rouge
+  Yellow: Jaune
+  Green: Vert
+  Blue: Bleu
+  Magenta: Magenta
+  White: Blanc
+  Yes: Oui
+  No: Non
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114748672440495928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176c708ee65f8aa468a8acf3013cc900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _languagesHolder: {fileID: 1481310823048722}
+  Language: {fileID: 114199132360982174}
+  KMModule: {fileID: 11410048}
+--- !u!114 &114768831555795896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1449387892301782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: English
+  NativeName: English
+  Iso639: en
+  Red: Red
+  Yellow: Yellow
+  Green: Green
+  Blue: Blue
+  Magenta: Magenta
+  White: White
+  Yes: Yes
+  No: No
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114787841865584582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581527870735434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Russian
+  NativeName: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+  Iso639: ru
+  Red: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439"
+  Yellow: "\u0416\u0451\u043B\u0442\u044B\u0439"
+  Green: "\u0417\u0435\u043B\u0451\u043D\u044B\u0439"
+  Blue: "\u0421\u0438\u043D\u0438\u0439"
+  Magenta: "\u041C\u0430\u0434\u0436\u0435\u043D\u0442\u0430"
+  White: "\u0411\u0435\u043B\u044B\u0439"
+  Yes: "\u0414\u0430"
+  No: "\u041D\u0435\u0442"
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114950095178309388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1348612229707556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Swedish
+  NativeName: Svenska
+  Iso639: sv
+  Red: "R\xF6d"
+  Yellow: Gul
+  Green: "Gr\xF6n"
+  Blue: "Bl\xE5"
+  Magenta: Magenta
+  White: Vit
+  Yes: Ja
+  No: Nej
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114955724491809552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754847257793338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: German
+  NativeName: Deutsch
+  Iso639: de
+  Red: Rot
+  Yellow: Gelb
+  Green: Gruen
+  Blue: Blau
+  Magenta: Magenta
+  White: Weiss
+  Yes: Ja
+  No: Nein
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114989427919353862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587323090779476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Irish
+  NativeName: Gaeilge
+  Iso639: ga
+  Red: Dearg
+  Yellow: "Bu\xED"
+  Green: Glas
+  Blue: Gorm
+  Magenta: Maigeanta
+  White: "B\xE1n"
+  Yes: "T\xE1"
+  No: "N\xEDl"
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileSequenceLabels: '# | Word    | Color   | Valid Response'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
