@@ -649,10 +649,14 @@ public class ColourFlashModule : MonoBehaviour {
         if (split[0] == "press") {
             split.RemoveAt(0);
         }
+        if (split.Count == 0) {
+            yield break;
+        }
+        Debug.Log(split[0]);
         if(split[0] == Translation.Language.Yes.ToLowerInvariant()) {
             buttonToPress = ButtonYes.KMSelectable;
         }
-        else if (split[0] != Translation.Language.No.ToLowerInvariant()) {
+        else if (split[0] == Translation.Language.No.ToLowerInvariant()) {
             buttonToPress = ButtonNo.KMSelectable;
         }
         else {
