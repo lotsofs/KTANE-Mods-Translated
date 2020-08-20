@@ -3,8 +3,7 @@ using System.Linq;
 using System.Collections;
 using UnityEngine;
 using System.Text;
-using System.Text.RegularExpressions;
-using UnityEngine.Experimental.UIElements;
+using System.Collections.Generic;
 
 /// <summary>
 /// </summary>
@@ -153,7 +152,7 @@ public class ColourFlashModule : MonoBehaviour {
             fallThrough--;
         }
         // twitch
-        TwitchHelpMessage = string.Format(TwitchHelpMessage,"{0}",Translation.Language.NativeName, Translation.Language.Name, Translation.Language.Yes, Translation.Language.No);
+        TwitchHelpMessage = string.Format("{1}, {2} - Submit the correct response with !{0} press {3} 3, or !{0} press {4} 5.", "{0}", Translation.Language.NativeName, Translation.Language.Name, Translation.Language.Yes, Translation.Language.No);
     }
 
     void Start() {
@@ -640,68 +639,62 @@ public class ColourFlashModule : MonoBehaviour {
 
     #region Twitch Plays
 
-    public string TwitchHelpMessage = "{1}, {2} - Submit the correct response with !{0} press {3} 3, or !{0} press {4} 5.";
+    public string TwitchHelpMessage = "I changed this a hundred times now and it still shows the message I wrote half a week ago. If you're reading this, please tell me so I know something magically fixed itself.";
 
     public IEnumerator ProcessTwitchCommand(string command)
     {
-        //Because the goal-posts have changed and I didn't know until people blamed my un-aware implementation for breaking things.
-        if (_solved)
-        {
+        command = command.ToLowerInvariant().Trim();
+        List<string> split = command.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+        KMSelectable buttonToPress;
+        if (split[0] == "press") {
+            split.RemoveAt(0);
+        }
+        if(split[0] == Translation.Language.Yes.ToLowerInvariant()) {
+            buttonToPress = ButtonYes.KMSelectable;
+        }
+        else if (split[0] != Translation.Language.No.ToLowerInvariant()) {
+            buttonToPress = ButtonNo.KMSelectable;
+        }
+        else {
             yield break;
         }
 
-        Debug.LogFormat("At the start, the time is: {0}", Time.time);
-
-        Match modulesMatch = Regex.Match(command, "^press (yes|no|y|n) ([1-8]|any)$", RegexOptions.IgnoreCase);
-        if (!modulesMatch.Success)
-        {
-            yield break;
+        int position;
+        if (split.Count == 1 || split[1] == "any") {
+            // press whenever
+            yield return buttonToPress;
         }
-
-        KMSelectable buttonSelectable = null;
-
-        string buttonName = modulesMatch.Groups[1].Value;
-        if (buttonName.Equals("yes", StringComparison.InvariantCultureIgnoreCase) || buttonName.Equals("y", StringComparison.InvariantCultureIgnoreCase))
-        {
-            buttonSelectable = ButtonYes.KMSelectable;
-        }
-        else if (buttonName.Equals("no", StringComparison.InvariantCultureIgnoreCase) || buttonName.Equals("n", StringComparison.InvariantCultureIgnoreCase))
-        {
-            buttonSelectable = ButtonNo.KMSelectable;
-        }
-
-        if (buttonSelectable == null)
-        {
-            yield break;
-        }
-
-        //This is to "do the right thing"™
-        yield return null;
-
-        string position = modulesMatch.Groups[2].Value;
-        int positionIndex = int.MinValue;
-
-        if (int.TryParse(position, out positionIndex))
-        {
-            Debug.LogFormat("Just before the loop, the time is: {0}", Time.time);
-
-            positionIndex--;
-            while (positionIndex != _currentColourSequenceIndex)
-            {
-                Debug.LogFormat("In the loop, The time is: {0}", Time.time);
+        else if (char.IsDigit(split[1][0]) && split[1].Length == 1) {
+            // press at specific entry
+            bool success = int.TryParse(split[1], out position);
+            if (!success || position > 8 || position <= 0) {
+                yield break;
+            }
+            position--;
+            while (position != _currentColourSequenceIndex) {
                 yield return new WaitForSeconds(0.1f);
             }
-
-            Debug.LogFormat("End of the loop: {0}", Time.time);
-            yield return buttonSelectable;
-            yield return new WaitForSeconds(0.1f);
-            yield return buttonSelectable;
+            yield return buttonToPress;
         }
-        else if (position.Equals("any", StringComparison.InvariantCultureIgnoreCase))
-        {
-            yield return buttonSelectable;
-            yield return new WaitForSeconds(0.1f);
-            yield return buttonSelectable;
+        else {
+            // invalid command
+            yield break;
+        }
+
+        yield return null;
+    }
+
+    public IEnumerator TwitchHandleForcedSolve() {
+        while (!_solved) {
+            if (_ruleButtonPressHandler != null && _ruleButtonPressHandler(true)) {
+                ButtonYes.KMSelectable.OnInteract();
+            }
+            else if (_ruleButtonPressHandler != null && _ruleButtonPressHandler(false)) {
+                ButtonNo.KMSelectable.OnInteract();
+            }
+            else {
+                yield return true;
+            }
         }
     }
     #endregion
