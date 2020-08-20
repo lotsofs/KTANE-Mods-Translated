@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class Translation : MonoBehaviour {
 
+	[Header("Language Information")]
 	public string Name;
 	public string NativeName;
 	public string Iso639;
+	[Tooltip("Ticking this will swap the order of the Yes/No buttons. Used for right to left reading languages.")]
+	public bool SwapButtons = false;
+	public int Version = 1;
+	[Header("Font")]
+	[Tooltip("Leave null to use the standard font for the module.")]
+	public Font Font;
+	[Tooltip("Leave null to use the standard font for the module.")]
+	public Material FontMaterial;
 
 	[Space]
-	[Space]
-
+	[Header("Module Display")]
 	public string Red = "Red";
 	public string Yellow = "Yellow";
 	public string Green = "Green";
@@ -23,7 +31,6 @@ public class Translation : MonoBehaviour {
 	[Space]
 	[Header("Log File")]
 	public string LogFileSequenceHeader = "Module generated with the following word-color sequence:";
-	public string LogFileSequenceLabels = "# | Word    | Color   | Valid Response";
 	public string LogFileWord = "Word";
 	public string LogFileColor = "Color";
 	public string LogFileValidResponse = "Valid Response";
@@ -60,6 +67,7 @@ public class Translation : MonoBehaviour {
 
 
 	private Dictionary<string,string> _dictionary;
+
 
 	public void Choose() {
 		_dictionary = new Dictionary<string, string>();

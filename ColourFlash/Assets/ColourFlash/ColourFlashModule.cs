@@ -4,16 +4,14 @@ using System.Collections;
 using UnityEngine;
 using System.Text;
 using System.Text.RegularExpressions;
+using UnityEngine.Experimental.UIElements;
 
 /// <summary>
 /// </summary>
-public class ColourFlashModule : MonoBehaviour
-{
+public class ColourFlashModule : MonoBehaviour {
     #region Nested Types
-    private class ColourPair
-    {
-        public ColourPair(Colours colourText, Colours colourValue)
-        {
+    private class ColourPair {
+        public ColourPair(Colours colourText, Colours colourValue) {
             ColourText = colourText;
             ColourValue = colourValue;
         }
@@ -21,37 +19,29 @@ public class ColourFlashModule : MonoBehaviour
         public Colours ColourText;
         public Colours ColourValue;
 
-        public string Text
-        {
-            get
-            {
+        public string Text {
+            get {
                 return ColourText.ToString();
             }
         }
 
-        public Color DisplayColour
-        {
-            get
-            {
+        public Color DisplayColour {
+            get {
                 return ColourAttribute.GetColourFromEnum(ColourValue);
             }
         }
 
-        public bool HasColour(Colours colour)
-        {
+        public bool HasColour(Colours colour) {
             return ColourText == colour || ColourValue == colour;
         }
     }
 
-    private class ColourAttribute : Attribute
-    {
-        public ColourAttribute(float r, float g, float b)
-        {
+    private class ColourAttribute : Attribute {
+        public ColourAttribute(float r, float g, float b) {
             Colour = new Color(r, g, b, 1.0f);
         }
 
-        public static Color GetColourFromEnum<T>(T enumValue)
-        {
+        public static Color GetColourFromEnum<T>(T enumValue) {
             var type = enumValue.GetType();
             var memInfo = type.GetMember(enumValue.ToString());
             var attributes = memInfo[0].GetCustomAttributes(typeof(ColourAttribute), false);
@@ -63,8 +53,7 @@ public class ColourFlashModule : MonoBehaviour
     #endregion
 
     #region Enumerations
-    public enum Colours
-    {
+    public enum Colours {
         [Colour(1.0f, 0.0f, 0.0f)]
         Red,
 
@@ -108,39 +97,73 @@ public class ColourFlashModule : MonoBehaviour
     private int _currentColourSequenceIndex = -1;
     private bool _solved = false;
 
-    private ColourPair CurrentColourPair
-    {
-        get
-        {
-            if (_currentColourSequenceIndex == -1 || _colourSequence == null)
-            {
+    private ColourPair CurrentColourPair {
+        get {
+            if (_currentColourSequenceIndex == -1 || _colourSequence == null) {
                 return null;
             }
 
             return _colourSequence[_currentColourSequenceIndex];
         }
     }
+
     #endregion
 
     #region Unity Lifecycle Methods
-    void Awake()
-    {
+    void Awake() {
         BombModule.GenerateLogFriendlyName();
     }
 
-    void Start()
-    {
+    void SetLanguage() {
+        // pick a language
         Translation.SelectLanguage();
-        ButtonYes.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>().text = Translation.Language.Yes;
-        ButtonNo.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>().text = Translation.Language.No;
+        TextMesh yesMesh = ButtonYes.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>();
+        TextMesh noMesh = ButtonNo.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>();
+        yesMesh.text = Translation.Language.Yes.ToUpperInvariant();
+        noMesh.text = Translation.Language.No.ToUpperInvariant();
 
+        // swap button positions for RTL languages
+        if (Translation.Language.SwapButtons) {
+            Vector3 yesPos = ButtonYes.transform.localPosition;
+            ButtonYes.transform.localPosition = ButtonNo.transform.localPosition;
+            ButtonNo.transform.localPosition = yesPos;
+        }
+        // change the font if requested by the language
+        if (Translation.Language.Font != null) {
+            Indicator.font = Translation.Language.Font;
+            Indicator.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
+            yesMesh.font = Translation.Language.Font;
+            noMesh.font = Translation.Language.Font;
+            yesMesh.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
+            noMesh.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
+        }
+        // scale text down of buttons in case it's too large.
+        float width = GetTextMeshWidth(yesMesh, yesMesh.fontSize);
+        int fallThrough = 630;
+        while (width > 10 && fallThrough > 0) {
+            yesMesh.fontSize -= 1;
+            width = GetTextMeshWidth(yesMesh, yesMesh.fontSize);
+            fallThrough--;
+        }
+        width = GetTextMeshWidth(noMesh, noMesh.fontSize);
+        fallThrough = 303;
+        while (width > 10 && fallThrough > 0) {
+            noMesh.fontSize -= 1;
+            width = GetTextMeshWidth(noMesh, noMesh.fontSize);
+            fallThrough--;
+        }
+        // twitch
+        TwitchHelpMessage = string.Format(TwitchHelpMessage,"{0}",Translation.Language.NativeName, Translation.Language.Name, Translation.Language.Yes, Translation.Language.No);
+    }
+
+    void Start() {
+        SetLanguage();
         StringBuilder logString = new StringBuilder();
-
 
         logString.Append(Translation.Language.LogFileSequenceHeader);
         logString.Append("\n");
-        logString.AppendFormat("# | {0,-12} | {1,-12} | {2}", Translation.Language.LogFileWord, Translation.Language.LogFileColor, Translation.Language.LogFileValidResponse);
-        logString.Append("\n--+--------------+--------------+----------------\n");
+        logString.AppendFormat("# | {0,-15} | {1,-15} | {2}", Translation.Language.LogFileWord, Translation.Language.LogFileColor, Translation.Language.LogFileValidResponse);
+        logString.Append("\n--+-----------------+-----------------+----------------\n");
 
         string blockTitle = "";
         string condition = "";
@@ -151,8 +174,7 @@ public class ColourFlashModule : MonoBehaviour
         SetRuleButtonPressHandler(ruleHandler);
 
         //Logging section
-        for(int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex)
-        {
+        for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
             _currentColourSequenceIndex = colourSequenceIndex;
             ColourPair pair = _colourSequence[_currentColourSequenceIndex];
             string response = ruleHandler(true) ? string.Format("[{0}]", Translation.Language.Yes) : (ruleHandler(false) ? string.Format("[{0}]", Translation.Language.No) : "---");
@@ -174,50 +196,42 @@ public class ColourFlashModule : MonoBehaviour
         ButtonNo.KMSelectable.OnInteract += HandlePressNo;
     }
 
-    void OnDestroy()
-    {
+    void OnDestroy() {
         HandleModuleInactive();
     }
     #endregion
 
     #region Handlers
-    void HandleModuleActive()
-    {
+    void HandleModuleActive() {
         StartCoroutine("ColourCycleCoroutine");
     }
 
-    void HandleModuleInactive()
-    {
+    void HandleModuleInactive() {
         StopCoroutine("ColourCycleCoroutine");
     }
 
-    bool HandlePressYes()
-    {
+    bool HandlePressYes() {
         CheckRuleButtonPressHandler(true);
         return false;
     }
 
-    bool HandlePressNo()
-    {
+    bool HandlePressNo() {
         CheckRuleButtonPressHandler(false);
         return false;
     }
     #endregion
 
     #region Module Generation
-    void GenerateModuleInformation()
-    {
+    void GenerateModuleInformation() {
         Array colourChoices = Enum.GetValues(typeof(Colours));
 
         _colourSequence = new ColourPair[NumberOfColoursInSequence];
-        for (int colourIndex = 0; colourIndex < NumberOfColoursInSequence; ++colourIndex)
-        {
+        for (int colourIndex = 0; colourIndex < NumberOfColoursInSequence; ++colourIndex) {
             float sameRoll = UnityEngine.Random.Range(0.0f, 100.0f);
             int textIndex = UnityEngine.Random.Range(0, colourChoices.Length);
             int valueIndex = textIndex;
 
-            if (sameRoll >= ProbabilityOfSameColourAndValue)
-            {
+            if (sameRoll >= ProbabilityOfSameColourAndValue) {
                 valueIndex = UnityEngine.Random.Range(0, colourChoices.Length);
             }
 
@@ -229,14 +243,11 @@ public class ColourFlashModule : MonoBehaviour
     }
     #endregion
 
-    float GetTextMeshWidth(TextMesh mesh, int fontSize) 
-        {
+    float GetTextMeshWidth(TextMesh mesh, int fontSize) {
         float width = 0;
-        foreach (char symbol in mesh.text) 
-        {
+        foreach (char symbol in mesh.text) {
             CharacterInfo info;
-            if (mesh.font.GetCharacterInfo(symbol, out info, fontSize, mesh.fontStyle)) 
-            {
+            if (mesh.font.GetCharacterInfo(symbol, out info, fontSize, mesh.fontStyle)) {
                 width += info.advance;
             }
         }
@@ -244,31 +255,19 @@ public class ColourFlashModule : MonoBehaviour
     }
 
     #region Module Updates
-    IEnumerator ColourCycleCoroutine()
-    {
-        while (true)
-        {
-            for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex)
-            {
+    IEnumerator ColourCycleCoroutine() {
+        while (true) {
+            for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
                 _currentColourSequenceIndex = colourSequenceIndex;
-                Indicator.text = Translation.Language.GetFromEnglishName(_colourSequence[colourSequenceIndex].Text).ToUpper();
+                Indicator.text = Translation.Language.GetFromEnglishName(_colourSequence[colourSequenceIndex].Text).ToUpperInvariant();
                 Indicator.color = _colourSequence[colourSequenceIndex].DisplayColour;
-                float width = GetTextMeshWidth(Indicator, 60);
-                Debug.Log(width);
-                if (width > 35) {
-                    Indicator.fontSize = 29;
-                }
-                else if (width > 30) {
-                    Indicator.fontSize = 34;
-                }
-                else if (width > 25) {
-                    Indicator.fontSize = 40;
-                }
-                else if (width > 19) {
-                    Indicator.fontSize = 49;
-                }
-                else {
-                    Indicator.fontSize = 60;
+                Indicator.fontSize = 60;
+                float width = GetTextMeshWidth(Indicator, Indicator.fontSize);
+                int fallThrough = 50;
+                while (width > 19 && fallThrough > 0) {
+                    Indicator.fontSize -= 1;    // todo: This looks like a resource hog.
+                    width = GetTextMeshWidth(Indicator, Indicator.fontSize);
+                    fallThrough--;
                 }
                 yield return new WaitForSeconds(TimePerCycleTick);
             }
@@ -282,14 +281,12 @@ public class ColourFlashModule : MonoBehaviour
     #endregion
 
     #region Module Rules
-    private RuleButtonPressHandler SetupRules(ref string blockTitle, ref string condition)
-    {
+    private RuleButtonPressHandler SetupRules(ref string blockTitle, ref string condition) {
         CheckForClashingColours();
 
         blockTitle = string.Format(Translation.Language.LogFileLastColor, _colourSequence[_colourSequence.Length - 1].ColourValue.ToString());
 
-        switch (_colourSequence[_colourSequence.Length - 1].ColourValue)
-        {
+        switch (_colourSequence[_colourSequence.Length - 1].ColourValue) {
             case Colours.Red:
                 return SetupRulesForBlockA(ref blockTitle, ref condition);
             case Colours.Yellow:
@@ -308,46 +305,34 @@ public class ColourFlashModule : MonoBehaviour
         }
     }
 
-    private void CheckForClashingColours()
-    {
+    private void CheckForClashingColours() {
         Array colourChoices = Enum.GetValues(typeof(Colours));
 
-        for (int colourIndex = 1; colourIndex < _colourSequence.Length; ++colourIndex)
-        {
-            if (_colourSequence[colourIndex - 1].ColourText == _colourSequence[colourIndex].ColourText && _colourSequence[colourIndex - 1].ColourValue == _colourSequence[colourIndex].ColourValue)
-            {
-                if (UnityEngine.Random.Range(0, 2) == 0)
-                {
+        for (int colourIndex = 1; colourIndex < _colourSequence.Length; ++colourIndex) {
+            if (_colourSequence[colourIndex - 1].ColourText == _colourSequence[colourIndex].ColourText && _colourSequence[colourIndex - 1].ColourValue == _colourSequence[colourIndex].ColourValue) {
+                if (UnityEngine.Random.Range(0, 2) == 0) {
                     _colourSequence[colourIndex].ColourText = (Colours)colourChoices.GetValue(((int)_colourSequence[colourIndex].ColourText + 1) % colourChoices.Length);
                 }
-                else
-                {
+                else {
                     _colourSequence[colourIndex].ColourValue = (Colours)colourChoices.GetValue(((int)_colourSequence[colourIndex].ColourValue + 1) % colourChoices.Length);
                 }
             }
         }
     }
 
-    private RuleButtonPressHandler SetupRulesForBlockA(ref string blockTitle, ref string condition)
-    {
-        if (_colourSequence.Count((x) => x.ColourText == Colours.Green) >= 3)
-        {
+    private RuleButtonPressHandler SetupRulesForBlockA(ref string blockTitle, ref string condition) {
+        if (_colourSequence.Count((x) => x.ColourText == Colours.Green) >= 3) {
             condition = Translation.Language.RuleRed1;
-            return delegate (bool yesPress)
-            {
-                if (!yesPress)
-                {
+            return delegate (bool yesPress) {
+                if (!yesPress) {
                     return false;
                 }
 
                 int greenCount = 0;
-                for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex)
-                {
-                    if (_colourSequence[colourSequenceIndex].HasColour(Colours.Green))
-                    {
+                for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
+                    if (_colourSequence[colourSequenceIndex].HasColour(Colours.Green)) {
                         greenCount++;
-                        if (greenCount == 3)
-                        {
+                        if (greenCount == 3) {
                             return _currentColourSequenceIndex == colourSequenceIndex;
                         }
                     }
@@ -357,34 +342,28 @@ public class ColourFlashModule : MonoBehaviour
             };
         }
 
-        if (_colourSequence.Count((x) => x.ColourValue == Colours.Blue) == 1)
-        {
+        if (_colourSequence.Count((x) => x.ColourValue == Colours.Blue) == 1) {
             condition = Translation.Language.RuleRed2;
 
-            if (!_colourSequence.Any((x) => x.ColourText == Colours.Magenta))
-            {
+            if (!_colourSequence.Any((x) => x.ColourText == Colours.Magenta)) {
                 _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length)].ColourText = Colours.Magenta;
 
                 //Modification has been made to match this rule's exit condition - check against all pre-existing rules
                 return SetupRules(ref blockTitle, ref condition);
             }
 
-            return delegate (bool yesPress)
-            {
+            return delegate (bool yesPress) {
                 return !yesPress && CurrentColourPair != null && CurrentColourPair.ColourText == Colours.Magenta;
             };
         }
 
         condition = Translation.Language.RuleRed3;
 
-        if (!_colourSequence.Any((x) => x.HasColour(Colours.White)))
-        {
-            if (UnityEngine.Random.Range(0, 2) == 0)
-            {
+        if (!_colourSequence.Any((x) => x.HasColour(Colours.White))) {
+            if (UnityEngine.Random.Range(0, 2) == 0) {
                 _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourText = Colours.White;
             }
-            else
-            {
+            else {
                 _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourValue = Colours.White;
             }
 
@@ -392,57 +371,45 @@ public class ColourFlashModule : MonoBehaviour
             return SetupRules(ref blockTitle, ref condition);
         }
 
-        return delegate (bool yesPress)
-        {
+        return delegate (bool yesPress) {
             return yesPress && _currentColourSequenceIndex == Array.FindLastIndex(_colourSequence, (x) => x.HasColour(Colours.White));
         };
     }
 
-    private RuleButtonPressHandler SetupRulesForBlockB(ref string blockTitle, ref string condition)
-    {
-        if (_colourSequence.Any((x) => x.ColourText == Colours.Blue && x.ColourValue == Colours.Green))
-        {
+    private RuleButtonPressHandler SetupRulesForBlockB(ref string blockTitle, ref string condition) {
+        if (_colourSequence.Any((x) => x.ColourText == Colours.Blue && x.ColourValue == Colours.Green)) {
             condition = Translation.Language.RuleYellow1;
 
-            return delegate (bool yesPress)
-            {
+            return delegate (bool yesPress) {
                 return yesPress && _currentColourSequenceIndex == Array.FindIndex(_colourSequence, (x) => x.ColourValue == Colours.Green);
             };
         }
 
-        if (_colourSequence.Any((x) => x.ColourText == Colours.White && (x.ColourValue == Colours.White || x.ColourValue == Colours.Red)))
-        {
+        if (_colourSequence.Any((x) => x.ColourText == Colours.White && (x.ColourValue == Colours.White || x.ColourValue == Colours.Red))) {
             condition = Translation.Language.RuleYellow2;
 
             bool modified = false;
-            while (_colourSequence.Count((x) => x.ColourText != x.ColourValue) < 2)
-            {
+            while (_colourSequence.Count((x) => x.ColourText != x.ColourValue) < 2) {
                 modified = true;
                 ColourPair colourPair = _colourSequence.First((x) => x.ColourText == x.ColourValue);
                 colourPair.ColourText = (Colours)(((int)colourPair.ColourText + 1) % Enum.GetValues(typeof(Colours)).Length);
             }
 
-            if (modified)
-            {
+            if (modified) {
                 //Modification has been made to match this rule's exit condition - check against all pre-existing rules
                 return SetupRules(ref blockTitle, ref condition);
             }
 
-            return delegate (bool yesPress)
-            {
-                if (!yesPress)
-                {
+            return delegate (bool yesPress) {
+                if (!yesPress) {
                     return false;
                 }
 
                 int matchCount = 0;
-                for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex)
-                {
-                    if (_colourSequence[colourSequenceIndex].ColourText != _colourSequence[colourSequenceIndex].ColourValue)
-                    {
+                for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
+                    if (_colourSequence[colourSequenceIndex].ColourText != _colourSequence[colourSequenceIndex].ColourValue) {
                         matchCount++;
-                        if (matchCount == 2)
-                        {
+                        if (matchCount == 2) {
                             return _currentColourSequenceIndex == colourSequenceIndex;
                         }
                     }
@@ -455,14 +422,11 @@ public class ColourFlashModule : MonoBehaviour
         condition = Translation.Language.RuleYellow3;
 
         //Otherwise, count the number of times Magenta is used as either the word or the colour of the word in the sequence, and press No on the colour in the total's position (i.e. a total of 4 means the fourth colour in sequence)
-        if (!_colourSequence.Any((x) => x.HasColour(Colours.Magenta)))
-        {
-            if (UnityEngine.Random.Range(0, 2) == 0)
-            {
+        if (!_colourSequence.Any((x) => x.HasColour(Colours.Magenta))) {
+            if (UnityEngine.Random.Range(0, 2) == 0) {
                 _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourText = Colours.Magenta;
             }
-            else
-            {
+            else {
                 _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourValue = Colours.Magenta;
             }
 
@@ -470,39 +434,30 @@ public class ColourFlashModule : MonoBehaviour
             return SetupRules(ref blockTitle, ref condition);
         }
 
-        return delegate (bool yesPress)
-        {
+        return delegate (bool yesPress) {
             return !yesPress && _currentColourSequenceIndex == _colourSequence.Count((x) => x.HasColour(Colours.Magenta)) - 1;
         };
     }
 
-    private RuleButtonPressHandler SetupRulesForBlockC(ref string blockTitle, ref string condition)
-    {
-        for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length - 1; ++colourSequenceIndex)
-        {
+    private RuleButtonPressHandler SetupRulesForBlockC(ref string blockTitle, ref string condition) {
+        for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length - 1; ++colourSequenceIndex) {
             condition = Translation.Language.RuleGreen1;
 
-            if (_colourSequence[colourSequenceIndex + 1].ColourText == _colourSequence[colourSequenceIndex].ColourText)
-            {
-                return delegate (bool yesPress)
-                {
+            if (_colourSequence[colourSequenceIndex + 1].ColourText == _colourSequence[colourSequenceIndex].ColourText) {
+                return delegate (bool yesPress) {
                     return !yesPress && _currentColourSequenceIndex == 4;
                 };
             }
         }
 
-        if (_colourSequence.Count((x) => x.ColourText == Colours.Magenta) >= 3)
-        {
+        if (_colourSequence.Count((x) => x.ColourText == Colours.Magenta) >= 3) {
             condition = Translation.Language.RuleGreen2;
 
-            if (!_colourSequence.Any((x) => x.HasColour(Colours.Yellow)))
-            {
-                if (UnityEngine.Random.Range(0, 2) == 0)
-                {
+            if (!_colourSequence.Any((x) => x.HasColour(Colours.Yellow))) {
+                if (UnityEngine.Random.Range(0, 2) == 0) {
                     _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourText = Colours.Yellow;
                 }
-                else
-                {
+                else {
                     _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourValue = Colours.Yellow;
                 }
 
@@ -510,16 +465,14 @@ public class ColourFlashModule : MonoBehaviour
                 return SetupRules(ref blockTitle, ref condition);
             }
 
-            return delegate (bool yesPress)
-            {
+            return delegate (bool yesPress) {
                 return !yesPress && _currentColourSequenceIndex == Array.FindIndex(_colourSequence, (x) => x.HasColour(Colours.Yellow));
             };
         }
 
         condition = Translation.Language.RuleGreen3;
 
-        if (!_colourSequence.Any((x) => x.ColourText == x.ColourValue))
-        {
+        if (!_colourSequence.Any((x) => x.ColourText == x.ColourValue)) {
             int colourSequenceIndex = UnityEngine.Random.Range(0, _colourSequence.Length - 1);
             _colourSequence[colourSequenceIndex].ColourText = _colourSequence[colourSequenceIndex].ColourValue;
 
@@ -527,30 +480,24 @@ public class ColourFlashModule : MonoBehaviour
             return SetupRules(ref blockTitle, ref condition);
         }
 
-        return delegate (bool yesPress)
-        {
+        return delegate (bool yesPress) {
             return yesPress && CurrentColourPair.ColourText == CurrentColourPair.ColourValue;
         };
     }
 
-    private RuleButtonPressHandler SetupRulesForBlockD(ref string blockTitle, ref string condition)
-    {
-        if (_colourSequence.Count((x) => x.ColourText != x.ColourValue) >= 3)
-        {
+    private RuleButtonPressHandler SetupRulesForBlockD(ref string blockTitle, ref string condition) {
+        if (_colourSequence.Count((x) => x.ColourText != x.ColourValue) >= 3) {
             condition = Translation.Language.RuleBlue1;
 
-            return delegate (bool yesPress)
-            {
+            return delegate (bool yesPress) {
                 return yesPress && _currentColourSequenceIndex == Array.FindIndex(_colourSequence, (x) => x.ColourText != x.ColourValue);
             };
         }
 
-        if (_colourSequence.Any((x) => (x.ColourText == Colours.Red && x.ColourValue == Colours.Yellow) || (x.ColourText == Colours.Yellow && x.ColourValue == Colours.White)))
-        {
+        if (_colourSequence.Any((x) => (x.ColourText == Colours.Red && x.ColourValue == Colours.Yellow) || (x.ColourText == Colours.Yellow && x.ColourValue == Colours.White))) {
             condition = Translation.Language.RuleBlue2;
 
-            if (!_colourSequence.Any((x) => x.ColourText == Colours.White && x.ColourValue == Colours.Red))
-            {
+            if (!_colourSequence.Any((x) => x.ColourText == Colours.White && x.ColourValue == Colours.Red)) {
                 int colourSequenceIndex = Array.FindIndex(_colourSequence, (x) => !((x.ColourText == Colours.Red && x.ColourValue == Colours.Yellow) || (x.ColourText == Colours.Yellow && x.ColourValue == Colours.White)));
                 _colourSequence[colourSequenceIndex].ColourText = Colours.White;
                 _colourSequence[colourSequenceIndex].ColourValue = Colours.Red;
@@ -559,22 +506,18 @@ public class ColourFlashModule : MonoBehaviour
                 return SetupRules(ref blockTitle, ref condition);
             }
 
-            return delegate (bool yesPress)
-            {
+            return delegate (bool yesPress) {
                 return !yesPress && CurrentColourPair.ColourText == Colours.White && CurrentColourPair.ColourValue == Colours.Red;
             };
         }
 
         condition = Translation.Language.RuleBlue3;
 
-        if (!_colourSequence.Any((x) => x.HasColour(Colours.Green)))
-        {
-            if (UnityEngine.Random.Range(0, 2) == 0)
-            {
+        if (!_colourSequence.Any((x) => x.HasColour(Colours.Green))) {
+            if (UnityEngine.Random.Range(0, 2) == 0) {
                 _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourText = Colours.Green;
             }
-            else
-            {
+            else {
                 _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourValue = Colours.Green;
             }
 
@@ -582,33 +525,26 @@ public class ColourFlashModule : MonoBehaviour
             return SetupRules(ref blockTitle, ref condition);
         }
 
-        return delegate (bool yesPress)
-        {
+        return delegate (bool yesPress) {
             return yesPress && _currentColourSequenceIndex == Array.FindLastIndex(_colourSequence, (x) => x.HasColour(Colours.Green));
         };
     }
 
-    private RuleButtonPressHandler SetupRulesForBlockE(ref string blockTitle, ref string condition)
-    {
-        for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length - 1; ++colourSequenceIndex)
-        {
+    private RuleButtonPressHandler SetupRulesForBlockE(ref string blockTitle, ref string condition) {
+        for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length - 1; ++colourSequenceIndex) {
             condition = Translation.Language.RuleMagenta1;
 
-            if (_colourSequence[colourSequenceIndex + 1].ColourValue == _colourSequence[colourSequenceIndex].ColourValue)
-            {
-                return delegate (bool yesPress)
-                {
+            if (_colourSequence[colourSequenceIndex + 1].ColourValue == _colourSequence[colourSequenceIndex].ColourValue) {
+                return delegate (bool yesPress) {
                     return yesPress && _currentColourSequenceIndex == 2;
                 };
             }
         }
 
-        if (_colourSequence.Count((x) => x.ColourText == Colours.Yellow) > _colourSequence.Count((x) => x.ColourValue == Colours.Blue))
-        {
+        if (_colourSequence.Count((x) => x.ColourText == Colours.Yellow) > _colourSequence.Count((x) => x.ColourValue == Colours.Blue)) {
             condition = Translation.Language.RuleMagenta2;
 
-            return delegate (bool yesPress)
-            {
+            return delegate (bool yesPress) {
                 return !yesPress && _currentColourSequenceIndex == Array.FindLastIndex(_colourSequence, (x) => x.ColourText == Colours.Yellow);
             };
         }
@@ -616,35 +552,28 @@ public class ColourFlashModule : MonoBehaviour
         condition = Translation.Language.RuleMagenta3;
 
         Colours colourToMatch = _colourSequence[6].ColourText;
-        if (!_colourSequence.Any((x) => x.ColourValue == colourToMatch))
-        {
+        if (!_colourSequence.Any((x) => x.ColourValue == colourToMatch)) {
             _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourValue = colourToMatch;
 
             //Modification has been made to match this rule's exit condition - check against all pre-existing rules
             return SetupRules(ref blockTitle, ref condition);
         }
 
-        return delegate (bool yesPress)
-        {
+        return delegate (bool yesPress) {
             return !yesPress && _currentColourSequenceIndex == Array.FindIndex(_colourSequence, (x) => x.ColourValue == colourToMatch);
         };
     }
 
-    private RuleButtonPressHandler SetupRulesForBlockF(ref string blockTitle, ref string condition)
-    {
+    private RuleButtonPressHandler SetupRulesForBlockF(ref string blockTitle, ref string condition) {
         Colours colourToMatch = _colourSequence[2].ColourValue;
-        if (_colourSequence[3].ColourText == colourToMatch || _colourSequence[4].ColourText == colourToMatch)
-        {
+        if (_colourSequence[3].ColourText == colourToMatch || _colourSequence[4].ColourText == colourToMatch) {
             condition = Translation.Language.RuleWhite1;
 
-            if (!_colourSequence.Any((x) => x.HasColour(Colours.Blue)))
-            {
-                if (UnityEngine.Random.Range(0, 2) == 0)
-                {
+            if (!_colourSequence.Any((x) => x.HasColour(Colours.Blue))) {
+                if (UnityEngine.Random.Range(0, 2) == 0) {
                     _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourText = Colours.Blue;
                 }
-                else
-                {
+                else {
                     _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourValue = Colours.Blue;
                 }
 
@@ -652,76 +581,67 @@ public class ColourFlashModule : MonoBehaviour
                 return SetupRules(ref blockTitle, ref condition);
             }
 
-            return delegate (bool yesPress)
-            {
+            return delegate (bool yesPress) {
                 return !yesPress && _currentColourSequenceIndex == Array.FindIndex(_colourSequence, (x) => x.HasColour(Colours.Blue));
             };
         }
 
-        if (_colourSequence.Any((x) => x.ColourText == Colours.Yellow && x.ColourValue == Colours.Red))
-        {
+        if (_colourSequence.Any((x) => x.ColourText == Colours.Yellow && x.ColourValue == Colours.Red)) {
             condition = Translation.Language.RuleWhite2;
 
-            if (!_colourSequence.Any((x) => x.ColourValue == Colours.Blue))
-            {
+            if (!_colourSequence.Any((x) => x.ColourValue == Colours.Blue)) {
                 _colourSequence[UnityEngine.Random.Range(0, _colourSequence.Length - 1)].ColourValue = Colours.Blue;
 
                 //Modification has been made to match this rule's exit condition - check against all pre-existing rules
                 return SetupRules(ref blockTitle, ref condition);
             }
 
-            return delegate (bool yesPress)
-            {
+            return delegate (bool yesPress) {
                 return yesPress && _currentColourSequenceIndex == Array.FindLastIndex(_colourSequence, (x) => x.ColourValue == Colours.Blue);
             };
         }
 
         condition = Translation.Language.RuleWhite3;
 
-        return delegate (bool yesPress)
-        {
+        return delegate (bool yesPress) {
             return !yesPress;
         };
     }
 
-    private void SetRuleButtonPressHandler(RuleButtonPressHandler handler)
-    {
+    private void SetRuleButtonPressHandler(RuleButtonPressHandler handler) {
         _ruleButtonPressHandler = handler;
     }
 
-    private void CheckRuleButtonPressHandler(bool yesButton)
-    {
-        if (_currentColourSequenceIndex < 0)
-        {
+    private void CheckRuleButtonPressHandler(bool yesButton) {
+        if (_currentColourSequenceIndex < 0) {
             BombModule.LogFormat(Translation.Language.LogFileUnknownTime, yesButton ? Translation.Language.Yes : Translation.Language.No);
         }
-        else
-        {
+        else {
             ColourPair pair = _colourSequence[_currentColourSequenceIndex];
             BombModule.LogFormat(Translation.Language.LogFileButtonPressed, yesButton ? Translation.Language.Yes : Translation.Language.No, _currentColourSequenceIndex + 1, pair.ColourText.ToString(), pair.ColourValue.ToString());
         }
 
-        if (_ruleButtonPressHandler != null && _ruleButtonPressHandler(yesButton))
-        {
+        if (_ruleButtonPressHandler != null && _ruleButtonPressHandler(yesButton)) {
             BombModule.Log(Translation.Language.LogFileCorrect);
             BombModule.HandlePass();
             FinishModule();
         }
-        else
-        {
+        else {
             BombModule.Log(Translation.Language.LogFileWrong);
             BombModule.HandleStrike();
         }
     }
 
-    private void FinishModule()
-    {
+    private void FinishModule() {
         HandleModuleInactive();
         _solved = true;
     }
     #endregion
 
     #region Twitch Plays
+
+    public string TwitchHelpMessage = "{1}, {2} - Submit the correct response with !{0} press {3} 3, or !{0} press {4} 5.";
+
     public IEnumerator ProcessTwitchCommand(string command)
     {
         //Because the goal-posts have changed and I didn't know until people blamed my un-aware implementation for breaking things.
