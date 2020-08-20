@@ -22,6 +22,15 @@ public class TranslatedModule : MonoBehaviour {
 
 	TranslationSettings _settings;
 
+	//public void GenerateHtmlTable() {
+	//	string table = "";
+	//	for (int i = 0; i < _languagesHolder.transform.childCount; i++) {
+	//		Translation trans = _languagesHolder.transform.GetChild(i).GetComponent<Translation>();
+	//		table += string.Format("<li><strong>{0}</strong>: {1}</li>\n", trans.Iso639, trans.Name);
+	//	}
+	//	Debug.Log(table);
+	//}
+
 	public void SelectLanguage() {
 		_settings = JsonConvert.DeserializeObject<TranslationSettings>(KMSettings.Settings);
 
