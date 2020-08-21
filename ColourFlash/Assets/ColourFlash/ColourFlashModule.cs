@@ -161,8 +161,8 @@ public class ColourFlashModule : MonoBehaviour {
 
         logString.Append(Translation.Language.LogFileSequenceHeader);
         logString.Append("\n");
-        logString.AppendFormat("# | {0,-15} | {1,-15} | {2}", Translation.Language.LogFileWord, Translation.Language.LogFileColor, Translation.Language.LogFileValidResponse);
-        logString.Append("\n--+-----------------+-----------------+----------------\n");
+        //logString.AppendFormat("# | {0,-15} | {1,-15} | {2}", Translation.Language.LogFileWord, Translation.Language.LogFileColor, Translation.Language.LogFileValidResponse);
+        //logString.Append("\n--+-----------------+-----------------+----------------\n");
 
         string blockTitle = "";
         string condition = "";
@@ -178,7 +178,15 @@ public class ColourFlashModule : MonoBehaviour {
             ColourPair pair = _colourSequence[_currentColourSequenceIndex];
             string response = ruleHandler(true) ? string.Format("[{0}]", Translation.Language.Yes) : (ruleHandler(false) ? string.Format("[{0}]", Translation.Language.No) : "---");
 
-            logString.AppendFormat("{0} | {1,-12} | {2,-12} | {3}\n", colourSequenceIndex + 1, Translation.Language.GetFromEnglishName(pair.ColourText.ToString()), Translation.Language.GetFromEnglishName(pair.ColourValue.ToString()), response);
+            logString.AppendFormat("{0}: {4} {1,-15} , {5} {2,-15} : {6} {3}\n",
+                colourSequenceIndex + 1,
+                Translation.Language.GetFromEnglishName(pair.ColourText.ToString()),
+                Translation.Language.GetFromEnglishName(pair.ColourValue.ToString()),
+                response,
+                Translation.Language.LogFileWord,
+                Translation.Language.LogFileColor,
+                response != "---" ? Translation.Language.LogFileValidResponse : ""
+            );
         }
         logString.Append("\n");
         logString.Append(Translation.Language.LogFileRuleHeader);
