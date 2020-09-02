@@ -2699,6 +2699,7 @@ MonoBehaviour:
   Iso639: ko
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\uBE68\uAC15"
@@ -2780,6 +2781,7 @@ MonoBehaviour:
   Iso639: eu
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Gorri
@@ -2861,6 +2863,7 @@ MonoBehaviour:
   Iso639: br
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Ruz
@@ -2942,6 +2945,7 @@ MonoBehaviour:
   Iso639: af
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Rooi
@@ -3023,6 +3027,7 @@ MonoBehaviour:
   Iso639: pt
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Vermelho
@@ -3104,6 +3109,7 @@ MonoBehaviour:
   Iso639: cs
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u010Cerven\xE1"
@@ -3185,6 +3191,7 @@ MonoBehaviour:
   Iso639: uk
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u0427\u0435\u0440\u0432\u043E\u043D\u0438\u0439"
@@ -3266,6 +3273,7 @@ MonoBehaviour:
   Iso639: it
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Rosso
@@ -3347,6 +3355,7 @@ MonoBehaviour:
   Iso639: sv
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "R\xF6d"
@@ -3428,6 +3437,7 @@ MonoBehaviour:
   Iso639: de
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: ROT
@@ -3540,6 +3550,7 @@ MonoBehaviour:
   Iso639: so
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Gaduud
@@ -3621,6 +3632,7 @@ MonoBehaviour:
   Iso639: mk
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u0426\u0440\u0432\u0435\u043D\u0430"
@@ -3702,6 +3714,7 @@ MonoBehaviour:
   Iso639: bn
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u09B2\u09BE\u09B2"
@@ -3783,6 +3796,7 @@ MonoBehaviour:
   Iso639: nl
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Rood
@@ -3864,6 +3878,7 @@ MonoBehaviour:
   Iso639: el
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u039A\u039F\u039A\u039A\u0399\u039D\u039F"
@@ -3945,6 +3960,7 @@ MonoBehaviour:
   Iso639: ro
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "Ro\u0219u"
@@ -4039,6 +4055,7 @@ MonoBehaviour:
   Iso639: fy
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Read
@@ -4120,6 +4137,7 @@ MonoBehaviour:
   Iso639: ca
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Roig
@@ -4201,6 +4219,7 @@ MonoBehaviour:
   Iso639: tl
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Pula
@@ -4282,6 +4301,7 @@ MonoBehaviour:
   Iso639: be
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u0427\u044B\u0440\u0432\u043E\u043D\u044B"
@@ -4363,6 +4383,7 @@ MonoBehaviour:
   Iso639: ml
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u0D1A\u0D41\u0D35\u0D2A\u0D4D\u0D2A\u0D4D"
@@ -4444,6 +4465,7 @@ MonoBehaviour:
   Iso639: he
   SwapButtons: 1
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u05DD\u05D5\u05D3\u05D0"
@@ -4525,6 +4547,7 @@ MonoBehaviour:
   Iso639: vi
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 12800000, guid: cc41c8f6a15493b4291910060d02135e, type: 3}
   FontMaterial: {fileID: 2100000, guid: 7d61d24ee5f243346afdf65914357efc, type: 2}
   Red: "\u0110\u1ECF"
@@ -4606,6 +4629,7 @@ MonoBehaviour:
   Iso639: tt
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u041A\u044B\u0437\u044B\u043B"
@@ -4687,6 +4711,7 @@ MonoBehaviour:
   Iso639: jv
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Abang
@@ -4768,6 +4793,7 @@ MonoBehaviour:
   Iso639: hi
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u0932\u093E\u0932"
@@ -4849,6 +4875,7 @@ MonoBehaviour:
   Iso639: eo
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "Ru\u011Da"
@@ -4930,6 +4957,7 @@ MonoBehaviour:
   Iso639: pl
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Czerwona
@@ -5011,6 +5039,7 @@ MonoBehaviour:
   Iso639: en
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Red
@@ -5092,6 +5121,7 @@ MonoBehaviour:
   Iso639: fr
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Rouge
@@ -5192,6 +5222,7 @@ MonoBehaviour:
   Iso639: bg
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u0427\u0435\u0440\u0432\u0435\u043D"
@@ -5290,6 +5321,7 @@ MonoBehaviour:
   Iso639: lb
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Rout
@@ -5371,6 +5403,7 @@ MonoBehaviour:
   Iso639: gl
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Vermello
@@ -5452,6 +5485,7 @@ MonoBehaviour:
   Iso639: ru
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439"
@@ -5533,6 +5567,7 @@ MonoBehaviour:
   Iso639: es
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Rojo
@@ -5614,6 +5649,7 @@ MonoBehaviour:
   Iso639: la
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Ruber
@@ -5695,6 +5731,7 @@ MonoBehaviour:
   Iso639: ga
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Dearg
@@ -5776,6 +5813,7 @@ MonoBehaviour:
   Iso639: tr
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: KIRMIZI
@@ -5870,6 +5908,7 @@ MonoBehaviour:
   Iso639: fi
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Punainen
@@ -5951,6 +5990,7 @@ MonoBehaviour:
   Iso639: hr
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: Crvena
@@ -6032,6 +6072,7 @@ MonoBehaviour:
   Iso639: ja
   SwapButtons: 0
   Version: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: "\u8D64"

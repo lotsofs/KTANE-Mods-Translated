@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Farbenblitz — Keep Talking and Nobody Explodes Modul</title>
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Colour%20Flash%20%E2%80%94%20Keep%20Talking%20and%20Nobody%20Explodes%20Module_files/font.css">
+    <link rel="stylesheet" type="text/css" href="Colour%20Flash%20%E2%80%94%20Keep%20Talking%20and%20Nobody%20Explodes%20Module_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Colour%20Flash%20%E2%80%94%20Keep%20Talking%20and%20Nobody%20Explodes%20Module_files/main.css">
+    <script src="Colour%20Flash%20%E2%80%94%20Keep%20Talking%20and%20Nobody%20Explodes%20Module_files/ktane-utils.js"></script><script src="Colour%20Flash%20%E2%80%94%20Keep%20Talking%20and%20Nobody%20Explodes%20Module_files/jquery.js"></script>
+    <style>
+        .condition {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div class="section">
+    <div class="page page-bg-01">
+        <div class="page-header">
+            <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+            <span class="page-header-section-title">Farbenblitz</span>
+        </div>
+        <div class="page-content">
+            <img class="diagram" src="Colour%20Flash%20%E2%80%94%20Keep%20Talking%20and%20Nobody%20Explodes%20Module_files/Colour%2520Flash.svg">
+            <h2>Zum Thema Farbenblitz</h2>
+            <p class="flavour-text">
+                Farben identifizieren ist einfach. Rot, Blau, Grün, usw.
+                Es stellt sich allerdings heraus, dass es etwas schwieriger wird, sobald man eine Wortfarbe in einer anderen Farbe zeigt...
+            </p>
+
+            <ul>
+                <li>Ein Farbenblitzmodul zeigt wiederholt eine Abfolge von 8 verschiedenen Wörtern, die Farben repräsentieren, in verschiedenen Farben.</li>
+                <li>Die möglichen Farben sind Rot, Gelb, Grün, Blau, Magenta und Weiß.</li>
+                <li>Weiters gibt es einen Ja-Knopf und einen Nein-Knopf.</li>
+                <li>Nur <em>einer</em> 
+                    der beiden Ja und Nein Knöpfe muss gedrückt werden, um das Modul zu entschärfen, allerdings zum passenden Zeitpunkt laut den untenstehenden Regeln.</li>
+                <li>Die Farbe des letzten Wortes in der Abfolge bestimmt welcher Regelsatz zu verwenden ist.</li>
+                <li>Folge den Regeln von der obersten Regel, hinunter zur untersten Regel, für den zu deinem Modul passendem Regelsatz.</li>
+            </ul>
+
+            <table>
+                <tbody><tr>
+                     <td>
+                         <div class="condition">Die Farbe des letzten Wortes in der Abfolge ist Rot:</div>
+                         <div>Wenn Grün mindestens dreimal als Wort in der Abfolge benutzt wird, drücke Ja beim dritten Vorkommen von Grün, egal ob als Wort oder als Farbe des Wortes.</div>
+                         <div>Andernfalls, wenn Blau exakt einmal als Farbe des Wortes benutzt wird, drücke Nein, wenn das Wort Magenta angezeigt wird.</div>
+                         <div>Andernfalls, drücke Ja beim letzten Vorkommen von Weiß, egal ob als Wort oder als Farbe des Wortes.</div>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <div class="condition">Die Farbe des letzten Wortes in der Abfolge ist Gelb:</div>
+                         <div>Wenn das Wort Blau in Grüner Farbe gezeigt wird, drücke Ja beim ersten Vorkommen von Grün als Farbe des Wortes</div>
+                         <div>Andernfalls, wenn das Wort Weiß in Weißer oder Roter Farbe gezeigt wird, drücke Ja beim zweiten Eintrag, bei dem die Farbe nicht mit dem Wort selbst übereinstimmt.</div>
+                         <div>Andernfalls, zähle wie oft Magenta als Wort oder als Farbe des Wortes in der Abfolge verwendet wird (das Wort Magenta in der Farbe Magenta zählt nur als eines), und drücke Nein auf der Farbe der Anzahl 
+                             (z.B: eine Anzahl von 4 heißt die vierte Farbe in der Abfolge).  </div>
+                     </td>
+                 </tr>
+            </tbody></table>
+        </div>
+        <div class="page-footer relative-footer">Seite 1 von 2</div>
+    </div>
+
+    <div class="page page-bg-02">
+        <div class="page-header">
+            <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+            <span class="page-header-section-title">Farbenblitz</span>
+        </div>
+        <div class="page-content">
+            <p>Fortsetzung der vorherigen Tabelle...
+
+            </p><table>
+                <tbody><tr>
+                    <td>
+                         <div class="condition">Die Farbe des letzten Wortes in der Abfolge ist Grün:</div>
+                         <div>Falls ein Wort mehrfach direkt hintereinander in verschiedenen Farben vorkommt, drücke Ja beim fünften Eintrag der Abfolge.</div>
+                         <div>Falls Magenta mindestens dreimal als Wort in der Abfolge verwendet wird, drück Nein beim ersten Vorkommen von Gelb, egal ob als Wort oder als Farbe des Wortes.</div>
+                         <div>Andernfalls, drücke Ja bei jeder Farbe, bei der das Wort nicht mit der Farbe des Wortes übereinstimmt.</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="condition">Die Farbe des letzten Wortes in der Abfolge ist Blau:</div>
+                        <div>Falls die Farbe des Wortes bei drei oder mehr Einträgen nicht mit dem Wort selbst übereinstimmt, drücke Ja beim ersten Eintrag der Abfolge, bei dem die Farbe des Wortes nicht mit dem Wort selbst übereinstimmt.</div>
+                        <div>Falls das Wort Rot in Gelber Farbe gezeigt wird, oder das Wort Gelb in Weißer Farbe gezeigt wird, drücke Nein, wenn das Wort Weiß in Roter Farbe gezeigt wird.</div>
+                        <div>Andernfalls, drücke Ja beim letzten Vorkommen von Grün, egal ob als Word oder als Farbe des Wortes.</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="condition">Die Farbe des letzten Wortes in der Abfolge ist Magenta:</div>
+                        <div>Falls eine Farbe mehrfach direkt hintereinander mit verschiedenen Wörtern vorkommt, drücke Ja beim dritten Eintrag der Abfolge.</div>
+                        <div>Falls das Wort Gelb öfter vorkommt, als die Farbe Blau, drücke Nein beim letzten Eintrag der Abfolge, bei dem das Wort Gelb ist.</div>
+                        <div>Andernfalls, drücke Nein beim ersten Eintrag der Abfolge, bei dem die Farbe des Wortes nicht mit dem Wort selbst übereinstimmt.</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="condition">Die Farbe des letzten Wortes in der Abfolge ist Weiß:</div>
+                        <div>Falls die Farbe des dritten Wortes mit dem Wort des vierten Wortes oder des fünften Wortes übereinstimmt, drücke Nein beim ersten Vorkommen von Blau, egal ob als Wort oder als Farbe des Wortes.</div>
+                        <div>Falls das Wort Gelb in Rot gezeigt wird, drücke Ja beim letzten Eintrag, bei dem Blau als Farbe des Wortes verwendet wird.</div>
+                        <div>Andernfalls, drücke Nein.</div>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+        <div class="page-footer relative-footer">Seite 2 von 2</div>
+    </div>
+</div>
+
+
+<div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled" checked="checked">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="checked">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical" checked="checked">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div></body></html>

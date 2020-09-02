@@ -10,7 +10,10 @@ public class Translation : MonoBehaviour {
 	public string Iso639;
 	[Tooltip("Ticking this will swap the order of the Yes/No buttons. Used for right to left reading languages.")]
 	public bool SwapButtons = false;
+	[Space]
 	public int Version = 1;
+	public bool ManualAvailable = false;
+	
 	[Header("Font")]
 	[Tooltip("Leave null to use the standard font for the module.")]
 	public Font Font;
