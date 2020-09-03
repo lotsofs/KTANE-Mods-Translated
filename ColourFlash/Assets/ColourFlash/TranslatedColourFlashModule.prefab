@@ -1170,6 +1170,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1162116923529418
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4585055956572414}
+  - component: {fileID: 114951998558500938}
+  m_Layer: 0
+  m_Name: English
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1165753060113102
 GameObject:
   m_ObjectHideFlags: 1
@@ -1537,7 +1553,7 @@ GameObject:
   - component: {fileID: 4146587698211548}
   - component: {fileID: 114594678840914786}
   m_Layer: 0
-  m_Name: English
+  m_Name: Hungarian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1808,11 +1824,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1268808068875146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4042283015701792
 Transform:
@@ -1821,8 +1837,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1801522247757294}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 6
@@ -1834,11 +1850,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1581527870735434}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4116731872132264
 Transform:
@@ -1847,11 +1863,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1869866852744186}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4146587698211548
 Transform:
@@ -1859,12 +1875,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1680991847404576}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 9
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4160387021772134
 Transform:
@@ -1873,11 +1889,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1772678301363898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4174601602079698
 Transform:
@@ -1912,8 +1928,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239802091345592}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 14
@@ -1937,18 +1953,19 @@ Transform:
   - {fileID: 4042283015701792}
   - {fileID: 4984416272115890}
   - {fileID: 4551798593993254}
-  - {fileID: 4146587698211548}
+  - {fileID: 4585055956572414}
   - {fileID: 4953955889512780}
   - {fileID: 4675573804737682}
   - {fileID: 4491504165368064}
   - {fileID: 4623979120867704}
   - {fileID: 4252184896224776}
   - {fileID: 4739301646303594}
+  - {fileID: 4585587836803118}
   - {fileID: 4312246661992484}
   - {fileID: 4722156165455678}
   - {fileID: 4674825650612622}
   - {fileID: 4712433480733924}
-  - {fileID: 4585587836803118}
+  - {fileID: 4146587698211548}
   - {fileID: 4584504213559992}
   - {fileID: 4518182096230230}
   - {fileID: 4010885640268514}
@@ -1979,11 +1996,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1449387892301782}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4303766958945482
 Transform:
@@ -1992,11 +2009,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1712060797087152}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4312246661992484
 Transform:
@@ -2005,11 +2022,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1083848605831812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4405293455158856
 Transform:
@@ -2018,8 +2035,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1849597370925436}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 3
@@ -2031,11 +2048,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1995464965331036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4444961462847816
 Transform:
@@ -2044,11 +2061,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1380972333019260}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4449991608725400
 Transform:
@@ -2057,8 +2074,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1165753060113102}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 1
@@ -2070,11 +2087,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1128195969295604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4491504165368064
 Transform:
@@ -2083,8 +2100,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1988456539854714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 12
@@ -2096,11 +2113,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1587323090779476}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4527729219247168
 Transform:
@@ -2109,11 +2126,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1854236217149050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4551798593993254
 Transform:
@@ -2122,8 +2139,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1459424237948564}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 8
@@ -2135,11 +2152,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1612651854704178}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4584504213559992
 Transform:
@@ -2148,11 +2165,24 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1217610770285058}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 21
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4585055956572414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162116923529418}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4585587836803118
 Transform:
@@ -2161,11 +2191,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1751724350976146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 20
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4623979120867704
 Transform:
@@ -2174,8 +2204,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1348612229707556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 13
@@ -2187,11 +2217,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1564558817732832}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4675573804737682
 Transform:
@@ -2200,8 +2230,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1369685145145128}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 11
@@ -2213,11 +2243,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1139109529571760}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4702684201944682
 Transform:
@@ -2226,11 +2256,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1265224537293968}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4712433480733924
 Transform:
@@ -2239,11 +2269,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1754847257793338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4722156165455678
 Transform:
@@ -2252,11 +2282,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1266716464557280}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4739301646303594
 Transform:
@@ -2265,8 +2295,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1443161853369356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 15
@@ -2278,8 +2308,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1646687852906570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 4
@@ -2291,8 +2321,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1024225805641200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 0
@@ -2304,8 +2334,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1803900263082050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 5
@@ -2317,11 +2347,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1015576993086020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4884055311036794
 Transform:
@@ -2330,11 +2360,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1800214734246722}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4934874324271610
 Transform:
@@ -2343,11 +2373,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1746406836305762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4943242951756282
 Transform:
@@ -2356,8 +2386,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1144970062253266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 2
@@ -2384,8 +2414,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1806023434957730}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 10
@@ -2397,11 +2427,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1796448614117444}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4979890409011902
 Transform:
@@ -2410,11 +2440,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1384795334462304}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4984416272115890
 Transform:
@@ -2423,8 +2453,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1306425507803336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 7
@@ -2710,6 +2740,14 @@ MonoBehaviour:
   White: "\uD558\uC591"
   Yes: "\uC608"
   No: "\uC544\uB2C8"
+  LogRed: "\uBE68\uAC15"
+  LogYellow: "\uB178\uB791"
+  LogGreen: "\uB179\uC0C9"
+  LogBlue: "\uD30C\uB791"
+  LogMagenta: "\uB9C8\uC820\uD0C0"
+  LogWhite: "\uD558\uC591"
+  LogYes: "\uC608"
+  LogNo: "\uC544\uB2C8"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -2784,14 +2822,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Gorri
-  Yellow: Hori
-  Green: Berde
-  Blue: Urdin
-  Magenta: Magenta
-  White: Zuri
-  Yes: Bai
-  No: Ez
+  Red: GORRI
+  Yellow: HORI
+  Green: BERDE
+  Blue: URDIN
+  Magenta: MAGENTA
+  White: ZURI
+  Yes: BAI
+  No: EZ
+  LogRed: Gorri
+  LogYellow: Hori
+  LogGreen: Berde
+  LogBlue: Urdin
+  LogMagenta: Magenta
+  LogWhite: Zuri
+  LogYes: Bai
+  LogNo: Ez
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -2866,14 +2912,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Ruz
-  Yellow: Melen
-  Green: Gwer
-  Blue: Glas
-  Magenta: Magenta
-  White: Gwenn
-  Yes: Ya
-  No: Nann
+  Red: RUZ
+  Yellow: MELEN
+  Green: GWER
+  Blue: GLAS
+  Magenta: MAGENTA
+  White: GWENN
+  Yes: YA
+  No: NANN
+  LogRed: Ruz
+  LogYellow: Melen
+  LogGreen: Gwer
+  LogBlue: Glas
+  LogMagenta: Magenta
+  LogWhite: Gwenn
+  LogYes: Ya
+  LogNo: Nann
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -2948,14 +3002,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Rooi
-  Yellow: Geel
-  Green: Groen
-  Blue: Blou
-  Magenta: Magenta
-  White: Wit
-  Yes: Ja
-  No: Nee
+  Red: ROOI
+  Yellow: GEEL
+  Green: GROEN
+  Blue: BLOU
+  Magenta: MAGENTA
+  White: WIT
+  Yes: JA
+  No: NEE
+  LogRed: Rooi
+  LogYellow: Geel
+  LogGreen: Groen
+  LogBlue: Blou
+  LogMagenta: Magenta
+  LogWhite: Wit
+  LogYes: Ja
+  LogNo: Nee
   LogFileSequenceHeader: 'Module gegenereerd met de volgende woord-kleur reeks:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3030,14 +3092,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Vermelho
-  Yellow: Amarelo
-  Green: Verde
-  Blue: Azul
-  Magenta: Magenta
-  White: Branco
-  Yes: Sim
-  No: "N\xE3o"
+  Red: VERMELHO
+  Yellow: AMARELO
+  Green: VERDE
+  Blue: AZUL
+  Magenta: MAGENTA
+  White: BRANCO
+  Yes: SIM
+  No: "N\xC3O"
+  LogRed: Vermelho
+  LogYellow: Amarelo
+  LogGreen: Verde
+  LogBlue: Azul
+  LogMagenta: Magenta
+  LogWhite: Branco
+  LogYes: Sim
+  LogNo: "N\xE3o"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3112,14 +3182,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "\u010Cerven\xE1"
-  Yellow: "\u017Dlut\xE1"
-  Green: "Zelen\xE1"
-  Blue: "Modr\xE1"
-  Magenta: Magenta
-  White: "B\xEDl\xE1"
-  Yes: Ano
-  No: Ne
+  Red: "\u010CERVEN\xC1"
+  Yellow: "\u017DLUT\xC1"
+  Green: "ZELEN\xC1"
+  Blue: "MODR\xC1"
+  Magenta: MAGENTA
+  White: "B\xCDL\xC1"
+  Yes: ANO
+  No: NE
+  LogRed: "\u010Cerven\xE1"
+  LogYellow: "\u017Dlut\xE1"
+  LogGreen: "Zelen\xE1"
+  LogBlue: "Modr\xE1"
+  LogMagenta: Magenta
+  LogWhite: "B\xEDl\xE1"
+  LogYes: Ano
+  LogNo: Ne
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3194,14 +3272,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "\u0427\u0435\u0440\u0432\u043E\u043D\u0438\u0439"
-  Yellow: "\u0416\u043E\u0432\u0442\u0438\u0439"
-  Green: "\u0417\u0435\u043B\u0435\u043D\u0438\u0439"
-  Blue: "\u0421\u0438\u043D\u0456\u0439"
-  Magenta: "\u041C\u0430\u0434\u0436\u0435\u043D\u0442\u0430"
-  White: "\u0411\u0456\u043B\u0438\u0439"
-  Yes: "\u0422\u0430\u043A"
-  No: "\u041D\u0456"
+  Red: "\u0427\u0415\u0420\u0412\u041E\u041D\u0418\u0419"
+  Yellow: "\u0416\u041E\u0412\u0422\u0418\u0419"
+  Green: "\u0417\u0415\u041B\u0415\u041D\u0418\u0419"
+  Blue: "\u0421\u0418\u041D\u0406\u0419"
+  Magenta: "\u041C\u0410\u0414\u0416\u0415\u041D\u0422\u0410"
+  White: "\u0411\u0406\u041B\u0418\u0419"
+  Yes: "\u0422\u0410\u041A"
+  No: "\u041D\u0406"
+  LogRed: "\u0427\u0435\u0440\u0432\u043E\u043D\u0438\u0439"
+  LogYellow: "\u0416\u043E\u0432\u0442\u0438\u0439"
+  LogGreen: "\u0417\u0435\u043B\u0435\u043D\u0438\u0439"
+  LogBlue: "\u0421\u0438\u043D\u0456\u0439"
+  LogMagenta: "\u041C\u0430\u0434\u0436\u0435\u043D\u0442\u0430"
+  LogWhite: "\u0411\u0456\u043B\u0438\u0439"
+  LogYes: "\u0422\u0430\u043A"
+  LogNo: "\u041D\u0456"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3276,14 +3362,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Rosso
-  Yellow: Giallo
-  Green: Verde
-  Blue: Blu
-  Magenta: Magenta
-  White: Bianco
-  Yes: "S\xEC"
-  No: No
+  Red: ROSSO
+  Yellow: GIALLO
+  Green: VERDE
+  Blue: BLU
+  Magenta: MAGENTA
+  White: BIANCO
+  Yes: "S\xCC"
+  No: NO
+  LogRed: Rosso
+  LogYellow: Giallo
+  LogGreen: Verde
+  LogBlue: Blu
+  LogMagenta: Magenta
+  LogWhite: Bianco
+  LogYes: "S\xEC"
+  LogNo: No
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3358,14 +3452,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "R\xF6d"
-  Yellow: Gul
-  Green: "Gr\xF6n"
-  Blue: "Bl\xE5"
-  Magenta: Magenta
-  White: Vit
-  Yes: Ja
-  No: Nej
+  Red: "R\xD6D"
+  Yellow: GUL
+  Green: "GR\xD6N"
+  Blue: "BL\xC5"
+  Magenta: MAGENTA
+  White: VIT
+  Yes: JA
+  No: NEJ
+  LogRed: "R\xF6d"
+  LogYellow: Gul
+  LogGreen: "Gr\xF6n"
+  LogBlue: "Bl\xE5"
+  LogMagenta: Magenta
+  LogWhite: Vit
+  LogYes: Ja
+  LogNo: Nej
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3437,7 +3539,7 @@ MonoBehaviour:
   Iso639: de
   SwapButtons: 0
   Version: 1
-  ManualAvailable: 0
+  ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   Red: ROT
@@ -3448,6 +3550,14 @@ MonoBehaviour:
   White: WEISS
   Yes: JA
   No: NEIN
+  LogRed: Rot
+  LogYellow: Gelb
+  LogGreen: "Gr\xFCn"
+  LogBlue: Blau
+  LogMagenta: Magenta
+  LogWhite: "Wei\xDF"
+  LogYes: Ja
+  LogNo: Nein
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3514,12 +3624,9 @@ MonoBehaviour:
   m_Script: {fileID: -289456416, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: "{   \"UseAllLanguages\": true,   \"LanguagePool\": [ \t\"af\", \t\"be\",
-    \t\"bg\", \t\"bn\", \t\"br\", \t\"ca\", \t\"cs\", \t\"de\", \t\"el\", \t\"en\",
-    \t\"eo\", \t\"es\", \t\"eu\", \t\"fi\", \t\"fr\", \t\"fy\", \t\"gl\", \t\"he\",
-    \t\"hi\", \t\"hr\", \t\"ga\", \t\"it\", \t\"ja\", \t\"jv\", \t\"ko\", \t\"la\",
-    \t\"lb\", \t\"mk\", \t\"ml\", \t\"nl\", \t\"pl\", \t\"pt\", \t\"ro\", \t\"so\",
-    \t\"sv\", \t\"ru\", \t\"tl\", \t\"tr\", \t\"tt\", \t\"uk\", \t\"vi\"   ] }"
+  Settings: "{   \"UseAllLanguages\": false, \"UseLanguagesWithManualOnly\": true,
+    \ \"LanguagePool\": [\"mk\", \"ml\", \"nl\", \"pl\", \"pt\", \"ro\", \"so\",\t\"sv\",
+    \"ru\", \"tl\", \"tr\", \"tt\", \"uk\", \"vi\", \"nl\" ] }"
   SettingsPath: TranslatedModuleSettings
 --- !u!114 &114119088810403088
 MonoBehaviour:
@@ -3553,14 +3660,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Gaduud
-  Yellow: Jaale
-  Green: Cagaar
-  Blue: Baluug
-  Magenta: Basli
-  White: Cad
-  Yes: Haa
-  No: Maya
+  Red: GADUUD
+  Yellow: JAALE
+  Green: CAGAAR
+  Blue: BALUUG
+  Magenta: BASLI
+  White: CAD
+  Yes: HAA
+  No: MAYA
+  LogRed: Gaduud
+  LogYellow: Jaale
+  LogGreen: Cagaar
+  LogBlue: Baluug
+  LogMagenta: Basli
+  LogWhite: Cad
+  LogYes: Haa
+  LogNo: Maya
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3635,14 +3750,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "\u0426\u0440\u0432\u0435\u043D\u0430"
-  Yellow: "\u0416\u043E\u043B\u0442\u0430"
-  Green: "\u0417\u0435\u043B\u0435\u043D\u0430"
-  Blue: "\u0421\u0438\u043D\u0430"
-  Magenta: "\u041C\u0430\u0433\u0435\u043D\u0442\u0430"
-  White: "\u0411\u0435\u043B\u0430"
-  Yes: "\u0414\u0430"
-  No: "\u041D\u0435"
+  Red: "\u0426\u0420\u0412\u0415\u041D\u0410"
+  Yellow: "\u0416\u041E\u041B\u0422\u0410"
+  Green: "\u0417\u0415\u041B\u0415\u041D\u0410"
+  Blue: "\u0421\u0418\u041D\u0410"
+  Magenta: "\u041C\u0410\u0413\u0415\u041D\u0422\u0410"
+  White: "\u0411\u0415\u041B\u0410"
+  Yes: "\u0414\u0410"
+  No: "\u041D\u0415"
+  LogRed: "\u0426\u0440\u0432\u0435\u043D\u0430"
+  LogYellow: "\u0416\u043E\u043B\u0442\u0430"
+  LogGreen: "\u0417\u0435\u043B\u0435\u043D\u0430"
+  LogBlue: "\u0421\u0438\u043D\u0430"
+  LogMagenta: "\u041C\u0430\u0433\u0435\u043D\u0442\u0430"
+  LogWhite: "\u0411\u0435\u043B\u0430"
+  LogYes: "\u0414\u0430"
+  LogNo: "\u041D\u0435"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3725,6 +3848,14 @@ MonoBehaviour:
   White: "\u09B8\u09BE\u09A6\u09BE"
   Yes: "\u09B9\u09CD\u09AF\u09BE\u0981"
   No: "\u09A8\u09BE"
+  LogRed: "\u09B2\u09BE\u09B2"
+  LogYellow: "\u09B9\u09B2\u09C1\u09A6"
+  LogGreen: "\u09B8\u09AC\u09C1\u099C"
+  LogBlue: "\u09A8\u09C0\u09B2"
+  LogMagenta: "\u09AE\u09CD\u09AF\u09BE\u099C\u09C7\u09A8\u09CD\u099F\u09BE"
+  LogWhite: "\u09B8\u09BE\u09A6\u09BE"
+  LogYes: "\u09B9\u09CD\u09AF\u09BE\u0981"
+  LogNo: "\u09A8\u09BE"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3796,17 +3927,25 @@ MonoBehaviour:
   Iso639: nl
   SwapButtons: 0
   Version: 1
-  ManualAvailable: 0
+  ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Rood
-  Yellow: Geel
-  Green: Groen
-  Blue: Blauw
-  Magenta: Magenta
-  White: Wit
-  Yes: Ja
-  No: Nee
+  Red: ROOD
+  Yellow: GEEL
+  Green: GROEN
+  Blue: BLAUW
+  Magenta: MAGENTA
+  White: WIT
+  Yes: JA
+  No: NEE
+  LogRed: Rood
+  LogYellow: Geel
+  LogGreen: Groen
+  LogBlue: Blauw
+  LogMagenta: Magenta
+  LogWhite: Wit
+  LogYes: Ja
+  LogNo: Nee
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3889,6 +4028,14 @@ MonoBehaviour:
   White: "\u039B\u0395\u03A5\u039A\u039F"
   Yes: "\u039D\u0391\u0399"
   No: "\u039F\u03A7\u0399"
+  LogRed: "\u039A\u03CC\u03BA\u03BA\u03B9\u03BD\u03BF"
+  LogYellow: "\u03BA\u03AF\u03C4\u03C1\u03B9\u03BD\u03BF"
+  LogGreen: "\u03A0\u03C1\u03AC\u03C3\u03B9\u03BD\u03BF"
+  LogBlue: "\u03BC\u03C0\u03BB\u03B5"
+  LogMagenta: "\u039C\u03B1\u03C4\u03B6\u03AD\u03BD\u03C4\u03B1"
+  LogWhite: "\u039B\u03B5\u03C5\u03BA\u03CC"
+  LogYes: "\u039D\u03B1\u03B9"
+  LogNo: "\u038C\u03C7\u03B9"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -3963,14 +4110,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "Ro\u0219u"
-  Yellow: Galben
-  Green: Verde
-  Blue: Albastru
-  Magenta: Magenta
-  White: Alb
-  Yes: Da
-  No: Nu
+  Red: "RO\u0219U"
+  Yellow: GALBEN
+  Green: VERDE
+  Blue: ALBASTRU
+  Magenta: MAGENTA
+  White: ALB
+  Yes: DA
+  No: NU
+  LogRed: "Ro\u0219u"
+  LogYellow: Galben
+  LogGreen: Verde
+  LogBlue: Albastru
+  LogMagenta: Magenta
+  LogWhite: Alb
+  LogYes: Da
+  LogNo: Nu
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4058,14 +4213,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Read
-  Yellow: Giel
-  Green: Grien
-  Blue: Blau
-  Magenta: Maginta
-  White: Wyt
-  Yes: Ja
-  No: Nee
+  Red: READ
+  Yellow: GIEL
+  Green: GRIEN
+  Blue: BLAU
+  Magenta: MAGINTA
+  White: WYT
+  Yes: JA
+  No: NEE
+  LogRed: Read
+  LogYellow: Giel
+  LogGreen: Grien
+  LogBlue: Blau
+  LogMagenta: Maginta
+  LogWhite: Wyt
+  LogYes: Ja
+  LogNo: Nee
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4140,14 +4303,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Roig
-  Yellow: Groc
-  Green: Verd
-  Blue: Blau
-  Magenta: Magenta
-  White: Blanc
-  Yes: "S\xED"
-  No: No
+  Red: ROIG
+  Yellow: GROC
+  Green: VERD
+  Blue: BLAU
+  Magenta: MAGENTA
+  White: BLANC
+  Yes: "S\xCD"
+  No: NO
+  LogRed: Roig
+  LogYellow: Groc
+  LogGreen: Verd
+  LogBlue: Blau
+  LogMagenta: Magenta
+  LogWhite: Blanc
+  LogYes: "S\xED"
+  LogNo: No
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4222,14 +4393,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Pula
-  Yellow: Dilaw
-  Green: Lunti
-  Blue: Bughaw
-  Magenta: Mahenta
-  White: Puti
-  Yes: Oo
-  No: Hindi
+  Red: PULA
+  Yellow: DILAW
+  Green: LUNTI
+  Blue: BUGHAW
+  Magenta: MAHENTA
+  White: PUTI
+  Yes: OO
+  No: HINDI
+  LogRed: Pula
+  LogYellow: Dilaw
+  LogGreen: Lunti
+  LogBlue: Bughaw
+  LogMagenta: Mahenta
+  LogWhite: Puti
+  LogYes: Oo
+  LogNo: Hindi
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4304,14 +4483,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "\u0427\u044B\u0440\u0432\u043E\u043D\u044B"
-  Yellow: "\u0416\u043E\u045E\u0442\u044B"
-  Green: "\u0417\u044F\u043B\u0451\u043D\u044B"
-  Blue: "\u0421\u0456\u043D\u0456"
-  Magenta: "\u041C\u0430\u0434\u0436\u044D\u043D\u0442\u0430"
-  White: "\u0411\u0435\u043B\u044B"
-  Yes: "\u0422\u0430\u043A"
-  No: "\u041D\u0435"
+  Red: "\u0427\u042B\u0420\u0412\u041E\u041D\u042B"
+  Yellow: "\u0416\u041E\u040E\u0422\u042B"
+  Green: "\u0417\u042F\u041B\u0401\u041D\u042B"
+  Blue: "\u0421\u0406\u041D\u0406"
+  Magenta: "\u041C\u0410\u0414\u0416\u042D\u041D\u0422\u0410"
+  White: "\u0411\u0415\u041B\u042B"
+  Yes: "\u0422\u0410\u041A"
+  No: "\u041D\u0415"
+  LogRed: "\u0427\u044B\u0440\u0432\u043E\u043D\u044B"
+  LogYellow: "\u0416\u043E\u045E\u0442\u044B"
+  LogGreen: "\u0417\u044F\u043B\u0451\u043D\u044B"
+  LogBlue: "\u0421\u0456\u043D\u0456"
+  LogMagenta: "\u041C\u0430\u0434\u0436\u044D\u043D\u0442\u0430"
+  LogWhite: "\u0411\u0435\u043B\u044B"
+  LogYes: "\u0422\u0430\u043A"
+  LogNo: "\u041D\u0435"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4394,6 +4581,14 @@ MonoBehaviour:
   White: "\u0D35\u0D46\u0D33\u0D41\u0D2A\u0D4D\u0D2A\u0D4D"
   Yes: "\u0D05\u0D24\u0D46"
   No: "\u0D07\u0D32\u0D4D\u0D32"
+  LogRed: "\u0D1A\u0D41\u0D35\u0D2A\u0D4D\u0D2A\u0D4D"
+  LogYellow: "\u0D2E\u0D1E\u0D4D\u0D1E"
+  LogGreen: "\u0D2A\u0D1A\u0D4D\u0D1A"
+  LogBlue: "\u0D28\u0D40\u0D32"
+  LogMagenta: "\u0D2E\u0D1C\u0D28\u0D4D\u0D24"
+  LogWhite: "\u0D35\u0D46\u0D33\u0D41\u0D2A\u0D4D\u0D2A\u0D4D"
+  LogYes: "\u0D05\u0D24\u0D46"
+  LogNo: "\u0D07\u0D32\u0D4D\u0D32"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4476,6 +4671,14 @@ MonoBehaviour:
   White: "\u05DF\u05D1\u05DC"
   Yes: "\u05DF\u05DB"
   No: "\u05D0\u05DC"
+  LogRed: "\u05DD\u05D5\u05D3\u05D0"
+  LogYellow: "\u05D1\u05D5\u05D4\u05E6"
+  LogGreen: "\u05E7\u05D5\u05E8\u05D9"
+  LogBlue: "\u05DC\u05D5\u05D7\u05DB"
+  LogMagenta: "\u05D4\u05D8\u05E0'\u05D2\u05DE"
+  LogWhite: "\u05DF\u05D1\u05DC"
+  LogYes: "\u05DF\u05DB"
+  LogNo: "\u05D0\u05DC"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4550,14 +4753,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 12800000, guid: cc41c8f6a15493b4291910060d02135e, type: 3}
   FontMaterial: {fileID: 2100000, guid: 7d61d24ee5f243346afdf65914357efc, type: 2}
-  Red: "\u0110\u1ECF"
-  Yellow: "V\xE0ng"
-  Green: "Xanh l\xE1 c\xE2y"
-  Blue: "Xanh d\u01B0\u01A1ng"
-  Magenta: Magenta
-  White: "Tr\u1EAFng"
-  Yes: "\u0110\xFAng"
-  No: "Kh\xF4ng"
+  Red: "\u0110\u1ECE"
+  Yellow: "V\xC0NG"
+  Green: "XANH L\xC1 C\xC2Y"
+  Blue: "XANH D\u01AF\u01A0NG"
+  Magenta: MAGENTA
+  White: "TR\u1EAENG"
+  Yes: "\u0110\xDANG"
+  No: "KH\xD4NG"
+  LogRed: "\u0110\u1ECF"
+  LogYellow: "V\xE0ng"
+  LogGreen: "Xanh l\xE1 c\xE2y"
+  LogBlue: "Xanh d\u01B0\u01A1ng"
+  LogMagenta: Magenta
+  LogWhite: "Tr\u1EAFng"
+  LogYes: "\u0110\xFAng"
+  LogNo: "Kh\xF4ng"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4632,14 +4843,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "\u041A\u044B\u0437\u044B\u043B"
-  Yellow: "\u0421\u0430\u0440\u044B"
-  Green: "\u042F\u0448\u0435\u043B"
-  Blue: "\u0417\u04D9\u04A3\u0433\u04D9\u0440"
-  Magenta: "\u041C\u0430\u0497\u0435\u043D\u0442\u0430"
-  White: "\u0410\u043A"
-  Yes: "\u04D8\u0439\u0435"
-  No: "\u042E\u043A"
+  Red: "\u041A\u042B\u0417\u042B\u041B"
+  Yellow: "\u0421\u0410\u0420\u042B"
+  Green: "\u042F\u0428\u0415\u041B"
+  Blue: "\u0417\u04D8\u04A2\u0413\u04D8\u0420"
+  Magenta: "\u041C\u0410\u0496\u0415\u041D\u0422\u0410"
+  White: "\u0410\u041A"
+  Yes: "\u04D8\u0419\u0415"
+  No: "\u042E\u041A"
+  LogRed: "\u041A\u044B\u0437\u044B\u043B"
+  LogYellow: "\u0421\u0430\u0440\u044B"
+  LogGreen: "\u042F\u0448\u0435\u043B"
+  LogBlue: "\u0417\u04D9\u04A3\u0433\u04D9\u0440"
+  LogMagenta: "\u041C\u0430\u0497\u0435\u043D\u0442\u0430"
+  LogWhite: "\u0410\u043A"
+  LogYes: "\u04D8\u0439\u0435"
+  LogNo: "\u042E\u043A"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4714,14 +4933,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Abang
-  Yellow: Kuning
-  Green: Ijo
-  Blue: Biru
-  Magenta: Magenta
-  White: Putih
-  Yes: Yo
-  No: Ora
+  Red: ABANG
+  Yellow: KUNING
+  Green: IJO
+  Blue: BIRU
+  Magenta: MAGENTA
+  White: PUTIH
+  Yes: YO
+  No: ORA
+  LogRed: Abang
+  LogYellow: Kuning
+  LogGreen: Ijo
+  LogBlue: Biru
+  LogMagenta: Magenta
+  LogWhite: Putih
+  LogYes: Yo
+  LogNo: Ora
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4804,6 +5031,14 @@ MonoBehaviour:
   White: "\u0936\u094D\u0935\u0947\u0924"
   Yes: "\u0939\u093E\u0901"
   No: "\u0928\u0939\u0940\u0902"
+  LogRed: "\u0932\u093E\u0932"
+  LogYellow: "\u092A\u0940\u0932\u093E"
+  LogGreen: "\u0939\u0930\u093E"
+  LogBlue: "\u0928\u0940\u0932\u093E"
+  LogMagenta: "\u0930\u093E\u0928\u0940"
+  LogWhite: "\u0936\u094D\u0935\u0947\u0924"
+  LogYes: "\u0939\u093E\u0901"
+  LogNo: "\u0928\u0939\u0940\u0902"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4878,14 +5113,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "Ru\u011Da"
-  Yellow: Flava
-  Green: Verdo
-  Blue: Blua
-  Magenta: "Ma\u011Denta"
-  White: Blanko
-  Yes: Jes
-  No: Ne
+  Red: "RU\u011CA"
+  Yellow: FLAVA
+  Green: VERDO
+  Blue: BLUA
+  Magenta: "MA\u011CENTA"
+  White: BLANKO
+  Yes: JES
+  No: NE
+  LogRed: "Ru\u011Da"
+  LogYellow: Flava
+  LogGreen: Verdo
+  LogBlue: Blua
+  LogMagenta: "Ma\u011Denta"
+  LogWhite: Blanko
+  LogYes: Jes
+  LogNo: Ne
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -4960,14 +5203,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Czerwona
-  Yellow: "\u017B\xF3\u0142ta"
-  Green: Zielona
-  Blue: Niebieska
-  Magenta: Magenta
-  White: "Bia\u0142a"
-  Yes: Tak
-  No: Nie
+  Red: CZERWONA
+  Yellow: "\u017B\xD3\u0141TA"
+  Green: ZIELONA
+  Blue: NIEBIESKA
+  Magenta: MAGENTA
+  White: "BIA\u0141A"
+  Yes: TAK
+  No: NIE
+  LogRed: Czerwona
+  LogYellow: "\u017B\xF3\u0142ta"
+  LogGreen: Zielona
+  LogBlue: Niebieska
+  LogMagenta: Magenta
+  LogWhite: "Bia\u0142a"
+  LogYes: Tak
+  LogNo: Nie
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5034,22 +5285,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: English
-  NativeName: English
-  Iso639: en
+  Name: Hungarian
+  NativeName: Magyarul
+  Iso639: hu
   SwapButtons: 0
   Version: 1
-  ManualAvailable: 1
+  ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Red
-  Yellow: Yellow
-  Green: Green
-  Blue: Blue
-  Magenta: Magenta
-  White: White
-  Yes: Yes
-  No: No
+  Red: PIROS
+  Yellow: "S\xC1RGA"
+  Green: "Z\xD6LD"
+  Blue: "K\xC9K"
+  Magenta: MAGENTA
+  White: "FEH\xC9R"
+  Yes: IGEN
+  No: NEM
+  LogRed: Piros
+  LogYellow: "S\xE1rga"
+  LogGreen: "Z\xF6ld"
+  LogBlue: "K\xE9k"
+  LogMagenta: Magenta
+  LogWhite: "Feh\xE9r"
+  LogYes: Igen
+  LogNo: Nem
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5124,14 +5383,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Rouge
-  Yellow: Jaune
-  Green: Vert
-  Blue: Bleu
-  Magenta: Magenta
-  White: Blanc
-  Yes: Oui
-  No: Non
+  Red: ROUGE
+  Yellow: JAUNE
+  Green: VERT
+  Blue: BLEU
+  Magenta: MAGENTA
+  White: BLANC
+  Yes: OUI
+  No: NON
+  LogRed: Rouge
+  LogYellow: Jaune
+  LogGreen: Vert
+  LogBlue: Bleu
+  LogMagenta: Magenta
+  LogWhite: Blanc
+  LogYes: Oui
+  LogNo: Non
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5225,14 +5492,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "\u0427\u0435\u0440\u0432\u0435\u043D"
-  Yellow: "\u0416\u044A\u043B\u0442"
-  Green: "\u0417\u0435\u043B\u0435\u043D"
-  Blue: "\u0421\u0438\u043D"
-  Magenta: "\u041C\u0430\u0434\u0436\u0435\u043D\u0442\u0430"
-  White: "\u0411\u044F\u043B"
-  Yes: "\u0414\u0430"
-  No: "\u041D\u0435"
+  Red: "\u0427\u0415\u0420\u0412\u0415\u041D"
+  Yellow: "\u0416\u042A\u041B\u0422"
+  Green: "\u0417\u0415\u041B\u0415\u041D"
+  Blue: "\u0421\u0418\u041D"
+  Magenta: "\u041C\u0410\u0414\u0416\u0415\u041D\u0422\u0410"
+  White: "\u0411\u042F\u041B"
+  Yes: "\u0414\u0410"
+  No: "\u041D\u0415"
+  LogRed: "\u0427\u0435\u0440\u0432\u0435\u043D"
+  LogYellow: "\u0416\u044A\u043B\u0442"
+  LogGreen: "\u0417\u0435\u043B\u0435\u043D"
+  LogBlue: "\u0421\u0438\u043D"
+  LogMagenta: "\u041C\u0430\u0434\u0436\u0435\u043D\u0442\u0430"
+  LogWhite: "\u0411\u044F\u043B"
+  LogYes: "\u0414\u0430"
+  LogNo: "\u041D\u0435"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5324,14 +5599,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Rout
-  Yellow: Giel
-  Green: "Gr\xE9ng"
-  Blue: Blo
-  Magenta: Magenta
-  White: "W\xE4iss"
-  Yes: Jo
-  No: Nee
+  Red: ROUT
+  Yellow: GIEL
+  Green: "GR\xC9NG"
+  Blue: BLO
+  Magenta: MAGENTA
+  White: "W\xC4ISS"
+  Yes: JO
+  No: NEE
+  LogRed: Rout
+  LogYellow: Giel
+  LogGreen: "Gr\xE9ng"
+  LogBlue: Blo
+  LogMagenta: Magenta
+  LogWhite: "W\xE4iss"
+  LogYes: Jo
+  LogNo: Nee
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5406,14 +5689,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Vermello
-  Yellow: Amarelo
-  Green: Verde
-  Blue: Azul
-  Magenta: Maxenta
-  White: Branco
-  Yes: Si
-  No: Non
+  Red: VERMELLO
+  Yellow: AMARELO
+  Green: VERDE
+  Blue: AZUL
+  Magenta: MAXENTA
+  White: BRANCO
+  Yes: SI
+  No: NON
+  LogRed: Vermello
+  LogYellow: Amarelo
+  LogGreen: Verde
+  LogBlue: Azul
+  LogMagenta: Maxenta
+  LogWhite: Branco
+  LogYes: Si
+  LogNo: Non
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5488,14 +5779,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439"
-  Yellow: "\u0416\u0451\u043B\u0442\u044B\u0439"
-  Green: "\u0417\u0435\u043B\u0451\u043D\u044B\u0439"
-  Blue: "\u0421\u0438\u043D\u0438\u0439"
-  Magenta: "\u041C\u0430\u0434\u0436\u0435\u043D\u0442\u0430"
-  White: "\u0411\u0435\u043B\u044B\u0439"
-  Yes: "\u0414\u0430"
-  No: "\u041D\u0435\u0442"
+  Red: "\u041A\u0420\u0410\u0421\u041D\u042B\u0419"
+  Yellow: "\u0416\u0401\u041B\u0422\u042B\u0419"
+  Green: "\u0417\u0415\u041B\u0401\u041D\u042B\u0419"
+  Blue: "\u0421\u0418\u041D\u0418\u0419"
+  Magenta: "\u041C\u0410\u0414\u0416\u0415\u041D\u0422\u0410"
+  White: "\u0411\u0415\u041B\u042B\u0419"
+  Yes: "\u0414\u0410"
+  No: "\u041D\u0415\u0422"
+  LogRed: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439"
+  LogYellow: "\u0416\u0451\u043B\u0442\u044B\u0439"
+  LogGreen: "\u0417\u0435\u043B\u0451\u043D\u044B\u0439"
+  LogBlue: "\u0421\u0438\u043D\u0438\u0439"
+  LogMagenta: "\u041C\u0430\u0434\u0436\u0435\u043D\u0442\u0430"
+  LogWhite: "\u0411\u0435\u043B\u044B\u0439"
+  LogYes: "\u0414\u0430"
+  LogNo: "\u041D\u0435\u0442"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5570,14 +5869,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Rojo
-  Yellow: Amarillo
-  Green: Verde
-  Blue: Azul
-  Magenta: Magenta
-  White: Blanco
-  Yes: Si
-  No: No
+  Red: ROJO
+  Yellow: AMARILLO
+  Green: VERDE
+  Blue: AZUL
+  Magenta: MAGENTA
+  White: BLANCO
+  Yes: SI
+  No: NO
+  LogRed: Rojo
+  LogYellow: Amarillo
+  LogGreen: Verde
+  LogBlue: Azul
+  LogMagenta: Magenta
+  LogWhite: Blanco
+  LogYes: Si
+  LogNo: No
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5652,14 +5959,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Ruber
-  Yellow: Flavus
-  Green: Viridis
-  Blue: Caeruleus
-  Magenta: Rubropurpureus
-  White: Albus
-  Yes: Ita
-  No: Immo
+  Red: RUBER
+  Yellow: FLAVUS
+  Green: VIRIDIS
+  Blue: CAERULEUS
+  Magenta: RUBROPURPUREUS
+  White: ALBUS
+  Yes: ITA
+  No: IMMO
+  LogRed: Ruber
+  LogYellow: Flavus
+  LogGreen: Viridis
+  LogBlue: Caeruleus
+  LogMagenta: Rubropurpureus
+  LogWhite: Albus
+  LogYes: Ita
+  LogNo: Immo
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5734,14 +6049,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Dearg
-  Yellow: "Bu\xED"
-  Green: Glas
-  Blue: Gorm
-  Magenta: Maigeanta
-  White: "B\xE1n"
-  Yes: "T\xE1"
-  No: "N\xEDl"
+  Red: DEARG
+  Yellow: "BU\xCD"
+  Green: GLAS
+  Blue: GORM
+  Magenta: MAIGEANTA
+  White: "B\xC1N"
+  Yes: "T\xC1"
+  No: "N\xCDL"
+  LogRed: Dearg
+  LogYellow: "Bu\xED"
+  LogGreen: Glas
+  LogBlue: Gorm
+  LogMagenta: Maigeanta
+  LogWhite: "B\xE1n"
+  LogYes: "T\xE1"
+  LogNo: "N\xEDl"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5824,6 +6147,14 @@ MonoBehaviour:
   White: BEYAZ
   Yes: EVET
   No: HAYIR
+  LogRed: "K\u0131rm\u0131z\u0131"
+  LogYellow: Sari
+  LogGreen: "Ye\u015Fil"
+  LogBlue: Mavi
+  LogMagenta: Galibarda
+  LogWhite: Beyaz
+  LogYes: Evet
+  LogNo: "Hay\u0131r"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5911,14 +6242,112 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Punainen
-  Yellow: Keltainen
-  Green: "Vihre\xE4"
-  Blue: Sininen
-  Magenta: Magenta
-  White: Valkoinen
-  Yes: Joo
-  No: Ei
+  Red: PUNAINEN
+  Yellow: KELTAINEN
+  Green: "VIHRE\xC4"
+  Blue: SININEN
+  Magenta: MAGENTA
+  White: VALKOINEN
+  Yes: JOO
+  No: EI
+  LogRed: Punainen
+  LogYellow: Keltainen
+  LogGreen: "Vihre\xE4"
+  LogBlue: Sininen
+  LogMagenta: Magenta
+  LogWhite: Valkoinen
+  LogYes: Joo
+  LogNo: Ei
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114951998558500938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162116923529418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: English
+  NativeName: English
+  Iso639: en
+  SwapButtons: 0
+  Version: 1
+  ManualAvailable: 1
+  Font: {fileID: 0}
+  FontMaterial: {fileID: 0}
+  Red: RED
+  Yellow: YELLOW
+  Green: GREEN
+  Blue: BLUE
+  Magenta: MAGENTA
+  White: WHITE
+  Yes: YES
+  No: NO
+  LogRed: Red
+  LogYellow: Yellow
+  LogGreen: Green
+  LogBlue: Blue
+  LogMagenta: Magenta
+  LogWhite: White
+  LogYes: Yes
+  LogNo: No
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -5993,14 +6422,22 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
-  Red: Crvena
-  Yellow: "\u017Duta"
-  Green: Zelena
-  Blue: Plava
-  Magenta: Magenta
-  White: Bijela
-  Yes: Da
-  No: Ne
+  Red: CRVENA
+  Yellow: "\u017DUTA"
+  Green: ZELENA
+  Blue: PLAVA
+  Magenta: MAGENTA
+  White: BIJELA
+  Yes: DA
+  No: NE
+  LogRed: Crvena
+  LogYellow: "\u017Duta"
+  LogGreen: Zelena
+  LogBlue: Plava
+  LogMagenta: Magenta
+  LogWhite: Bijela
+  LogYes: Da
+  LogNo: Ne
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color
@@ -6083,6 +6520,14 @@ MonoBehaviour:
   White: "\u767D"
   Yes: "\u306F\u3044"
   No: "\u756A\u53F7"
+  LogRed: "\u8D64"
+  LogYellow: "\u9EC4\u8272"
+  LogGreen: "\u7DD1"
+  LogBlue: "\u9752"
+  LogMagenta: "\u30DE\u30BC\u30F3\u30BF"
+  LogWhite: "\u767D"
+  LogYes: "\u306F\u3044"
+  LogNo: "\u756A\u53F7"
   LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
   LogFileWord: Word
   LogFileColor: Color

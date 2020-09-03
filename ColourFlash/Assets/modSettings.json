@@ -1,8 +1,9 @@
 {
-	// If UseAllLanguages is set to true, the module will pick any language available. Otherwise, it will pick any language provided in LanguagePool.
-	// If you want to play with specific languages only, set UseAllLanguages to false and remove all other language codes from the list below.
-	// See the steam workshop entry for more information.
+	// If you want to play with (a) specific language(s) only, set UseAllLanguages to false and remove all other language codes from the LanguagePool list.
+	// If UseAllLanguages is set to true, the module will ignore the LanguagePool list and instead pick any language.
+	// Set LanguagesWithManualOnly to true if you only want the module to select languages that have a dedicated manual in that language.
 	"UseAllLanguages": true,
+	"UseLanguagesWithManualOnly": false,
 	"LanguagePool": [
 		"af",
 		"be",

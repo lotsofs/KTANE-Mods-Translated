@@ -22,17 +22,28 @@ public class Translation : MonoBehaviour {
 
 	[Space]
 	[Header("Module Display")]
-	public string Red = "Red";
-	public string Yellow = "Yellow";
-	public string Green = "Green";
-	public string Blue = "Blue";
-	public string Magenta = "Magenta";
-	public string White = "White";
-	public string Yes = "Yes";
-	public string No = "No";
+	public string Red = "RED";
+	public string Yellow = "YELLOW";
+	public string Green = "GREEN";
+	public string Blue = "BLUE";
+	public string Magenta = "MAGENTA";
+	public string White = "WHITE";
+	public string Yes = "YES";
+	public string No = "NO";
 
 	[Space]
-	[Header("Log File")]
+	[Header("Log File Labels")]
+	public string LogRed = "Red";
+	public string LogYellow = "Yellow";
+	public string LogGreen = "Green";
+	public string LogBlue = "Blue";
+	public string LogMagenta = "Magenta";
+	public string LogWhite = "White";
+	public string LogYes = "Yes";
+	public string LogNo = "No";
+
+	[Space]
+	[Header("Log File Ruling")]
 	public string LogFileSequenceHeader = "Module generated with the following word-color sequence:";
 	public string LogFileWord = "Word";
 	public string LogFileColor = "Color";
@@ -69,22 +80,36 @@ public class Translation : MonoBehaviour {
 
 
 
-	private Dictionary<string,string> _dictionary;
-
+	private Dictionary<string,string> _displayLabels;
+	private Dictionary<string,string> _logLabels;
 
 	public void Choose() {
-		_dictionary = new Dictionary<string, string>();
-		_dictionary.Add("Red", Red);
-		_dictionary.Add("Yellow", Yellow);
-		_dictionary.Add("Green", Green);
-		_dictionary.Add("Blue", Blue);
-		_dictionary.Add("Magenta", Magenta);
-		_dictionary.Add("White", White);
-		_dictionary.Add("Yes", Yes);
-		_dictionary.Add("No", No);
+		_displayLabels = new Dictionary<string, string>();
+		_displayLabels.Add("Red", Red);
+		_displayLabels.Add("Yellow", Yellow);
+		_displayLabels.Add("Green", Green);
+		_displayLabels.Add("Blue", Blue);
+		_displayLabels.Add("Magenta", Magenta);
+		_displayLabels.Add("White", White);
+		_displayLabels.Add("Yes", Yes);
+		_displayLabels.Add("No", No);
+
+		_logLabels = new Dictionary<string, string>();
+		_logLabels.Add("Red", LogRed);
+		_logLabels.Add("Yellow", LogYellow);
+		_logLabels.Add("Green", LogGreen);
+		_logLabels.Add("Blue", LogBlue);
+		_logLabels.Add("Magenta", LogMagenta);
+		_logLabels.Add("White", LogWhite);
+		_logLabels.Add("Yes", LogYes);
+		_logLabels.Add("No", LogNo);
 	}
 
-	public string GetFromEnglishName(string str) {
-		return _dictionary[str];
+	public string GetDisplayFromEnglishName(string str) {
+		return _displayLabels[str];
+	}
+
+	public string GetLogFromEnglishName(string str) {
+		return _logLabels[str];
 	}
 }

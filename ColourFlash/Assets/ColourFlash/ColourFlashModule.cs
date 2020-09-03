@@ -180,8 +180,8 @@ public class ColourFlashModule : MonoBehaviour {
 
             logString.AppendFormat("{0}: {4} {1,-15} , {5} {2,-15} : {6} {3}\n",
                 colourSequenceIndex + 1,
-                Translation.Language.GetFromEnglishName(pair.ColourText.ToString()),
-                Translation.Language.GetFromEnglishName(pair.ColourValue.ToString()),
+                Translation.Language.GetLogFromEnglishName(pair.ColourText.ToString()),
+                Translation.Language.GetLogFromEnglishName(pair.ColourValue.ToString()),
                 response,
                 Translation.Language.LogFileWord,
                 Translation.Language.LogFileColor,
@@ -266,7 +266,7 @@ public class ColourFlashModule : MonoBehaviour {
         while (true) {
             for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
                 _currentColourSequenceIndex = colourSequenceIndex;
-                Indicator.text = Translation.Language.GetFromEnglishName(_colourSequence[colourSequenceIndex].Text).ToUpperInvariant();
+                Indicator.text = Translation.Language.GetDisplayFromEnglishName(_colourSequence[colourSequenceIndex].Text);
                 Indicator.color = _colourSequence[colourSequenceIndex].DisplayColour;
                 Indicator.fontSize = 60;
                 float width = GetTextMeshWidth(Indicator, Indicator.fontSize);
@@ -647,7 +647,8 @@ public class ColourFlashModule : MonoBehaviour {
 
     #region Twitch Plays
 
-    public string TwitchHelpMessage = "I changed this a hundred times now and it still shows the message I wrote half a week ago. If you're reading this, please tell me so I know something magically fixed itself.";
+    public string TwitchHelpMessage = "NativeLanguageName, EnglishLanguageName - Submit the correct response with !{0} press NativeYes 3, or !{0} press NativeNo 5.";
+
 
     public IEnumerator ProcessTwitchCommand(string command)
     {

@@ -33,33 +33,48 @@ public class TranslatedModule : MonoBehaviour {
 
 	public void SelectLanguage() {
 		_settings = JsonConvert.DeserializeObject<TranslationSettings>(KMSettings.Settings);
+		KMModule.LogFormat("Selecting Language:");
 
-		if (_settings.UseAllLanguages) {
-			int index = UnityEngine.Random.Range(0, _languagesHolder.transform.childCount);
-			Language = _languagesHolder.transform.GetChild(index).GetComponent<Translation>();
+		string includedSelection = "Languages available for selection: ";
+		string excludedNotInPool = "Languages ignored because the configuration file does not include them: ";
+		string excludedNoManual = "Languages ignored because the configuration file dictates modules with manuals only: ";
+		Translation transl;
+		List<Translation> availableTranslations = new List<Translation>();
+		for (int i = _languagesHolder.transform.childCount - 1; i >= 0; i--) {
+			transl = _languagesHolder.transform.GetChild(i).GetComponent<Translation>();
+			if (!_settings.UseAllLanguages && !_settings.LanguagePool.Contains(transl.Iso639)) {
+				// if using the language pool and it does not contain this language
+				excludedNotInPool += string.Format("{0}, ", transl.Iso639);
+				continue;
+			}
+			if (_settings.UseLanguagesWithManualOnly && !transl.ManualAvailable) {
+				// if a language has no manual but we want languages with a manual only, skip it
+				excludedNoManual += string.Format("{0}, ", transl.Iso639);
+				continue;
+			}
+			includedSelection += string.Format("{0}, ", transl.Iso639);
+			availableTranslations.Add(transl);
+		}
+		KMModule.Log(excludedNotInPool);
+		KMModule.Log(excludedNoManual);
+		KMModule.Log(includedSelection);
+
+		if (availableTranslations.Count == 0) {
+			KMModule.Log("There were no languages available to be chosen for this module in accordance with the configuration file.");
+			Language = _languagesHolder.transform.Find("English").GetComponent<Translation>();
 		}
 		else {
-			Translation transl;
-			List<Translation> availableTranslations = new List<Translation>();
-			for (int i = _languagesHolder.transform.childCount - 1; i >= 0; i--) {
-				transl = _languagesHolder.transform.GetChild(i).GetComponent<Translation>();
-				if (_settings.LanguagePool.Contains(transl.Iso639)) {
-					availableTranslations.Add(transl);
-				}
-			}
-			if (availableTranslations.Count == 0) {
-				KMModule.LogFormat("None of the languages specified in the configuration file exist for this module. Provided languages: {0}.", string.Join(", ", _settings.LanguagePool));
-				Language = _languagesHolder.transform.Find("English").GetComponent<Translation>();
-			}
-			else {
-				int index = UnityEngine.Random.Range(0, availableTranslations.Count);
-				Language = availableTranslations[index];
-			}
+			int index = UnityEngine.Random.Range(0, availableTranslations.Count);
+			Language = availableTranslations[index];
 		}
 
+		// debug
 		if (Override != null) { 
+			KMModule.LogFormat("DEBUG: Language overridden to {0}.", Override.Iso639);
 			Language = Override;
 		}
+
+		// finalize selection
 		Language.Choose();
 		KMModule.LogFormat("Selected Language: {0}, {1} ({2})\n", Language.NativeName, Language.Name, Language.Iso639);
 
