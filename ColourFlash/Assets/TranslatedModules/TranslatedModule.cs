@@ -42,6 +42,10 @@ public class TranslatedModule : MonoBehaviour {
 		List<Translation> availableTranslations = new List<Translation>();
 		for (int i = _languagesHolder.transform.childCount - 1; i >= 0; i--) {
 			transl = _languagesHolder.transform.GetChild(i).GetComponent<Translation>();
+			if (transl.Disabled) {
+				// language is disabled. Don't choose
+				continue;
+			}
 			if (!_settings.UseAllLanguages && !_settings.LanguagePool.Contains(transl.Iso639)) {
 				// if using the language pool and it does not contain this language
 				excludedNotInPool += string.Format("{0}, ", transl.Iso639);

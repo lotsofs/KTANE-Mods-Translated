@@ -78,7 +78,8 @@ public class ColourFlashModule : MonoBehaviour {
     public KMBombModule BombModule;
     public ColourFlashButton ButtonYes;
     public ColourFlashButton ButtonNo;
-    public TextMesh Indicator;
+    public TextMesh IndicatorText;
+    public SpriteRenderer IndicatorSprite;
     public TranslatedModule Translation;
     #endregion
 
@@ -116,10 +117,42 @@ public class ColourFlashModule : MonoBehaviour {
     void SetLanguage() {
         // pick a language
         Translation.SelectLanguage();
-        TextMesh yesMesh = ButtonYes.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>();
-        TextMesh noMesh = ButtonNo.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>();
-        yesMesh.text = Translation.Language.Yes.ToUpperInvariant();
-        noMesh.text = Translation.Language.No.ToUpperInvariant();
+        if (Translation.Language.UseSprites) {
+            SpriteRenderer yesSprite = ButtonYes.transform.GetChild(0).GetChild(1).GetComponent<SpriteRenderer>();
+            SpriteRenderer noSprite = ButtonNo.transform.GetChild(0).GetChild(1).GetComponent<SpriteRenderer>();
+            yesSprite.sprite = Translation.Language.SpriteYes;
+            noSprite.sprite = Translation.Language.SpriteNo;
+        }
+        else {
+            TextMesh yesMesh = ButtonYes.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>();
+            TextMesh noMesh = ButtonNo.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>();
+            yesMesh.text = Translation.Language.Yes;
+            noMesh.text = Translation.Language.No;
+            // change the font if requested by the language
+            if (Translation.Language.Font != null) {
+                IndicatorText.font = Translation.Language.Font;
+                IndicatorText.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
+                yesMesh.font = Translation.Language.Font;
+                noMesh.font = Translation.Language.Font;
+                yesMesh.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
+                noMesh.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
+            }
+            // scale text down of buttons in case it's too large.
+            float width = GetTextMeshWidth(yesMesh, yesMesh.fontSize);
+            int fallThrough = 630;
+            while (width > 10 && fallThrough > 0) {
+                yesMesh.fontSize -= 1;
+                width = GetTextMeshWidth(yesMesh, yesMesh.fontSize);
+                fallThrough--;
+            }
+            width = GetTextMeshWidth(noMesh, noMesh.fontSize);
+            fallThrough = 303;
+            while (width > 10 && fallThrough > 0) {
+                noMesh.fontSize -= 1;
+                width = GetTextMeshWidth(noMesh, noMesh.fontSize);
+                fallThrough--;
+            }
+        }
 
         // swap button positions for RTL languages
         if (Translation.Language.SwapButtons) {
@@ -127,30 +160,7 @@ public class ColourFlashModule : MonoBehaviour {
             ButtonYes.transform.localPosition = ButtonNo.transform.localPosition;
             ButtonNo.transform.localPosition = yesPos;
         }
-        // change the font if requested by the language
-        if (Translation.Language.Font != null) {
-            Indicator.font = Translation.Language.Font;
-            Indicator.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
-            yesMesh.font = Translation.Language.Font;
-            noMesh.font = Translation.Language.Font;
-            yesMesh.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
-            noMesh.GetComponent<MeshRenderer>().material = Translation.Language.FontMaterial;
-        }
-        // scale text down of buttons in case it's too large.
-        float width = GetTextMeshWidth(yesMesh, yesMesh.fontSize);
-        int fallThrough = 630;
-        while (width > 10 && fallThrough > 0) {
-            yesMesh.fontSize -= 1;
-            width = GetTextMeshWidth(yesMesh, yesMesh.fontSize);
-            fallThrough--;
-        }
-        width = GetTextMeshWidth(noMesh, noMesh.fontSize);
-        fallThrough = 303;
-        while (width > 10 && fallThrough > 0) {
-            noMesh.fontSize -= 1;
-            width = GetTextMeshWidth(noMesh, noMesh.fontSize);
-            fallThrough--;
-        }
+
         // twitch
         TwitchHelpMessage = string.Format("{1}, {2} - Submit the correct response with !{0} press {3} 3, or !{0} press {4} 5.", "{0}", Translation.Language.NativeName, Translation.Language.Name, Translation.Language.Yes, Translation.Language.No);
     }
@@ -263,26 +273,41 @@ public class ColourFlashModule : MonoBehaviour {
 
     #region Module Updates
     IEnumerator ColourCycleCoroutine() {
-        while (true) {
-            for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
-                _currentColourSequenceIndex = colourSequenceIndex;
-                Indicator.text = Translation.Language.GetDisplayFromEnglishName(_colourSequence[colourSequenceIndex].Text);
-                Indicator.color = _colourSequence[colourSequenceIndex].DisplayColour;
-                Indicator.fontSize = 60;
-                float width = GetTextMeshWidth(Indicator, Indicator.fontSize);
-                int fallThrough = 50;
-                while (width > 19 && fallThrough > 0) {
-                    Indicator.fontSize -= 1;    // todo: This looks like a resource hog.
-                    width = GetTextMeshWidth(Indicator, Indicator.fontSize);
-                    fallThrough--;
+        if (Translation.Language.UseSprites) {
+            while (true) {
+                for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
+                    _currentColourSequenceIndex = colourSequenceIndex;
+                    IndicatorSprite.sprite = Translation.Language.GetSpriteFromEnglishName(_colourSequence[colourSequenceIndex].Text);
+                    IndicatorSprite.color = _colourSequence[colourSequenceIndex].DisplayColour;
+                    yield return new WaitForSeconds(TimePerCycleTick);
                 }
-                yield return new WaitForSeconds(TimePerCycleTick);
+                _currentColourSequenceIndex = -1;
+                IndicatorSprite.sprite = null;
+                yield return new WaitForSeconds(TimePerCycleEnd);
             }
+        }
+        else {
+            while (true) {
+                for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
+                    _currentColourSequenceIndex = colourSequenceIndex;
+                    IndicatorText.text = Translation.Language.GetDisplayFromEnglishName(_colourSequence[colourSequenceIndex].Text);
+                    IndicatorText.color = _colourSequence[colourSequenceIndex].DisplayColour;
+                    IndicatorText.fontSize = 60;
+                    float width = GetTextMeshWidth(IndicatorText, IndicatorText.fontSize);
+                    int fallThrough = 50;
+                    while (width > 19 && fallThrough > 0) {
+                        IndicatorText.fontSize -= 1;    // todo: This looks like a resource hog.
+                        width = GetTextMeshWidth(IndicatorText, IndicatorText.fontSize);
+                        fallThrough--;
+                    }
+                    yield return new WaitForSeconds(TimePerCycleTick);
+                }
 
-            _currentColourSequenceIndex = -1;
+                _currentColourSequenceIndex = -1;
 
-            Indicator.text = "";
-            yield return new WaitForSeconds(TimePerCycleEnd);
+                IndicatorText.text = "";
+                yield return new WaitForSeconds(TimePerCycleEnd);
+            }
         }
     }
     #endregion

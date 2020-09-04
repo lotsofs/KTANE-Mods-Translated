@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Translation : MonoBehaviour {
 
+	[Tooltip("Disabled languages are never chosen, eg. because they're still a work in progress.")]
+	public bool Disabled = false;
 	[Header("Language Information")]
 	public string Name;
 	public string NativeName;
@@ -31,7 +33,6 @@ public class Translation : MonoBehaviour {
 	public string Yes = "YES";
 	public string No = "NO";
 
-	[Space]
 	[Header("Log File Labels")]
 	public string LogRed = "Red";
 	public string LogYellow = "Yellow";
@@ -41,6 +42,18 @@ public class Translation : MonoBehaviour {
 	public string LogWhite = "White";
 	public string LogYes = "Yes";
 	public string LogNo = "No";
+
+	[Header("Sprites")]
+	[Tooltip("Tick this to use sprites instead of textmesh, for when textmesh doesn't support your script.")]
+	public bool UseSprites = false;
+	public Sprite SpriteRed;
+	public Sprite SpriteYellow;
+	public Sprite SpriteGreen;
+	public Sprite SpriteBlue;
+	public Sprite SpriteMagenta;
+	public Sprite SpriteWhite;
+	public Sprite SpriteYes;
+	public Sprite SpriteNo;
 
 	[Space]
 	[Header("Log File Ruling")]
@@ -82,27 +95,41 @@ public class Translation : MonoBehaviour {
 
 	private Dictionary<string,string> _displayLabels;
 	private Dictionary<string,string> _logLabels;
+	private Dictionary<string,Sprite> _spriteLabels;
 
 	public void Choose() {
-		_displayLabels = new Dictionary<string, string>();
-		_displayLabels.Add("Red", Red);
-		_displayLabels.Add("Yellow", Yellow);
-		_displayLabels.Add("Green", Green);
-		_displayLabels.Add("Blue", Blue);
-		_displayLabels.Add("Magenta", Magenta);
-		_displayLabels.Add("White", White);
-		_displayLabels.Add("Yes", Yes);
-		_displayLabels.Add("No", No);
+		_displayLabels = new Dictionary<string, string> {
+			{ "Red", Red },
+			{ "Yellow", Yellow },
+			{ "Green", Green },
+			{ "Blue", Blue },
+			{ "Magenta", Magenta },
+			{ "White", White },
+			{ "Yes", Yes },
+			{ "No", No }
+		};
 
-		_logLabels = new Dictionary<string, string>();
-		_logLabels.Add("Red", LogRed);
-		_logLabels.Add("Yellow", LogYellow);
-		_logLabels.Add("Green", LogGreen);
-		_logLabels.Add("Blue", LogBlue);
-		_logLabels.Add("Magenta", LogMagenta);
-		_logLabels.Add("White", LogWhite);
-		_logLabels.Add("Yes", LogYes);
-		_logLabels.Add("No", LogNo);
+		_logLabels = new Dictionary<string, string> {
+			{ "Red", LogRed },
+			{ "Yellow", LogYellow },
+			{ "Green", LogGreen },
+			{ "Blue", LogBlue },
+			{ "Magenta", LogMagenta },
+			{ "White", LogWhite },
+			{ "Yes", LogYes },
+			{ "No", LogNo }
+		};
+
+		_spriteLabels = new Dictionary<string, Sprite> {
+			{ "Red", SpriteRed },
+			{ "Yellow", SpriteYellow },
+			{ "Green", SpriteGreen },
+			{ "Blue", SpriteBlue },
+			{ "Magenta", SpriteMagenta },
+			{ "White", SpriteWhite },
+			{ "Yes", SpriteYes },
+			{ "No", SpriteNo }
+		};
 	}
 
 	public string GetDisplayFromEnglishName(string str) {
@@ -111,5 +138,9 @@ public class Translation : MonoBehaviour {
 
 	public string GetLogFromEnglishName(string str) {
 		return _logLabels[str];
+	}
+
+	public Sprite GetSpriteFromEnglishName(string str) {
+		return _spriteLabels[str];
 	}
 }
