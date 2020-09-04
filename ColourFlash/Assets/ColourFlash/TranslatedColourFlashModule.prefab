@@ -2835,7 +2835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - GUI/KT 3D Text
+  - Sprites/Default
 --- !u!114 &114000010855947482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2848,7 +2848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - GUI/Text Shader
+  - Sprites/Default
 --- !u!114 &114000012221088154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2900,7 +2900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - GUI/KT 3D Text
+  - Sprites/Default
 --- !u!114 &114004313868710520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6067,7 +6067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - GUI/Text Shader
+  - GUI/KT 3D Text
 --- !u!114 &114655747039821576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7248,8 +7248,8 @@ MonoBehaviour:
   SwapButtons: 0
   Version: 1
   ManualAvailable: 0
-  Font: {fileID: 0}
-  FontMaterial: {fileID: 0}
+  Font: {fileID: 12800000, guid: cc41c8f6a15493b4291910060d02135e, type: 3}
+  FontMaterial: {fileID: 2100000, guid: 7d61d24ee5f243346afdf65914357efc, type: 2}
   Red: QIRMIZI
   Yellow: SARI
   Green: "YA\u015EIL"

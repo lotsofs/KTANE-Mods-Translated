@@ -186,7 +186,7 @@ public class ColourFlashModule : MonoBehaviour {
         for (int colourSequenceIndex = 0; colourSequenceIndex < _colourSequence.Length; ++colourSequenceIndex) {
             _currentColourSequenceIndex = colourSequenceIndex;
             ColourPair pair = _colourSequence[_currentColourSequenceIndex];
-            string response = ruleHandler(true) ? string.Format("[{0}]", Translation.Language.Yes) : (ruleHandler(false) ? string.Format("[{0}]", Translation.Language.No) : "---");
+            string response = ruleHandler(true) ? string.Format("[{0}]", Translation.Language.LogYes) : (ruleHandler(false) ? string.Format("[{0}]", Translation.Language.LogNo) : "---");
 
             logString.AppendFormat("{0}: {4} {1,-15} , {5} {2,-15} : {6} {3}\n",
                 colourSequenceIndex + 1,
