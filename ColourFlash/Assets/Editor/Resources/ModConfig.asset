@@ -14,15 +14,15 @@ MonoBehaviour:
   id: ColourFlashTranslated
   title: Colour Flash (Translated)
   author: Bashly, S.
-  description: "Why do with many what can be done with one?\r\n\r\nThis mod provides
-    multiple translations for Bashly's Colour Flash. Play in a language of your choice,
-    or have the game decide for you.\r\n\r\nSupported languages: (This table is almost
-    getting too big for Steam to fit. Will have to migrate at some point.)\r\n[table]\r\n
-    \   [tr][th]ISO-639[/th][th]Language Name[/th]  [th]Endonym[/th]           [th]Manual[/th]
-    \     [/tr]\r\n    [tr][td]af[/td]     [td]Afrikaans[/td]      [td]Afrikaans[/td]
-    \        [td]N/A *[/td]       [/tr]\r\n    [tr][td]ar[/td]     [td]Arabic[/td]
-    \        [td]\u0627\u0644\u0639\u0631\u0628\u064A\u0629[/td]          [td][url=https://lotsofs.github.io/KTANE/Translated%20Modules/Colour%20Flash%20AR%20Arabic.html]\u0641\u0644\u0627\u0634
-    \u0627\u0644\u0623\u0644\u0648\u0627\u0646[/url] by Unknown & Mhmd_FVC[/td]         [/tr]\r\n
+  description: "This mod provides multiple translations for Bashly's Colour Flash.
+    Play in a language of your choice, or have the game decide for you.\r\n\r\nSupported
+    languages: (This table is almost getting too big for Steam to fit. Will have to
+    migrate at some point.)\r\n[table]\r\n    [tr][th]ISO-639[/th][th]Language Name[/th]
+    \ [th]Endonym[/th]           [th]Manual[/th]      [/tr]\r\n    [tr][td]af[/td]
+    \    [td]Afrikaans[/td]      [td]Afrikaans[/td]         [td]N/A *[/td]       [/tr]\r\n
+    \   [tr][td]ar[/td]     [td]Arabic[/td]         [td]\u0627\u0644\u0639\u0631\u0628\u064A\u0629[/td]
+    \         [td][url=https://lotsofs.github.io/KTANE/Translated%20Modules/Colour%20Flash%20AR%20Arabic.html]\u0623\u0644\u0648\u0627\u0646
+    \u0645\u0636\u064A\u0626\u0629[/url] by R4Y & Mhmd_FVC[/td]         [/tr]\r\n
     \   [tr][td]az[/td]     [td]Azerbaijani[/td]    [td]Az\u0259rbaycanca[/td]      [td]N/A
     *[/td]       [/tr]\r\n    [tr][td]be[/td]     [td]Belarusian[/td]     [td]\u0411\u0435\u043B\u0430\u0440\u0443\u0441\u043A\u0430\u044F[/td]
     \       [td]N/A *[/td]       [/tr]\r\n    [tr][td]bg[/td]     [td]Bulgarian[/td]
