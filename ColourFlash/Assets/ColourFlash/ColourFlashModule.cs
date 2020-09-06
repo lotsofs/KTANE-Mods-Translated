@@ -88,6 +88,7 @@ public class ColourFlashModule : MonoBehaviour {
     public float TimePerCycleEnd;
     public const int NumberOfColoursInSequence = 8;
     public const float ProbabilityOfSameColourAndValue = 30.0f;
+    public const float buttonVerticalOffsetDivisor = 70f;
     #endregion
 
     #region Per-Module Data
@@ -122,6 +123,10 @@ public class ColourFlashModule : MonoBehaviour {
             SpriteRenderer noSprite = ButtonNo.transform.GetChild(0).GetChild(1).GetComponent<SpriteRenderer>();
             yesSprite.sprite = Translation.Language.SpriteYes;
             noSprite.sprite = Translation.Language.SpriteNo;
+            Vector3 positionOffset = new Vector3(0, 0, Translation.Language.VerticalOffset);
+            yesSprite.transform.localPosition += positionOffset / buttonVerticalOffsetDivisor;
+            noSprite.transform.localPosition += positionOffset / buttonVerticalOffsetDivisor;
+            IndicatorText.transform.localPosition += positionOffset;
         }
         else {
             TextMesh yesMesh = ButtonYes.transform.GetChild(0).GetChild(0).GetComponent<TextMesh>();
@@ -152,6 +157,10 @@ public class ColourFlashModule : MonoBehaviour {
                 width = GetTextMeshWidth(noMesh, noMesh.fontSize);
                 fallThrough--;
             }
+            Vector3 positionOffset = new Vector3(0, 0, Translation.Language.VerticalOffset);
+            yesMesh.transform.localPosition += positionOffset / buttonVerticalOffsetDivisor;
+            noMesh.transform.localPosition += positionOffset / buttonVerticalOffsetDivisor;
+            IndicatorText.transform.localPosition += positionOffset;
         }
 
         // swap button positions for RTL languages

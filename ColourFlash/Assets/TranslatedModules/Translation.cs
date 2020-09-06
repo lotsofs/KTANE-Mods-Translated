@@ -16,14 +16,15 @@ public class Translation : MonoBehaviour {
 	public int Version = 1;
 	public bool ManualAvailable = false;
 	
-	[Header("Font")]
+	[Header("Display")]
 	[Tooltip("Leave null to use the standard font for the module.")]
 	public Font Font;
 	[Tooltip("Leave null to use the standard font for the module.")]
 	public Material FontMaterial;
+	public float VerticalOffset = 0f;
 
 	[Space]
-	[Header("Module Display")]
+	[Header("Module Text")]
 	public string Red = "RED";
 	public string Yellow = "YELLOW";
 	public string Green = "GREEN";
@@ -33,7 +34,7 @@ public class Translation : MonoBehaviour {
 	public string Yes = "YES";
 	public string No = "NO";
 
-	[Header("Log File Labels")]
+	[Header("Log File Text")]
 	public string LogRed = "Red";
 	public string LogYellow = "Yellow";
 	public string LogGreen = "Green";
@@ -56,7 +57,7 @@ public class Translation : MonoBehaviour {
 	public Sprite SpriteNo;
 
 	[Space]
-	[Header("Log File Ruling")]
+	[Header("Log File Ruling Text")]
 	public string LogFileSequenceHeader = "Module generated with the following word-color sequence:";
 	public string LogFileWord = "Word";
 	public string LogFileColor = "Color";

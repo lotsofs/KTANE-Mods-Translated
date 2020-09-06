@@ -1190,7 +1190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1165753060113102
 GameObject:
   m_ObjectHideFlags: 1
@@ -2921,6 +2921,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\uBE68\uAC15"
   Yellow: "\uB178\uB791"
   Green: "\uB179\uC0C9"
@@ -3021,6 +3022,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: GORRI
   Yellow: HORI
   Green: BERDE
@@ -3121,6 +3123,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: RUZ
   Yellow: MELEN
   Green: GWER
@@ -3221,6 +3224,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROOI
   Yellow: GEEL
   Green: GROEN
@@ -3321,6 +3325,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: VERMELHO
   Yellow: AMARELO
   Green: VERDE
@@ -3421,6 +3426,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u010CERVEN\xC1"
   Yellow: "\u017DLUT\xC1"
   Green: "ZELEN\xC1"
@@ -3521,6 +3527,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u0427\u0415\u0420\u0412\u041E\u041D\u0418\u0419"
   Yellow: "\u0416\u041E\u0412\u0422\u0418\u0419"
   Green: "\u0417\u0415\u041B\u0415\u041D\u0418\u0419"
@@ -3621,6 +3628,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROSSO
   Yellow: GIALLO
   Green: VERDE
@@ -3721,6 +3729,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "R\xD6D"
   Yellow: GUL
   Green: "GR\xD6N"
@@ -3821,6 +3830,7 @@ MonoBehaviour:
   ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROT
   Yellow: GELB
   Green: "GR\xDCN"
@@ -3949,6 +3959,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: GADUUD
   Yellow: JAALE
   Green: CAGAAR
@@ -4049,6 +4060,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u0426\u0420\u0412\u0415\u041D\u0410"
   Yellow: "\u0416\u041E\u041B\u0422\u0410"
   Green: "\u0417\u0415\u041B\u0415\u041D\u0410"
@@ -4149,6 +4161,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u09B2\u09BE\u09B2"
   Yellow: "\u09B9\u09B2\u09C1\u09A6"
   Green: "\u09B8\u09AC\u09C1\u099C"
@@ -4249,6 +4262,7 @@ MonoBehaviour:
   ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROOD
   Yellow: GEEL
   Green: GROEN
@@ -4349,6 +4363,7 @@ MonoBehaviour:
   ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: 
   Yellow: 
   Green: 
@@ -4361,7 +4376,7 @@ MonoBehaviour:
   LogYellow: "\u0623\u0635\u0641\u0631"
   LogGreen: "\u0623\u062E\u0636\u0631"
   LogBlue: "\u0623\u0632\u0631\u0642"
-  LogMagenta: "\u0645\u0627\u062C\u0646\u062A\u064A"
+  LogMagenta: "\u0627\u0644\u0648\u0631\u062F\u064A"
   LogWhite: "\u0623\u0628\u064A\u0636"
   LogYes: "\u0646\u0639\u0645"
   LogNo: "\u0644\u0627"
@@ -4449,6 +4464,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u039A\u039F\u039A\u039A\u0399\u039D\u039F"
   Yellow: "\u039A\u0399\u03A4\u03A1\u0399\u039D\u039F"
   Green: "\u03A0\u03A1\u0391\u03A3\u0399\u039D\u039F"
@@ -4549,6 +4565,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "RO\u0219U"
   Yellow: GALBEN
   Green: VERDE
@@ -4662,6 +4679,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: READ
   Yellow: GIEL
   Green: GRIEN
@@ -4762,6 +4780,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROIG
   Yellow: GROC
   Green: VERD
@@ -4862,6 +4881,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: PULA
   Yellow: DILAW
   Green: LUNTI
@@ -4962,6 +4982,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u0427\u042B\u0420\u0412\u041E\u041D\u042B"
   Yellow: "\u0416\u041E\u040E\u0422\u042B"
   Green: "\u0417\u042F\u041B\u0401\u041D\u042B"
@@ -5062,6 +5083,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROGE
   Yellow: JAUNE
   Green: VERD
@@ -5162,6 +5184,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u0D1A\u0D41\u0D35\u0D2A\u0D4D\u0D2A\u0D4D"
   Yellow: "\u0D2E\u0D1E\u0D4D\u0D1E"
   Green: "\u0D2A\u0D1A\u0D4D\u0D1A"
@@ -5262,6 +5285,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u05DD\u05D5\u05D3\u05D0"
   Yellow: "\u05D1\u05D5\u05D4\u05E6"
   Green: "\u05E7\u05D5\u05E8\u05D9"
@@ -5362,6 +5386,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 12800000, guid: cc41c8f6a15493b4291910060d02135e, type: 3}
   FontMaterial: {fileID: 2100000, guid: 7d61d24ee5f243346afdf65914357efc, type: 2}
+  VerticalOffset: -0.07
   Red: "\u0110\u1ECE"
   Yellow: "V\xC0NG"
   Green: "XANH L\xC1 C\xC2Y"
@@ -5462,6 +5487,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u041A\u042B\u0417\u042B\u041B"
   Yellow: "\u0421\u0410\u0420\u042B"
   Green: "\u042F\u0428\u0415\u041B"
@@ -5575,6 +5601,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ABANG
   Yellow: KUNING
   Green: IJO
@@ -5675,6 +5702,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u0932\u093E\u0932"
   Yellow: "\u092A\u0940\u0932\u093E"
   Green: "\u0939\u0930\u093E"
@@ -5775,6 +5803,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "RU\u011CA"
   Yellow: FLAVA
   Green: VERDO
@@ -5875,6 +5904,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: CZERWONA
   Yellow: "\u017B\xD3\u0141TA"
   Green: ZIELONA
@@ -5975,6 +6005,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: PIROS
   Yellow: "S\xC1RGA"
   Green: "Z\xD6LD"
@@ -6088,6 +6119,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROUGE
   Yellow: JAUNE
   Green: VERT
@@ -6207,6 +6239,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u0427\u0415\u0420\u0412\u0415\u041D"
   Yellow: "\u0416\u042A\u041B\u0422"
   Green: "\u0417\u0415\u041B\u0415\u041D"
@@ -6324,6 +6357,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROUT
   Yellow: GIEL
   Green: "GR\xC9NG"
@@ -6424,6 +6458,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: VERMELLO
   Yellow: AMARELO
   Green: VERDE
@@ -6524,6 +6559,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u041A\u0420\u0410\u0421\u041D\u042B\u0419"
   Yellow: "\u0416\u0401\u041B\u0422\u042B\u0419"
   Green: "\u0417\u0415\u041B\u0401\u041D\u042B\u0419"
@@ -6624,6 +6660,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: ROJO
   Yellow: AMARILLO
   Green: VERDE
@@ -6724,6 +6761,7 @@ MonoBehaviour:
   ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: RED
   Yellow: YELLOW
   Green: GREEN
@@ -6824,6 +6862,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: RUBER
   Yellow: FLAVUS
   Green: VIRIDIS
@@ -6924,6 +6963,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: DEARG
   Yellow: "BU\xCD"
   Green: GLAS
@@ -7037,6 +7077,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: KIRMIZI
   Yellow: SARI
   Green: "YE\u015E\u0130L"
@@ -7150,6 +7191,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: PUNAINEN
   Yellow: KELTAINEN
   Green: "VIHRE\xC4"
@@ -7250,6 +7292,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 12800000, guid: cc41c8f6a15493b4291910060d02135e, type: 3}
   FontMaterial: {fileID: 2100000, guid: 7d61d24ee5f243346afdf65914357efc, type: 2}
+  VerticalOffset: -0.07
   Red: QIRMIZI
   Yellow: SARI
   Green: "YA\u015EIL"
@@ -7350,6 +7393,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: CRVENA
   Yellow: "\u017DUTA"
   Green: ZELENA
@@ -7450,6 +7494,7 @@ MonoBehaviour:
   ManualAvailable: 0
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
+  VerticalOffset: 0
   Red: "\u8D64"
   Yellow: "\u9EC4\u8272"
   Green: "\u7DD1"
