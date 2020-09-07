@@ -1190,7 +1190,23 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
+--- !u!1 &1163789019660478
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4647593921102084}
+  - component: {fileID: 114544570671874178}
+  m_Layer: 0
+  m_Name: English
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1165753060113102
 GameObject:
   m_ObjectHideFlags: 1
@@ -1626,7 +1642,7 @@ GameObject:
   - component: {fileID: 4023856288931530}
   - component: {fileID: 114853150991241948}
   m_Layer: 0
-  m_Name: English
+  m_Name: Default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1935,7 +1951,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4023856288931530
 Transform:
@@ -1944,11 +1960,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1657875575020468}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
-  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
+  m_LocalPosition: {x: -0.083333336, y: 0.066666655, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.075757295}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4042283015701792
 Transform:
@@ -1961,7 +1977,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4057998561998148
 Transform:
@@ -1974,7 +1990,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4116731872132264
 Transform:
@@ -1987,7 +2003,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4140241973610856
 Transform:
@@ -2000,7 +2016,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.075757295}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4146587698211548
 Transform:
@@ -2013,7 +2029,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4160387021772134
 Transform:
@@ -2026,7 +2042,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4174601602079698
 Transform:
@@ -2078,7 +2094,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4258243561336344
 Transform:
@@ -2090,6 +2106,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4023856288931530}
   - {fileID: 4832483659491992}
   - {fileID: 4546591524571248}
   - {fileID: 4585055956572414}
@@ -2101,7 +2118,7 @@ Transform:
   - {fileID: 4042283015701792}
   - {fileID: 4984416272115890}
   - {fileID: 4551798593993254}
-  - {fileID: 4023856288931530}
+  - {fileID: 4647593921102084}
   - {fileID: 4953955889512780}
   - {fileID: 4675573804737682}
   - {fileID: 4491504165368064}
@@ -2149,7 +2166,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4303766958945482
 Transform:
@@ -2162,7 +2179,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4312246661992484
 Transform:
@@ -2175,7 +2192,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4405293455158856
 Transform:
@@ -2188,7 +2205,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4415339094253184
 Transform:
@@ -2201,7 +2218,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 44
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4430209318668822
 Transform:
@@ -2227,7 +2244,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 42
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4449991608725400
 Transform:
@@ -2240,7 +2257,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4475815418139098
 Transform:
@@ -2253,7 +2270,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4491504165368064
 Transform:
@@ -2266,7 +2283,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4518182096230230
 Transform:
@@ -2279,7 +2296,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4527729219247168
 Transform:
@@ -2292,7 +2309,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 43
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4546591524571248
 Transform:
@@ -2305,7 +2322,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.075757265}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4551798593993254
 Transform:
@@ -2318,7 +2335,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4579553898695164
 Transform:
@@ -2331,7 +2348,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4584504213559992
 Transform:
@@ -2344,7 +2361,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4585055956572414
 Transform:
@@ -2357,7 +2374,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.075757295}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4585587836803118
 Transform:
@@ -2370,7 +2387,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4623979120867704
 Transform:
@@ -2383,7 +2400,20 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 15
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4647593921102084
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163789019660478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.083333336, y: 0.06666666, z: -0.007575757}
+  m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
+  m_Children: []
+  m_Father: {fileID: 4258243561336344}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4674825650612622
 Transform:
@@ -2396,7 +2426,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4675573804737682
 Transform:
@@ -2409,7 +2439,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4696053355476386
 Transform:
@@ -2422,7 +2452,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 41
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4702684201944682
 Transform:
@@ -2435,7 +2465,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4709879600017524
 Transform:
@@ -2461,7 +2491,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4722156165455678
 Transform:
@@ -2474,7 +2504,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4739301646303594
 Transform:
@@ -2487,7 +2517,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4761707123361958
 Transform:
@@ -2500,7 +2530,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4832483659491992
 Transform:
@@ -2513,7 +2543,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4837832750413908
 Transform:
@@ -2526,7 +2556,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4850055611809992
 Transform:
@@ -2539,7 +2569,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4884055311036794
 Transform:
@@ -2552,7 +2582,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4934874324271610
 Transform:
@@ -2565,7 +2595,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4943242951756282
 Transform:
@@ -2578,7 +2608,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4946035529471916
 Transform:
@@ -2606,7 +2636,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4955510407782854
 Transform:
@@ -2619,7 +2649,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4979890409011902
 Transform:
@@ -2632,7 +2662,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4984416272115890
 Transform:
@@ -2645,7 +2675,7 @@ Transform:
   m_LocalScale: {x: 0.83333, y: 0.83333, z: 0.07575726}
   m_Children: []
   m_Father: {fileID: 4258243561336344}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23211617432590894
 MeshRenderer:
@@ -4359,7 +4389,7 @@ MonoBehaviour:
   NativeName: "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
   Iso639: ar
   SwapButtons: 1
-  Version: 1
+  Version: 2
   ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
@@ -4676,7 +4706,7 @@ MonoBehaviour:
   Iso639: fy
   SwapButtons: 0
   Version: 1
-  ManualAvailable: 0
+  ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   VerticalOffset: 0
@@ -5618,6 +5648,107 @@ MonoBehaviour:
   LogWhite: Putih
   LogYes: Yo
   LogNo: Ora
+  UseSprites: 0
+  SpriteRed: {fileID: 0}
+  SpriteYellow: {fileID: 0}
+  SpriteGreen: {fileID: 0}
+  SpriteBlue: {fileID: 0}
+  SpriteMagenta: {fileID: 0}
+  SpriteWhite: {fileID: 0}
+  SpriteYes: {fileID: 0}
+  SpriteNo: {fileID: 0}
+  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
+  LogFileWord: Word
+  LogFileColor: Color
+  LogFileValidResponse: Valid Response
+  LogFileRuleHeader: 'The sequence matched the following block title and condition
+    statement:'
+  LogFileLastColor: The color of the last word in the sequence is {0}.
+  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
+  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
+    color)'
+  LogFileCorrect: Valid answer! Module defused!
+  LogFileWrong: Invalid answer! Module triggered a strike!
+  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
+    press Yes on the third time Green is used as either the word or the color of the
+    word in the sequence.
+  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
+    press No when the word Magenta is shown.
+  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
+    color of the word in the sequence.
+  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
+    time Green is used as the color of the word.
+  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
+    press Yes on the second time in the sequence where the color of the word does
+    not match the word itself.
+  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
+    the word or the color of the word in the sequence (the word Magenta in Magenta
+    color only counts as one), and press No on the color in the total's position (e.g.
+    a total of 4 means the fourth color in sequence).
+  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
+    the fifth entry in the sequence.
+  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
+    in the sequence, press No on the first time Yellow is used as either the word
+    or the color of the word in the sequence.
+  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
+    the word itself.
+  RuleBlue1: 1. If the color of the word does not match the word itself three times
+    or more in the sequence, press Yes on the first time in the sequence where the
+    color of the word does not match the word itself.
+  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
+    Yellow is shown in White color, press No when the word White is shown in Red color.
+  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
+    color of the word in the sequence.
+  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
+    on the third entry in the sequence.
+  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
+    greater than the number of times that the color of the word is Blue, press No
+    the last time the word Yellow is in the sequence.
+  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
+    color of the word matches the word of the seventh entry in the sequence.
+  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
+    or fifth word, press No the first time that Blue is used as the word or the color
+    of the word in the sequence.
+  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
+    on the last time Blue is used as the color of the word.
+  RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114544570671874178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163789019660478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Disabled: 0
+  Name: English
+  NativeName: English
+  Iso639: en
+  SwapButtons: 0
+  Version: 1
+  ManualAvailable: 1
+  Font: {fileID: 0}
+  FontMaterial: {fileID: 0}
+  VerticalOffset: 0
+  Red: RED
+  Yellow: YELLOW
+  Green: GREEN
+  Blue: BLUE
+  Magenta: MAGENTA
+  White: WHITE
+  Yes: YES
+  No: NO
+  LogRed: Red
+  LogYellow: Yellow
+  LogGreen: Green
+  LogBlue: Blue
+  LogMagenta: Magenta
+  LogWhite: White
+  LogYes: Yes
+  LogNo: No
   UseSprites: 0
   SpriteRed: {fileID: 0}
   SpriteYellow: {fileID: 0}
@@ -6752,12 +6883,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d456eab22b7587f45b1cd3071f2aaf57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Disabled: 0
-  Name: English
+  Disabled: 1
+  Name: Default
   NativeName: English
-  Iso639: en
+  Iso639: '-'
   SwapButtons: 0
-  Version: 1
+  Version: 0
   ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}

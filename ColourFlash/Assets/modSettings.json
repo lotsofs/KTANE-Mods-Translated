@@ -1,3 +1,9 @@
+This file is no longer used
+
+
+
+
+
 {
 	// If you want to play with (a) specific language(s) only, set UseAllLanguages to false and remove all other language codes from the LanguagePool list.
 	// If UseAllLanguages is set to true, the module will ignore the LanguagePool list and instead pick any language.

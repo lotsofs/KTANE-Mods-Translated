@@ -31,9 +31,26 @@ public class TranslatedModule : MonoBehaviour {
 	//	Debug.Log(table);
 	//}
 
+	public TranslationSettings ReadConfig() {
+		Configuration<TranslationSettings> config = new Configuration<TranslationSettings>("Translated-ColourFlash-Settings");
+		TranslationSettings settings = config.Settings;
+
+		// check for an old config file
+		Configuration<TranslationSettings> configOld = new Configuration<TranslationSettings>("ColourFlashTranslated-settings.txt", false);
+		TranslationSettings oldSettings = configOld.OldSettings;
+		if (oldSettings != null) {
+			settings.UseAllLanguages = oldSettings.UseAllLanguages;
+			settings.UseLanguagesWithManualOnly = oldSettings.UseLanguagesWithManualOnly;
+			settings.LanguagePool = oldSettings.LanguagePool;
+			configOld.ClearFile();
+		}
+
+		config.Settings = settings;
+		return settings;
+	}
+
 	public void SelectLanguage() {
-		_settings = JsonConvert.DeserializeObject<TranslationSettings>(KMSettings.Settings);
-		KMModule.LogFormat("Selecting Language:");
+		_settings = ReadConfig();
 
 		string includedSelection = "Languages available for selection: ";
 		string excludedNotInPool = "Languages ignored because the configuration file does not include them: ";
@@ -59,13 +76,20 @@ public class TranslatedModule : MonoBehaviour {
 			includedSelection += string.Format("{0}, ", transl.Iso639);
 			availableTranslations.Add(transl);
 		}
-		KMModule.Log(excludedNotInPool);
-		KMModule.Log(excludedNoManual);
+		
+		if (!_settings.UseAllLanguages) 
+			KMModule.Log(excludedNotInPool);
+		else 
+			KMModule.Log("configuration file dictates using any available language.");
+		if (_settings.UseLanguagesWithManualOnly)
+			KMModule.Log(excludedNoManual);
+		else
+			KMModule.Log("configuration file allows for the use of languages without a dedicated manual.");
 		KMModule.Log(includedSelection);
 
 		if (availableTranslations.Count == 0) {
 			KMModule.Log("There were no languages available to be chosen for this module in accordance with the configuration file.");
-			Language = _languagesHolder.transform.Find("English").GetComponent<Translation>();
+			Language = _languagesHolder.transform.Find("Default").GetComponent<Translation>();
 		}
 		else {
 			int index = UnityEngine.Random.Range(0, availableTranslations.Count);
