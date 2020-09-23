@@ -303,7 +303,7 @@ Transform:
   - {fileID: 439638}
   - {fileID: 453312}
   - {fileID: 4258243561336344}
-  - {fileID: 4946035529471916}
+  - {fileID: 4349592126075818}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ModuleType: TranslatedColourFlash
-  ModuleDisplayName: Colour Flash (Translated)
+  ModuleDisplayName: Colour Flash Translated
   RequiresTimerVisibility: 0
 --- !u!114 &11422844
 MonoBehaviour:
@@ -1273,24 +1273,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!1 &1260366681422612
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4208469965101296}
-  - component: {fileID: 23333388731994248}
-  - component: {fileID: 102795908226622634}
-  - component: {fileID: 114258591149918630}
-  m_Layer: 0
-  m_Name: StickerID
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1265224537293968
 GameObject:
   m_ObjectHideFlags: 1
@@ -1516,26 +1498,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1525170125998920
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4946035529471916}
-  - component: {fileID: 33333363616719720}
-  - component: {fileID: 65111530543292086}
-  - component: {fileID: 23211617432590894}
-  - component: {fileID: 114716238014660282}
-  - component: {fileID: 114119088810403088}
-  m_Layer: 0
-  m_Name: Sticker
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1564558817732832
 GameObject:
   m_ObjectHideFlags: 1
@@ -1584,6 +1546,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1602762379807510
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4439043570356200}
+  - component: {fileID: 23520519035737546}
+  - component: {fileID: 102941838778710442}
+  - component: {fileID: 114968696373742506}
+  m_Layer: 0
+  m_Name: StickerLabel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1612651854704178
 GameObject:
   m_ObjectHideFlags: 1
@@ -1664,6 +1644,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1689528183310760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4349592126075818}
+  - component: {fileID: 33184310192058516}
+  - component: {fileID: 65654396494378268}
+  - component: {fileID: 23020798928241690}
+  - component: {fileID: 114775935811621232}
+  - component: {fileID: 114316982409395358}
+  m_Layer: 0
+  m_Name: Sticker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1712060797087152
 GameObject:
   m_ObjectHideFlags: 1
@@ -1762,24 +1762,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1793839683324864
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4174601602079698}
-  - component: {fileID: 23582054854965966}
-  - component: {fileID: 102774602512489312}
-  - component: {fileID: 114937805378582298}
-  m_Layer: 0
-  m_Name: StickerLabel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1796448614117444
 GameObject:
   m_ObjectHideFlags: 1
@@ -1860,6 +1842,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1838505562420580
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4427955964211982}
+  - component: {fileID: 23735808139990752}
+  - component: {fileID: 102356518607068040}
+  - component: {fileID: 114120726265860262}
+  m_Layer: 0
+  m_Name: StickerID
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1849597370925436
 GameObject:
   m_ObjectHideFlags: 1
@@ -2044,19 +2044,6 @@ Transform:
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4174601602079698
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1793839683324864}
-  m_LocalRotation: {x: -0.00000044483625, y: 1, z: -0.0000008344649, w: -0.000000018779046}
-  m_LocalPosition: {x: 0, y: -0.19551979, z: 2.904202}
-  m_LocalScale: {x: 0.044855837, y: 0.07475999, z: 44.855972}
-  m_Children: []
-  m_Father: {fileID: 4946035529471916}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!4 &4179440664716214
 Transform:
   m_ObjectHideFlags: 1
@@ -2070,19 +2057,6 @@ Transform:
   m_Father: {fileID: 425478}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4208469965101296
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1260366681422612}
-  m_LocalRotation: {x: -0.00000044483625, y: 1, z: -0.0000008344649, w: -0.000000018779046}
-  m_LocalPosition: {x: 0, y: 0.357, z: 3}
-  m_LocalScale: {x: 0.052906625, y: 0.08817768, z: 52.90661}
-  m_Children: []
-  m_Father: {fileID: 4946035529471916}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!4 &4252184896224776
 Transform:
   m_ObjectHideFlags: 1
@@ -2194,6 +2168,21 @@ Transform:
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4349592126075818
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689528183310760}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0.05499, y: 0.015199999, z: 0.03059}
+  m_LocalScale: {x: 0.029749835, y: 0.017849883, z: 0.000029749814}
+  m_Children:
+  - {fileID: 4427955964211982}
+  - {fileID: 4439043570356200}
+  m_Father: {fileID: 424896}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 270, y: 180, z: 0}
 --- !u!4 &4405293455158856
 Transform:
   m_ObjectHideFlags: 1
@@ -2220,6 +2209,19 @@ Transform:
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4427955964211982
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1838505562420580}
+  m_LocalRotation: {x: -0.00000044483625, y: 1, z: -0.0000008344649, w: -0.000000018779046}
+  m_LocalPosition: {x: 0, y: 0.357, z: 3}
+  m_LocalScale: {x: 0.052906625, y: 0.08817768, z: 52.90661}
+  m_Children: []
+  m_Father: {fileID: 4349592126075818}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!4 &4430209318668822
 Transform:
   m_ObjectHideFlags: 1
@@ -2233,6 +2235,19 @@ Transform:
   m_Father: {fileID: 469360}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4439043570356200
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602762379807510}
+  m_LocalRotation: {x: -0.00000044483625, y: 1, z: -0.0000008344649, w: -0.000000018779046}
+  m_LocalPosition: {x: 0, y: -0.19551979, z: 2.904202}
+  m_LocalScale: {x: 0.044855837, y: 0.07475999, z: 44.855972}
+  m_Children: []
+  m_Father: {fileID: 4349592126075818}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!4 &4444961462847816
 Transform:
   m_ObjectHideFlags: 1
@@ -2610,21 +2625,6 @@ Transform:
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4946035529471916
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1525170125998920}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 0.05499, y: 0.015199999, z: 0.03059}
-  m_LocalScale: {x: 0.029749835, y: 0.017849883, z: 0.000029749814}
-  m_Children:
-  - {fileID: 4208469965101296}
-  - {fileID: 4174601602079698}
-  m_Father: {fileID: 424896}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 270, y: 180, z: 0}
 --- !u!4 &4953955889512780
 Transform:
   m_ObjectHideFlags: 1
@@ -2677,12 +2677,12 @@ Transform:
   m_Father: {fileID: 4258243561336344}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23211617432590894
+--- !u!23 &23020798928241690
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1525170125998920}
+  m_GameObject: {fileID: 1689528183310760}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2711,12 +2711,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!23 &23333388731994248
+--- !u!23 &23520519035737546
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1260366681422612}
+  m_GameObject: {fileID: 1602762379807510}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2745,12 +2745,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!23 &23582054854965966
+--- !u!23 &23735808139990752
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1793839683324864}
+  m_GameObject: {fileID: 1838505562420580}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2779,53 +2779,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33333363616719720
+--- !u!33 &33184310192058516
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1525170125998920}
+  m_GameObject: {fileID: 1689528183310760}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65111530543292086
+--- !u!65 &65654396494378268
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1525170125998920}
+  m_GameObject: {fileID: 1689528183310760}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!102 &102774602512489312
+--- !u!102 &102356518607068040
 TextMesh:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1793839683324864}
-  m_Text: LANG
-  m_OffsetZ: 0
-  m_CharacterSize: 1
-  m_LineSpacing: 1
-  m_Anchor: 4
-  m_Alignment: 0
-  m_TabSize: 4
-  m_FontSize: 172
-  m_FontStyle: 1
-  m_RichText: 1
-  m_Font: {fileID: 12800000, guid: e04acfb2854c5bd48a58973195afa317, type: 3}
-  m_Color:
-    serializedVersion: 2
-    rgba: 4281545523
---- !u!102 &102795908226622634
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1260366681422612}
+  m_GameObject: {fileID: 1838505562420580}
   m_Text: TLM436F66.ABCDE.LANG1231
   m_OffsetZ: 0
   m_CharacterSize: 1
@@ -2840,6 +2819,27 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4292401368
+--- !u!102 &102941838778710442
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602762379807510}
+  m_Text: LANG
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 172
+  m_FontStyle: 1
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: e04acfb2854c5bd48a58973195afa317, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4281545523
 --- !u!114 &114000010119304590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3956,19 +3956,19 @@ MonoBehaviour:
     \ \"LanguagePool\": [\"mk\", \"ml\", \"nl\", \"pl\", \"pt\", \"ro\", \"so\",\t\"sv\",
     \"ru\", \"tl\", \"tr\", \"tt\", \"uk\", \"vi\", \"nl\" ] }"
   SettingsPath: TranslatedModuleSettings
---- !u!114 &114119088810403088
+--- !u!114 &114120726265860262
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1525170125998920}
+  m_GameObject: {fileID: 1838505562420580}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - KT/Mobile/DiffuseTint
+  - GUI/KT 3D Text
 --- !u!114 &114123325807065886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4676,19 +4676,6 @@ MonoBehaviour:
   RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
     on the last time Blue is used as the color of the word.
   RuleWhite3: 3. (Otherwise,) press No.
---- !u!114 &114258591149918630
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1260366681422612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShaderNames:
-  - GUI/KT 3D Text
 --- !u!114 &114267499097376150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4790,6 +4777,19 @@ MonoBehaviour:
   RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
     on the last time Blue is used as the color of the word.
   RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114316982409395358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689528183310760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - KT/Mobile/DiffuseTint
 --- !u!114 &114372236535261866
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6133,7 +6133,7 @@ MonoBehaviour:
   Iso639: hu
   SwapButtons: 0
   Version: 1
-  ManualAvailable: 0
+  ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   VerticalOffset: 0
@@ -6331,25 +6331,6 @@ MonoBehaviour:
   RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
     on the last time Blue is used as the color of the word.
   RuleWhite3: 3. (Otherwise,) press No.
---- !u!114 &114716238014660282
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1525170125998920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3699de96db8ced4a872aaf3a613a101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Positions:
-  - {x: 0.05167, y: 0.0152, z: 0.03565}
-  - {x: 0.0604, y: 0.0152, z: 0.0283}
-  - {x: 0.056, y: 0.0152, z: 0.0186}
-  Rotations:
-  - {x: 270, y: 180, z: 14.482}
-  - {x: 270, y: 180, z: -5.903}
-  - {x: 270, y: 180, z: 5.557}
 --- !u!114 &114718847947313038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6465,8 +6446,8 @@ MonoBehaviour:
   _languagesHolder: {fileID: 1481310823048722}
   KMModule: {fileID: 11410048}
   KMSettings: {fileID: 114118036623369112}
-  Sticker: {fileID: 102774602512489312}
-  StickerID: {fileID: 102795908226622634}
+  Sticker: {fileID: 102941838778710442}
+  StickerID: {fileID: 102356518607068040}
   Override: {fileID: 0}
 --- !u!114 &114768831555795896
 MonoBehaviour:
@@ -6569,6 +6550,25 @@ MonoBehaviour:
   RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
     on the last time Blue is used as the color of the word.
   RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114775935811621232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689528183310760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3699de96db8ced4a872aaf3a613a101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Positions:
+  - {x: 0.05167, y: 0.0152, z: 0.03565}
+  - {x: 0.0604, y: 0.0152, z: 0.0283}
+  - {x: 0.056, y: 0.0152, z: 0.0186}
+  Rotations:
+  - {x: 270, y: 180, z: 14.482}
+  - {x: 270, y: 180, z: -5.903}
+  - {x: 270, y: 180, z: 5.557}
 --- !u!114 &114786357196078140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7289,19 +7289,6 @@ MonoBehaviour:
   RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
     on the last time Blue is used as the color of the word.
   RuleWhite3: 3. (Otherwise,) press No.
---- !u!114 &114937805378582298
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1793839683324864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShaderNames:
-  - GUI/KT 3D Text
 --- !u!114 &114950095178309388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7605,6 +7592,19 @@ MonoBehaviour:
   RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
     on the last time Blue is used as the color of the word.
   RuleWhite3: 3. (Otherwise,) press No.
+--- !u!114 &114968696373742506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602762379807510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - GUI/KT 3D Text
 --- !u!114 &114989427919353862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7622,7 +7622,7 @@ MonoBehaviour:
   Iso639: ja
   SwapButtons: 0
   Version: 2
-  ManualAvailable: 0
+  ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   VerticalOffset: 0
