@@ -16,74 +16,34 @@ MonoBehaviour:
   author: Bashly, S.
   description: "This mod provides multiple translations for Bashly's Colour Flash.
     Play in a language of your choice, or have the game decide for you.\r\n\r\nSupported
-    languages: (This table is almost getting too big for Steam to fit. Will have to
-    migrate at some point.)\r\n[table]\r\n    [tr][th]ISO-639[/th][th]Language Name[/th]
-    \ [th]Endonym[/th]           [th]Manual[/th]      [/tr]\r\n    [tr][td]af[/td]
-    \    [td]Afrikaans[/td]      [td]Afrikaans[/td]         [td]N/A *[/td]       [/tr]\r\n
-    \   [tr][td]ar[/td]     [td]Arabic[/td]         [td]\u0627\u0644\u0639\u0631\u0628\u064A\u0629[/td]
-    \         [td][url=https://lotsofs.github.io/KTANE/Translated%20Modules/Colour%20Flash%20AR%20Arabic.html]\u0623\u0644\u0648\u0627\u0646
-    \u0645\u0636\u064A\u0626\u0629[/url] by R4Y & Mhmd_FVC[/td]         [/tr]\r\n
-    \   [tr][td]az[/td]     [td]Azerbaijani[/td]    [td]Az\u0259rbaycanca[/td]      [td]N/A
-    *[/td]       [/tr]\r\n    [tr][td]be[/td]     [td]Belarusian[/td]     [td]\u0411\u0435\u043B\u0430\u0440\u0443\u0441\u043A\u0430\u044F[/td]
-    \       [td]N/A *[/td]       [/tr]\r\n    [tr][td]bg[/td]     [td]Bulgarian[/td]
-    \     [td]\u0411\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438[/td]         [td]N/A
-    *[/td]       [/tr]\r\n    [tr][td]bn[/td]     [td]Bengali[/td]        [td]\u09AC\u09BE\u0982\u09B2\u09BE[/td]
-    \             [td]N/A *[/td]     [/tr]\r\n    [tr][td]br[/td]     [td]Breton[/td]
-    \        [td]Brezhoneg[/td]         [td]N/A *[/td]       [/tr]\r\n    [tr][td]ca[/td]
-    \    [td]Catalan[/td]        [td]Catal\xE0[/td]            [td]N/A *[/td]       [/tr]\r\n
-    \   [tr][td]cs[/td]     [td]Czech[/td]          [td]\u010Ce\u0161tina[/td]           [td]N/A
-    *[/td]       [/tr]\r\n    [tr][td]de[/td]     [td]German[/td]         [td]Deutsch[/td]
-    \          [td][url=https://lotsofs.github.io/KTANE/Translated%20Modules/Colour%20Flash%20DE%20German.html]Farbenblitz[/url]
-    by PowerSlaveAlfons[/td]       [/tr]\r\n    [tr][td]el[/td]     [td]Greek[/td]
-    \         [td]\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC[/td]          [td]N/A
-    *[/td]       [/tr]\r\n    [tr][td]en[/td]     [td]English[/td]        [td]English[/td]
-    \          [td][url=https://ktane.timwi.de/HTML/Colour%20Flash.html]Colour Flash[/url]
-    by Bashly[/td]       [/tr]\r\n    [tr][td]eo[/td]     [td]Esperanto[/td]      [td]Esperanto[/td]
-    \        [td]N/A *[/td]       [/tr]\r\n    [tr][td]es[/td]     [td]Spanish[/td]
-    \       [td]Espa\xF1ol[/td]           [td]N/A *[/td]       [/tr]\r\n    [tr][td]eu[/td]
-    \    [td]Basque[/td]         [td]Euskara[/td]           [td]N/A *[/td]       [/tr]\r\n
-    \   [tr][td]fi[/td]     [td]Finnish[/td]        [td]Suomi[/td]             [td]N/A
-    *[/td]       [/tr]\r\n    [tr][td]fr[/td]     [td]French[/td]         [td]Fran\xE7ais[/td]
-    \         [td]N/A *[/td]       [/tr]\r\n    [tr][td]fy[/td]     [td]Frisian[/td]
-    \       [td]Frysk[/td]             [td]N/A *[/td]       [/tr]\r\n    [tr][td]ga[/td]
-    \    [td]Irish[/td]          [td]Galego[/td]            [td]N/A *[/td]       [/tr]\r\n
-    \   [tr][td]gl[/td]     [td]Galician[/td]       [td]\u05E2\u05D1\u05E8\u05D9\u05EA[/td]
-    \            [td]N/A *[/td]       [/tr]\r\n    [tr][td]he[/td]     [td]Hebrew[/td]
-    \        [td]\u0939\u093F\u0928\u094D\u0926\u0940[/td]              [td]N/A *[/td]
-    \       [/tr]\r\n    [tr][td]hi[/td]     [td]Hindi[/td]          [td]Hrvatski[/td]
-    \         [td]N/A *[/td]       [/tr]\r\n    [tr][td]hr[/td]     [td]Croatian[/td]
-    \      [td]Gaeilge[/td]           [td]N/A *[/td]       [/tr]\r\n    [tr][td]hu[/td]
-    \    [td]Hungarian[/td]      [td]Magyarul[/td]           [td]N/A *[/td]          [/tr]\r\n
-    \   [tr][td]it[/td]     [td]Italian[/td]        [td]Italiano[/td]          [td]N/A
-    *[/td]       [/tr]\r\n    [tr][td]ja[/td]     [td]Japanese[/td]       [td]\u65E5\u672C\u8A9E[/td]
-    \           [td]N/A *[/td]       [/tr]\r\n    [tr][td]jv[/td]     [td]Javanese[/td]
-    \      [td]Jawa[/td]              [td]N/A *[/td]       [/tr]\r\n    [tr][td]ko[/td]
-    \    [td]Korean[/td]         [td]\uD55C\uAD6D\uC5B4[/td]            [td]N/A *[/td]
-    \      [/tr]\r\n    [tr][td]la[/td]     [td]Latin[/td]          [td]Latina[/td]
-    \           [td]N/A *[/td]       [/tr]\r\n    [tr][td]lb[/td]     [td]Luxembourgish[/td]
-    \ [td]L\xEBtzebuergesch[/td]    [td]N/A *[/td]       [/tr]\r\n    [tr][td]mk[/td]
-    \    [td]Macedonian[/td]     [td]\u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0441\u043A\u0438[/td]
-    \       [td]N/A *[/td]       [/tr]\r\n    [tr][td]ml[/td]     [td]Malayalam[/td]
-    \     [td]\u0D2E\u0D32\u0D2F\u0D3E\u0D33\u0D02[/td]         [td]N/A *[/td]        [/tr]\r\n
-    \   [tr][td]nl[/td]     [td]Dutch[/td]          [td]Nederlands[/td]        [td][url=https://lotsofs.github.io/KTANE/Translated%20Modules/Colour%20Flash%20NL%20Dutch.html]Kleurenflits[/url]
-    by S.[/td]     [/tr]\r\n    [tr][td]oc[/td]     [td]Occitan[/td]        [td]Occitan[/td]
-    \          [td]N/A *[/td]       [/tr]\r\n    [tr][td]pl[/td]     [td]Polish[/td]
-    \        [td]Polski[/td]            [td]N/A *[/td]       [/tr]\r\n    [tr][td]pt[/td]
-    \    [td]Portugese[/td]      [td]Portugu\xEAs[/td]         [td]N/A *[/td]       [/tr]\r\n
-    \   [tr][td]ro[/td]     [td]Romanian[/td]       [td]Rom\xE2n\u0103[/td]            [td]N/A
-    *[/td]       [/tr]\r\n    [tr][td]so[/td]     [td]Somali[/td]         [td]Soomaaliga[/td]
-    \       [td]N/A *[/td]       [/tr]\r\n    [tr][td]sv[/td]     [td]Swedish[/td]
-    \       [td]Svenska[/td]           [td]N/A *[/td]       [/tr]\r\n    [tr][td]ru[/td]
-    \    [td]Russian[/td]        [td]\u0420\u0443\u0441\u0441\u043A\u0438\u0439[/td]
-    \          [td]N/A *[/td]       [/tr]\r\n    [tr][td]tl[/td]     [td]Tagalog[/td]
-    \       [td]Tagalog[/td]           [td]N/A *[/td]       [/tr]\r\n    [tr][td]tr[/td]
-    \    [td]Turkish[/td]        [td]T\xFCrk\xE7e[/td]            [td]N/A *[/td]       [/tr]\r\n
-    \   [tr][td]tt[/td]     [td]Tatar[/td]          [td]\u0422\u0430\u0442\u0430\u0440\u0447\u0430[/td]
-    \          [td]N/A *[/td]       [/tr]\r\n    [tr][td]uk[/td]     [td]Ukrainian[/td]
-    \     [td]\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430[/td]        [td]N/A
-    *[/td]       [/tr]\r\n    [tr][td]vi[/td]     [td]Vietnamese[/td]     [td]Ti\u1EBFng
-    Vi\u1EC7t[/td]        [td]N/A *[/td]       [/tr]\r\n[/table]\r\n\r\n* A manual
-    for this language has not been made yet. You can use the condensed manual at https://ktane.timwi.de/HTML/Colour%20Flash%20all%20languages%20condensed%20(S.).html
+    languages: (Uh oh, this table got too large for the Steam Workshop character limit.
+    See: [url=https://lotsofs.github.io/KTANE/Translated%20Modules#ColourFlash]This
+    webpage[/url] for detailed information as well as links to manuals.)\r\n[table]\r\n
+    \   [tr][th]ISO-639[/th][th]Manual available?[/th][/tr]\r\n    [tr][td]af[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]ar[/td]     [td]Yes[/td][/tr]\r\n    [tr][td]az[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]be[/td]     [td][/td][/tr]\r\n    [tr][td]bg[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]bn[/td]     [td][/td][/tr]\r\n    [tr][td]br[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]ca[/td]     [td][/td][/tr]\r\n    [tr][td]cs[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]de[/td]     [td]Yes[/td][/tr]\r\n    [tr][td]el[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]en[/td]     [td]Yes[/td][/tr]\r\n    [tr][td]eo[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]es[/td]     [td][/td][/tr]\r\n    [tr][td]eu[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]fi[/td]     [td][/td][/tr]\r\n    [tr][td]fr[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]fy[/td]     [td]Yes[/td][/tr]\r\n    [tr][td]ga[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]gl[/td]     [td][/td][/tr]\r\n    [tr][td]he[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]hi[/td]     [td][/td][/tr]\r\n    [tr][td]hr[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]hu[/td]     [td]Yes[/td][/tr]\r\n    [tr][td]it[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]ja[/td]     [td]Yes[/td][/tr]\r\n    [tr][td]jv[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]ko[/td]     [td][/td][/tr]\r\n    [tr][td]la[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]lb[/td]     [td][/td][/tr]\r\n    [tr][td]mk[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]ml[/td]     [td][/td][/tr]\r\n    [tr][td]nl[/td]
+    \    [td]Yes[/td][/tr]\r\n    [tr][td]oc[/td]     [td][/td][/tr]\r\n    [tr][td]pl[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]pt[/td]     [td][/td][/tr]\r\n    [tr][td]ro[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]so[/td]     [td][/td][/tr]\r\n    [tr][td]sv[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]ru[/td]     [td][/td][/tr]\r\n    [tr][td]tl[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]tr[/td]     [td][/td][/tr]\r\n    [tr][td]tt[/td]
+    \    [td][/td][/tr]\r\n    [tr][td]uk[/td]     [td][/td][/tr]\r\n    [tr][td]vi[/td]
+    \    [td][/td][/tr]\r\n[/table]\r\n\r\nManuals haven't been made yet for languages
+    not marked as having one as such. You can use the condensed manual at https://lotsofs.github.io/KTANE/Translated%20Modules/Colour%20Flash%20Condensed.html
     instead. Do not hesitate to contact me if you are interested in providing a translation
     manual for a language (including languages not present on the module yet).\r\n\r\nAlso
     supports Twitch Plays, w/ autosolver.\r\n\r\nFAQ:\r\nQ: How do I configure this?\r\nA:
@@ -110,7 +70,7 @@ MonoBehaviour:
     Source\u203D\r\nA: You can find the source code at https://github.com/lotsofs/KTANE-Mods-Translated
     if you're interested in contributing, or want to build a version with a custom
     language."
-  version: 1.2
+  version: 1.3
   outputFolder: D:\Programs\Game Launchers\Steam\steamapps\common\Keep Talking and
     Nobody Explodes - Mod Building\mods
   previewImage: {fileID: 2800000, guid: 2f35d80c5541f1743a69ce48cb50af38, type: 3}

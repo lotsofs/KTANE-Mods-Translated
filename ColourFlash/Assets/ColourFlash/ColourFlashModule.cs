@@ -176,10 +176,8 @@ public class ColourFlashModule : MonoBehaviour {
 
     void Start() {
         SetLanguage();
-        StringBuilder logString = new StringBuilder();
 
-        logString.Append(Translation.Language.LogFileSequenceHeader);
-        logString.Append("\n");
+        BombModule.Log(Translation.Language.LogFileSequenceHeader);
         //logString.AppendFormat("# | {0,-15} | {1,-15} | {2}", Translation.Language.LogFileWord, Translation.Language.LogFileColor, Translation.Language.LogFileValidResponse);
         //logString.Append("\n--+-----------------+-----------------+----------------\n");
 
@@ -197,7 +195,7 @@ public class ColourFlashModule : MonoBehaviour {
             ColourPair pair = _colourSequence[_currentColourSequenceIndex];
             string response = ruleHandler(true) ? string.Format("[{0}]", Translation.Language.LogYes) : (ruleHandler(false) ? string.Format("[{0}]", Translation.Language.LogNo) : "---");
 
-            logString.AppendFormat("{0}: {4} {1,-15} , {5} {2,-15} : {6} {3}\n",
+            BombModule.LogFormat("{0}: {4} {1,-15} , {5} {2,-15} : {6} {3}\n",
                 colourSequenceIndex + 1,
                 Translation.Language.GetLogFromEnglishName(pair.ColourText.ToString()),
                 Translation.Language.GetLogFromEnglishName(pair.ColourValue.ToString()),
@@ -207,12 +205,8 @@ public class ColourFlashModule : MonoBehaviour {
                 response != "---" ? Translation.Language.LogFileValidResponse : ""
             );
         }
-        logString.Append("\n");
-        logString.Append(Translation.Language.LogFileRuleHeader);
-        logString.Append("\n");
-        logString.AppendFormat("\"{0}\"\n-> \"{1}\"\n", blockTitle, condition);
-
-        BombModule.Log(logString.ToString());
+        BombModule.LogFormat(Translation.Language.LogFileRuleHeader);
+        BombModule.LogFormat("\"{0}\"\n-> \"{1}\"\n", blockTitle, condition);
 
         _currentColourSequenceIndex = -1;
 

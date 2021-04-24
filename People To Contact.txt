@@ -1,0 +1,3 @@
+ulv#1565 --> Speaks both Norwegian Nynorsk and Bokmal
+YaelChan#7768 --> Hebrew
+John#8955 --> Vietnamese (ScopingLandscape)
