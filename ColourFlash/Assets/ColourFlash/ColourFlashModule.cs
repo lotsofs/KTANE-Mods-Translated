@@ -689,7 +689,7 @@ public class ColourFlashModule : MonoBehaviour {
         if (split.Count == 0) {
             yield break;
         }
-        Debug.Log(split[0]);
+        //Debug.Log(split[0]);
         if(split[0] == Translation.Language.Yes.ToLowerInvariant()) {
             buttonToPress = ButtonYes.KMSelectable;
         }
@@ -703,6 +703,7 @@ public class ColourFlashModule : MonoBehaviour {
         int position;
         if (split.Count == 1 || split[1] == "any") {
             // press whenever
+            yield return null;
             yield return buttonToPress;
         }
         else if (char.IsDigit(split[1][0]) && split[1].Length == 1) {
