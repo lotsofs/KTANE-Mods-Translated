@@ -40,7 +40,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &110452
 GameObject:
   m_ObjectHideFlags: 1
@@ -296,7 +296,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 9.59, y: -4.31, z: 25.28}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 499084}
@@ -4394,14 +4394,14 @@ MonoBehaviour:
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   VerticalOffset: 0
-  Red: 
-  Yellow: 
-  Green: 
-  Blue: 
-  Magenta: 
-  White: 
-  Yes: 
-  No: 
+  Red: "\u0623\u062D\u0645\u0631"
+  Yellow: "\u0623\u0635\u0641\u0631"
+  Green: "\u0623\u062E\u0636\u0631"
+  Blue: "\u0623\u0632\u0631\u0642"
+  Magenta: "\u0627\u0644\u0648\u0631\u062F\u064A"
+  White: "\u0623\u0628\u064A\u0636"
+  Yes: "\u0646\u0639\u0645"
+  No: "\u0644\u0627"
   LogRed: "\u0623\u062D\u0645\u0631"
   LogYellow: "\u0623\u0635\u0641\u0631"
   LogGreen: "\u0623\u062E\u0636\u0631"
@@ -6448,7 +6448,7 @@ MonoBehaviour:
   KMSettings: {fileID: 114118036623369112}
   Sticker: {fileID: 102941838778710442}
   StickerID: {fileID: 102356518607068040}
-  Override: {fileID: 0}
+  Override: {fileID: 114419332559227198}
 --- !u!114 &114768831555795896
 MonoBehaviour:
   m_ObjectHideFlags: 1

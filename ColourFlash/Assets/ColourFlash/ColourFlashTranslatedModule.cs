@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 /// <summary>
 /// </summary>
-public class ColourFlashModule : MonoBehaviour {
+public class ColourFlashTranslatedModule : MonoBehaviour {
     #region Nested Types
     private class ColourPair {
         public ColourPair(Colours colourText, Colours colourValue) {
