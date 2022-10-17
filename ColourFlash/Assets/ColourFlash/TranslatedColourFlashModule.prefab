@@ -6247,7 +6247,7 @@ MonoBehaviour:
   Iso639: fr
   SwapButtons: 0
   Version: 1
-  ManualAvailable: 0
+  ManualAvailable: 1
   Font: {fileID: 0}
   FontMaterial: {fileID: 0}
   VerticalOffset: 0
@@ -6276,61 +6276,66 @@ MonoBehaviour:
   SpriteWhite: {fileID: 0}
   SpriteYes: {fileID: 0}
   SpriteNo: {fileID: 0}
-  LogFileSequenceHeader: 'Module generated with the following word-color sequence:'
-  LogFileWord: Word
-  LogFileColor: Color
-  LogFileValidResponse: Valid Response
-  LogFileRuleHeader: 'The sequence matched the following block title and condition
-    statement:'
-  LogFileLastColor: The color of the last word in the sequence is {0}.
-  LogFileUnknownTime: '[{0}] button was pressed at an unknown time!'
-  LogFileButtonPressed: '[{0}] button was pressed on entry #{1} (''{2}'' word in ''{3}''
-    color)'
-  LogFileCorrect: Valid answer! Module defused!
-  LogFileWrong: Invalid answer! Module triggered a strike!
-  RuleRed1: 1. If Green is used as the word at least three times in the sequence,
-    press Yes on the third time Green is used as either the word or the color of the
-    word in the sequence.
-  RuleRed2: 2. (Otherwise,) if Blue is used as the color of the word exactly once,
-    press No when the word Magenta is shown.
-  RuleRed3: 3. (Otherwise,) press Yes the last time White is either the word or the
-    color of the word in the sequence.
-  RuleYellow1: 1. If the word Blue is shown in Green color, press Yes on the first
-    time Green is used as the color of the word.
-  RuleYellow2: 2. (Otherwise,) if the word White is shown in either White or Red color,
-    press Yes on the second time in the sequence where the color of the word does
-    not match the word itself.
-  RuleYellow3: 3. (Otherwise,) count the number of times Magenta is used as either
-    the word or the color of the word in the sequence (the word Magenta in Magenta
-    color only counts as one), and press No on the color in the total's position (e.g.
-    a total of 4 means the fourth color in sequence).
-  RuleGreen1: 1. If a word occurs consecutively with different colors, press No on
-    the fifth entry in the sequence.
-  RuleGreen2: 2. (Otherwise,) if Magenta is used as the word as least three times
-    in the sequence, press No on the first time Yellow is used as either the word
-    or the color of the word in the sequence.
-  RuleGreen3: 3. (Otherwise,) press Yes on any color where the color of the word matches
-    the word itself.
-  RuleBlue1: 1. If the color of the word does not match the word itself three times
-    or more in the sequence, press Yes on the first time in the sequence where the
-    color of the word does not match the word itself.
-  RuleBlue2: 2. (Otherwise,) if the word Red is shown in Yellow color, or the word
-    Yellow is shown in White color, press No when the word White is shown in Red color.
-  RuleBlue3: 3. (Otherwise,) press Yes the last time Green is either the word or the
-    color of the word in the sequence.
-  RuleMagenta1: 1. If a color occurs consecutively with different words, press Yes
-    on the third entry in the sequence.
-  RuleMagenta2: 2. (Otherwise,) if the number of times the word Yellow appears is
-    greater than the number of times that the color of the word is Blue, press No
-    the last time the word Yellow is in the sequence.
-  RuleMagenta3: 3. (Otherwise,) press No on the first time in the sequence where the
-    color of the word matches the word of the seventh entry in the sequence.
-  RuleWhite1: 1. If the color of the third word matches the word of the fourth word
-    or fifth word, press No the first time that Blue is used as the word or the color
-    of the word in the sequence.
-  RuleWhite2: 2. (Otherwise,) if the word Yellow is shown in Red color, press Yes
-    on the last time Blue is used as the color of the word.
-  RuleWhite3: 3. (Otherwise,) press No.
+  LogFileSequenceHeader: "Module g\xE9n\xE9r\xE9 avec la s\xE9quence mot-couleur suivante
+    :"
+  LogFileWord: Mot
+  LogFileColor: Couleur
+  LogFileValidResponse: "R\xE9ponse correcte"
+  LogFileRuleHeader: "La s\xE9quence correspondait au bloc et \xE0 l'\xE9nonc\xE9
+    de condition suivants :La s\xE9quence correspondait au bloc et \xE0 l'\xE9nonc\xE9
+    de condition suivants :"
+  LogFileLastColor: "La couleur du dernier mot de la s\xE9quence est {0}."
+  LogFileUnknownTime: "Le bouton [{0}] a \xE9t\xE9 press\xE9 \xE0 un moment inconnu
+    !"
+  LogFileButtonPressed: "Le bouton [{0}] a \xE9t\xE9 appuy\xE9 sur l'entr\xE9e #{1}
+    (mot \"{2}\" dans la couleur \"{3}\")."
+  LogFileCorrect: "R\xE9ponse correcte ! Module d\xE9samorc\xE9 !"
+  LogFileWrong: "R\xE9ponse incorrecte ! Le module a provoqu\xE9 une erreur !"
+  RuleRed1: "1. Si le mot Vert est utilis\xE9 au moins trois fois dans la s\xE9quence,
+    appuyer sur Oui la troisi\xE8me fois que le Vert est utilis\xE9 comme le mot ou
+    la couleur du mot dans la s\xE9quence."
+  RuleRed2: "2. (Sinon,) si Bleu est utilis\xE9 comme couleur du mot exactement une
+    fois, appuyer sur Non lorsque le mot Magenta est affich\xE9."
+  RuleRed3: "3. (Sinon,) appuyer sur Oui la derni\xE8re fois que Blanc est soit le
+    mot, soit la couleur du mot dans la s\xE9quence."
+  RuleYellow1: "1. Si le mot Bleu est affich\xE9 en Vert, appuyer sur Oui la premi\xE8re
+    fois que Vert est utilis\xE9 comme couleur du mot."
+  RuleYellow2: "2. (Sinon,) si le mot Blanc est affich\xE9 en Blanc ou en Rouge, appuyer
+    sur Oui la deuxi\xE8me fois dans la s\xE9quence o\xF9 la couleur du mot ne correspond
+    pas au mot lui-m\xEAme."
+  RuleYellow3: "3. (Sinon,) compter le nombre de fois o\xF9 le Magenta est utilis\xE9
+    comme mot ou comme couleur du mot dans la s\xE9quence (le mot Magenta en couleur
+    Magenta ne compte que pour un seul mot), et appuyer sur Non sur la couleur dans
+    la position du total (par exemple, un total de 4 signifie la quatri\xE8me couleur
+    dans la s\xE9quence)."
+  RuleGreen1: "1. Si un mot appara\xEEt cons\xE9cutivement avec des couleurs diff\xE9rentes,
+    appuyer sur Non \xE0 la cinqui\xE8me entr\xE9e de la s\xE9quence."
+  RuleGreen2: "2. (Sinon,) si le mot Magenta est utilis\xE9 au moins trois fois dans
+    la s\xE9quence, appuyer sur Non la premi\xE8re fois que Jaune est utilis\xE9 comme
+    le mot ou la couleur du mot dans la s\xE9quence."
+  RuleGreen3: "3. (Sinon,) appuyer sur Oui sur n'importe quelle couleur o\xF9 la couleur
+    du mot correspond \xE0 celle du mot lui-m\xEAme."
+  RuleBlue1: "1. Si la couleur du mot ne correspond pas au mot lui-m\xEAme trois fois
+    ou plus dans la s\xE9quence, appuyer sur Oui la premi\xE8re fois dans la s\xE9quence
+    o\xF9 la couleur du mot ne correspond pas au mot lui-m\xEAme."
+  RuleBlue2: "2. (Sinon,) si le mot Rouge est affich\xE9 en Jaune ou si le mot Jaune
+    est affich\xE9 en Blanc, appuyer sur Non lorsque le mot Blanc est affich\xE9 en
+    Rouge."
+  RuleBlue3: "3. (Sinon,) appuyer sur Oui la derni\xE8re fois que le mot Vert est
+    soit le mot, soit la couleur du mot dans la s\xE9quence."
+  RuleMagenta1: "1. Si une couleur appara\xEEt cons\xE9cutivement avec des mots diff\xE9rents,
+    appuyer sur Oui \xE0 la troisi\xE8me entr\xE9e de la s\xE9quence."
+  RuleMagenta2: "2. (Sinon,) si le nombre de fois que le mot Jaune appara\xEEt est
+    sup\xE9rieur au nombre de fois que la couleur du mot est Bleue, appuyer sur Non
+    la derni\xE8re fois que le mot Jaune est dans la s\xE9quence."
+  RuleMagenta3: "3. (Sinon,) appuyer sur Non la premi\xE8re fois dans la s\xE9quence
+    o\xF9 la couleur du mot correspond au mot de la septi\xE8me entr\xE9e de la s\xE9quence."
+  RuleWhite1: "1. Si la couleur du troisi\xE8me mot correspond \xE0 celle du quatri\xE8me
+    mot ou du cinqui\xE8me mot, appuyer sur Non la premi\xE8re fois que le Bleu est
+    utilis\xE9 comme le mot ou la couleur du mot dans la s\xE9quence."
+  RuleWhite2: "2. (Sinon,) si le mot Jaune est affich\xE9 en Rouge, appuyer sur Oui
+    la derni\xE8re fois que le Bleu est utilis\xE9 pour la couleur du mot."
+  RuleWhite3: '3. (Sinon,) appuyer sur Non.'
 --- !u!114 &114718847947313038
 MonoBehaviour:
   m_ObjectHideFlags: 1
